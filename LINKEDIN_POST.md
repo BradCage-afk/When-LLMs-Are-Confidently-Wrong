@@ -1,8 +1,8 @@
-# LinkedIn Post Template
+# LinkedIn Post
 
-> Fill the three `[[ ]]` placeholders from `analysis/metrics.json` after a run.
-> Attach two images: **Graph 3** (`calibration_gap_bar.png`) and **Graph 7**
-> (`model_leaderboard.png`).
+> Final numbers filled in from `analysis/metrics.json` (1,000 answers, GPT-4o-mini judge).
+> Attach two images: **`analysis/graphs/calibration_gap_bar.png`** and
+> **`analysis/graphs/model_leaderboard.png`**.
 
 ---
 
@@ -17,23 +17,31 @@ That second number is calibration, and almost nobody measures it.
 So I built a benchmark. 100 FIDE chess questions, 100 FIA F1 regulation questions,
 each sourced to the actual rulebook, split into three tiers: straightforward
 facts, genuine edge cases, and traps where the intuitive answer is wrong. For
-every answer, each model also rated its own confidence 0–100.
+every answer, each model also rated its own confidence 0–100. A separate judge
+then scored all 1,000 answers against ground truth.
 
-Three findings that surprised me:
+Three findings that stuck with me:
 
-🔹 **[[FINDING_1 — e.g. "Every model was better calibrated on Chess than on F1.
-The average calibration error was XX% higher on F1."]]**
+🔹 **Every single model was worse calibrated on F1 than on Chess.** All 5 of 5.
+The average calibration error was 37% higher on Formula 1 — the domain with far
+less training data on the open web.
 
-🔹 **[[FINDING_2 — e.g. "The most overconfident model averaged XX% confidence on
-answers it got completely wrong."]]**
+🔹 **Across the answers they got completely wrong, the models averaged 92%
+confidence.** Not hedged. Not uncertain. Flatly wrong, and almost fully sure.
 
-🔹 **[[FINDING_3 — e.g. "Across 1,000 answers, XXX landed in the danger zone:
-over 70% confident and flatly incorrect."]]**
+🔹 **111 answers landed in the danger zone — over 70% confident *and* incorrect —
+and F1 produced more of them than Chess (68 vs 43).** The thinner the knowledge,
+the more confidently wrong the model got.
 
 The pattern underneath all of it: models are most overconfident exactly where
 their training data is thinnest. Chess is everywhere online. The fine print of F1
 sporting regulations is not. The confidence didn't drop to match — and that gap is
 the whole story.
+
+One bright spot: scale helped. The largest model I tested (GPT-OSS 120B) wasn't
+just the most accurate — it was the most *honest*, with by far the smallest
+confidence-vs-accuracy gap between the two domains. Bigger didn't only mean
+smarter; it meant better at knowing the edge of its own knowledge.
 
 The full dataset, methodology, evaluation code, and an interactive dashboard are
 open. Links in the comments. 👇
@@ -46,3 +54,6 @@ open. Links in the comments. 👇
 error on Chess vs. F1, per model.
 
 **Image 2:** `analysis/graphs/model_leaderboard.png` — the composite leaderboard.
+
+**Comment 1 (links):** GitHub repo → https://github.com/BradCage-afk/When-LLMs-Are-Confidently-Wrong
+(+ live dashboard link once deployed).
