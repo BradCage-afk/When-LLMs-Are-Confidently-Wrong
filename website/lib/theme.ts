@@ -16,11 +16,11 @@ export interface ModelMeta {
 }
 
 export const MODELS: ModelMeta[] = [
-  { key: "gpt_oss_120b", label: "GPT-OSS 120B", color: "#10a37f" },
-  { key: "llama33_70b", label: "Llama 3.3 70B", color: "#6e42f5" },
-  { key: "llama4_scout", label: "Llama 4 Scout", color: "#4285f4" },
-  { key: "qwen3_32b", label: "Qwen3 32B", color: "#ff6b35" },
-  { key: "gpt_oss_20b", label: "GPT-OSS 20B", color: "#c17d3c" },
+  { key: "gpt_oss_120b", label: "GPT-OSS 120B (OpenAI)", color: "#10a37f" },
+  { key: "llama33_70b", label: "Llama 3.3 70B (Meta)", color: "#6e42f5" },
+  { key: "llama4_scout", label: "Llama 4 Scout (Meta)", color: "#4285f4" },
+  { key: "qwen3_32b", label: "Qwen3 32B (Alibaba)", color: "#ff6b35" },
+  { key: "gpt_oss_20b", label: "GPT-OSS 20B (OpenAI)", color: "#c17d3c" },
 ];
 
 export const MODEL_BY_KEY: Record<ModelKey, ModelMeta> = MODELS.reduce(
