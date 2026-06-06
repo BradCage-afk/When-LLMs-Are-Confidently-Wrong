@@ -1,0 +1,902 @@
+[
+  {
+    "question_id": "fia_001",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Five drivers are eliminated at the end of Q1 in standard F1 qualifying.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 100,\n  \"reasoning\": \"FIA Formula 1 regulations explicitly state that five drivers are eliminated at the end of Q1 in standard qualifying sessions.\"\n}",
+    "confidence_percent": 100,
+    "timestamp": "2026-06-05T14:07:23.865217+00:00"
+  },
+  {
+    "question_id": "fia_002",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: 10 drivers participate in Q3 of standard F1 qualifying.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The standard F1 qualifying format eliminates the slowest five drivers in Q1 (leaving 15) and another five in Q2 (leaving 10 for Q3).\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:07:31.354481+00:00"
+  },
+  {
+    "question_id": "fia_003",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "The standard maximum pit lane speed limit during an F1 race is **80 km/h**.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The standard pit lane speed limit in F1 is consistently cited as 80 km/h in official regulations and race reports, though it may be temporarily reduced in specific circumstances.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:07:40.090967+00:00"
+  },
+  {
+    "question_id": "fia_004",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "The penalty typically applied for exceeding the pit lane speed limit during a race is a **5-second time penalty**.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The 5-second time penalty is the standard enforcement for pit lane speed violations under current FIA Formula 1 regulations, as documented in official rulebooks and race incident reports.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:07:48.716934+00:00"
+  },
+  {
+    "question_id": "fia_005",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "The red lights are extinguished simultaneously to signal the start of an F1 standing-start race.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state that for a standing start, the red lights are extinguished simultaneously to ensure fairness and prevent early reactions from drivers.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:07:58.953101+00:00"
+  },
+  {
+    "question_id": "fia_006",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "A jump start (false start) in F1 occurs when a driver moves their car before the official start signal (the last of the five lights on the starting line extinguishing). It is detected via **trackside sensors** and **timing systems** that monitor the car's position and movement relative to the start lights' sequence. If motion is detected before the final light goes out, the driver is penalized (typically with a time penalty or drive-through).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The explanation aligns with F1's official start procedure and detection methods using synchronized timing systems and motion sensors.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:08:08.732081+00:00"
+  },
+  {
+    "question_id": "fia_007",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "No. Overtaking is prohibited while the safety car is deployed on track. All cars must follow the safety car in a single file at a reduced speed, maintaining a safe distance.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations explicitly prohibit overtaking under the safety car to ensure driver safety and maintain order.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:08:19.057443+00:00"
+  },
+  {
+    "question_id": "fia_008",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: When the safety car switches off its orange/amber lights near the end of a safety car period, it signals the end of the",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The safety car switching off its orange/amber lights indicates the conclusion of the safety car period and the resumption of normal racing conditions.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:08:30.636396+00:00"
+  },
+  {
+    "question_id": "fia_009",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Drivers must reduce speed to the displayed VSC limit, not overtake, follow track limits, and refrain from using DRS. Pit stops are allowed but must be conducted safely.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer aligns with FIA regulations requiring speed reduction, no overtaking, track limits, DRS prohibition, and safe pit stops during VSC periods.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:08:42.187454+00:00"
+  },
+  {
+    "question_id": "fia_010",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: No, drivers cannot make pit stops during a Virtual Safety Car (VSC) period unless instructed by the race control. The VSC enforces reduced speeds and prohibits overtaking, and pit stops are generally restricted to maintain safety and order.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"Based on FIA regulations, pit stops during a Virtual Safety Car period are generally prohibited unless explicitly permitted by race control to ensure safety and compliance with reduced-speed protocols.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:09:01.234434+00:00"
+  },
+  {
+    "question_id": "fia_011",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: DRS is enabled when the following car is within one second of the car ahead at the designated detection point.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state that DRS is activated when a following car is within one second of the car ahead at the detection point, a rule consistently applied in recent seasons.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:09:07.613194+00:00"
+  },
+  {
+    "question_id": "fia_012",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: DRS is enabled after the first lap following a race start or restart, meaning it becomes available from the second lap onwards.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"Based on FIA regulations and consistent observation of race practices where DRS is disabled during the first lap after a start or restart for safety reasons.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:09:16.839573+00:00"
+  },
+  {
+    "question_id": "fia_013",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Yes, DRS is disabled when the race director declares wet conditions.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations state that DRS is disabled in wet conditions as declared by the race director to ensure safety and fairness.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:09:26.395323+00:00"
+  },
+  {
+    "question_id": "fia_014",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "A blue flag shown to a driver during the race indicates that a faster car is approaching from behind and the driver must allow it to overtake.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The blue flag is a standard F1 regulation requiring drivers to let faster cars overtake, as confirmed by official FIA guidelines and common race practice.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:09:35.820162+00:00"
+  },
+  {
+    "question_id": "fia_015",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "If a lapped driver ignores repeated blue flags, they can be penalized with a **10-second time penalty**.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The 10-second time penalty for ignoring repeated blue flags is a standard FIA regulation, consistently referenced in official F1 rulebooks and race reports.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:09:45.237799+00:00"
+  },
+  {
+    "question_id": "fia_016",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "25",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA Formula 1 World Championship has awarded 25 points to the Grand Prix winner since the 2022 season regulations, which aligns with current knowledge.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:09:53.693681+00:00"
+  },
+  {
+    "question_id": "fia_017",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: 10.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The standard F1 points system awards positions 1-10 with points (25-1), and the question specifies a 'standard' Grand Prix, excluding shortened races.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:10:05.880017+00:00"
+  },
+  {
+    "question_id": "fia_018",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "The fastest lap in a Grand Prix awards **1 point** to the driver. The key eligibility condition is that the driver **must finish in the top 10** of the race.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The fastest lap award has been a consistent part of F1 regulations since 2019, with the top-10 finish condition clearly documented in official sources.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:10:18.733747+00:00"
+  },
+  {
+    "question_id": "fia_019",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "18 points.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA Formula 1 points system awards 18 points for second place in a standard Grand Prix, based on current regulations (2023 season).\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:10:28.714404+00:00"
+  },
+  {
+    "question_id": "fia_020",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, so I need to figure out when parc ferm\u00e9 conditions start for cars in a standard F1 race weekend. Let me start by recalling what parc ferm\u00e9 means. From what I remember, it's a French term meaning \"closed park,\" and in F1, it refers to a period when the cars are sealed and can't be worked on except for specific, authorized tasks. The purpose is to prevent teams from making unauthorized changes between sessions.\n\nNow, the question is about when this starts. I think parc ferm\u00e9 is usually in place after the final practice session or qualifying, but I need to be precise. Let me break down a typical race weekend schedule. The weekend usually has three practice sessions, then qualifying, followed by the race. Parc ferm\u00e9 is typically enforced after qualifying to ensure that the cars are in the same condition they were in during qualifying when they start the race. But wait, sometimes there's a second free practice session on Friday, then another on Saturday, and then qualifying. So maybe parc ferm\u00e9 starts after the final practice before qualifying? Or is it after qualifying?\n\nWait, I think parc ferm\u00e9 is applied after the final practice session, which is usually FP3 on Saturday morning, and then again after qualifying. But maybe the main parc ferm\u00e9 period is after qualifying. Let me check my memory. After qualifying, the cars are sealed so that they can't be modified before the race. That way, the race starts with the same setup as the qualifying session. So parc ferm\u00e9 conditions would begin after qualifying. But sometimes there's a parc ferm\u00e9 period after FP3 as well, but maybe that's not part of the standard race weekend. Wait, the standard race weekend structure is FP1, FP2, FP3, then qualifying, then the race. So parc ferm\u00e9 would start after FP3 if there's a requirement to keep the cars sealed until qualifying. But I'm getting confused here.\n\nAlternatively, maybe parc ferm\u00e9 starts after the final practice session (FP3) and then again after qualifying. But the question is about when it begins for a standard race weekend. Let me think of specific examples. For example, in some races, if the weather changes between qualifying and the race, teams can't make adjustments unless they go through a process. So parc ferm\u00e9 is in place after qualifying. Therefore, the answer is that parc ferm\u00e9 conditions begin after the final practice session (FP3) and then again after qualifying. Wait, but maybe the main parc ferm\u00e9 period is after qualifying. Let me confirm.\n\nLooking up in my mind, parc ferm\u00e9 is applied after the final practice session (FP3) and after qualifying. However, the key one for the race is after qualifying. So the answer is that parc ferm\u00e9 conditions begin after the final practice session (FP3) and then again after qualifying. But the question is about when they begin for the standard race weekend. Wait, maybe the parc ferm\u00e9 period starts after FP3 and then again after qualifying. But the main one that's relevant for the race is after qualifying. So the answer is that parc ferm\u00e9 conditions begin after the final practice session (FP3) and then again after qualifying. However, the question is phrased as \"when do parc ferm\u00e9 conditions begin for cars on a standard race weekend?\" So perhaps the answer is that parc ferm\u00e9 conditions begin after the final practice session (FP3) and",
+    "prompt_b_response": "{\n  \"confidence_percent\": 85,\n  \"reasoning\": \"Parc ferm\u00e9 conditions typically begin after the final practice session (FP3) and again after qualifying to prevent unauthorized modifications before the race.\"\n}",
+    "confidence_percent": 85,
+    "timestamp": "2026-06-05T14:10:47.109639+00:00"
+  },
+  {
+    "question_id": "fia_021",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "No. Teams cannot freely change the rear wing angle once the car is under parc ferm\u00e9. Any adjustments require prior approval from the FIA.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"Parc ferm\u00e9 restrictions prevent unauthorized changes, and rear wing adjustments typically require FIA approval to ensure compliance with regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:10:57.504891+00:00"
+  },
+  {
+    "question_id": "fia_022",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "The driver must start the race from the back of the grid.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"The typical consequence for violating parc ferm\u00e9 by altering the car's setup before the race is starting from the back of the grid, as per standard FIA penalties for such infractions.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:11:07.154076+00:00"
+  },
+  {
+    "question_id": "fia_023",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: The pit lane is closed at the moment the safety car is first deployed.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations specify that the pit lane is closed upon safety car deployment to ensure safety and order, as confirmed by standard race procedures.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:11:15.075513+00:00"
+  },
+  {
+    "question_id": "fia_024",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "If a driver stalls on the grid during the start procedure before the formation lap, they are required to leave the grid immediately. If they cannot restart the engine within the time allowed by the race director (typically 30 seconds), they are excluded from the race.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer aligns with standard FIA procedures for stalled vehicles during the start procedure, including the 30-second restart window and exclusion if not resolved.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:11:25.603263+00:00"
+  },
+  {
+    "question_id": "fia_025",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, let's tackle this question about FIA Formula 1 regulations for 2024. The question is asking whether the top-ten qualifiers must start the race on the tyres they used in Q2. \n\nFirst, I need to recall the standard qualifying format. In F1, qualifying is split into three parts: Q1, Q2, and Q3. Each session is progressively shorter, with the slowest drivers being eliminated each time. The top ten drivers who make it to Q3 are the ones who set the fastest times in Q2.\n\nNow, the tyre rules during qualifying are important here. In Q1, drivers can use any tyre compound they choose. In Q2, they must use the same compound as they used in Q1. Wait, no, actually, I think the rule is that in Q2, drivers must use the same compound as they used in Q1. But then in Q3, they have to use the same compound as they used in Q2. But the question is about the top ten qualifiers starting the race on the tyres they used in Q2.\n\nWait, the starting tyres for the race depend on the qualifying session. The top ten drivers who qualify in Q3 can choose which set of tyres they start the race on, as long as it's one of the compounds they used in Q2. But the question is specifically about the top ten qualifiers (the ones who made it to Q2, or Q3?), maybe I need to clarify.\n\nWait, the top ten qualifiers are those who made it to Q3. Because Q3 is the final part of qualifying where the top ten drivers compete. So the question is, do these top ten drivers have to start the race on the tyres they used in Q2?\n\nIn the standard format, the top ten drivers who qualify in Q3 can choose their starting tyres. However, there's a rule that they must start the race on the same compound they used in Q2. Wait, no, maybe it's the other way around. Let me think again.\n\nIn 2024, the regulations might have changed, but traditionally, the top ten drivers who set their fastest time in Q2 (i.e., those who made it to Q3) can choose their starting tyres. However, there's a rule that they must start on the same compound they used in Q2. Wait, no, actually, the rule is that the top ten drivers can choose between the two compounds they used in Q2 and Q3. Wait, no, perhaps the rule is that they must start on the same compound they used in Q2. Let me check my memory.\n\nWait, in F1, the starting tyres for the race depend on the qualifying session. The top ten drivers who set their fastest time in Q2 (i.e., those who made it to Q3) can choose which set of tyres they start on, but they must use the same compound they used in Q2. Wait, no, maybe it's that they have to start on the same compound they used in Q2. Alternatively, perhaps they can choose between the compounds used in Q2 and Q3. \n\nWait, here's the key point: In Q2, drivers must use the same compound as they used in Q1. Then in Q3, they must use the same compound as they used in Q2. So, for the top ten drivers",
+    "prompt_b_response": "{\n  \"confidence_percent\": 85,\n  \"reasoning\": \"The top-ten qualifiers must start on the tyres used in Q2, as per F1's standard tyre rules for race starts.\"\n}",
+    "confidence_percent": 85,
+    "timestamp": "2026-06-05T14:11:44.474882+00:00"
+  },
+  {
+    "question_id": "fia_026",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: No, overtaking another car within the pit lane during a race is not permitted under FIA Formula 1 Regulations. Drivers must adhere to pit lane speed limits and follow designated lines, with overtaking prohibited to ensure safety and order. Violations may result in penalties.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA explicitly prohibits pit lane overtaking during races to maintain safety and order, with penalties for violations, though rare exceptions (e.g., lapped cars) may exist.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:12:02.354526+00:00"
+  },
+  {
+    "question_id": "fia_027",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Drivers are given a 3-second notice before racing resumes after the VSC is deactivated.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"Based on FIA regulations, drivers receive a 3-second countdown before VSC deactivation, though there is a small margin for procedural variations.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:12:10.113076+00:00"
+  },
+  {
+    "question_id": "fia_028",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: A circuit can have up to two DRS activation zones in a single F1 race.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state that a maximum of two DRS zones can be designated per circuit, confirmed through official documentation and historical race setups.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:12:15.683178+00:00"
+  },
+  {
+    "question_id": "fia_029",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, so the question is whether blue flags apply during qualifying as well as the race in FIA Formula 1. Let me think.\n\nFirst, I remember that blue flags are used to signal to drivers that there's a faster car approaching. In races, when a driver is lapping slower and a faster car is behind, they get blue flags to let them know they need to let the faster car pass. But does this apply in qualifying too?\n\nQualifying is about setting the fastest lap time, right? Drivers are out on their own, trying to get the best possible time. They don't really race each other in the same way as in the race. So maybe there's no need for blue flags because there's no lapping happening. But wait, sometimes in qualifying, especially in Q1 or Q2, there might be multiple cars on track at the same time. If one driver is setting a fast time and another is slower, would the faster driver get blue flags to overtake?\n\nWait, but in qualifying, the order isn't determined by lapping. Each driver has their own session to set their time. So maybe blue flags aren't used because there's no need to overtake for position. However, if a driver is stuck behind another, maybe the one in front would get blue flags to let the faster driver through. But I'm not sure if that's the case.\n\nI should check the FIA regulations. From what I recall, blue flags are used in races to manage lapped cars. In qualifying, since drivers are not lapping each other (as they're all on the track for the same session and not completing laps to be lapped), blue flags might not be used. However, if a driver is on track and another driver needs to go out for a flying lap, maybe the one already on track would be signaled to move. But I think in practice, during qualifying, drivers are aware of each other's times and manage their own pace. The marshals might use blue flags if necessary, but it's not a standard part of qualifying like in the race.\n\nWait, another angle: the blue flag is a signal to a driver that a faster car is approaching and they should let it pass. In qualifying, if two drivers are on track at the same time, and one is setting a faster time, the slower driver might be shown blue flags to let the faster one through. But I'm not certain. Maybe the regulations don't require blue flags in qualifying because the primary purpose is different. The FIA regulations might specify that blue flags are only used during the race. Let me think if there's any mention of this in the rules.\n\nLooking up the FIA Formula 1 regulations, specifically the part about blue flags. According to the FIA's official documentation, blue flags are used during the race to indicate to a driver that they are being lapped by a faster car and should allow them to pass. In qualifying, since drivers are not lapping each other and are on the track to set their own times, blue flags are not typically used. However, if a driver is on track and another driver needs to go out for a faster lap, the marshals might use blue flags to signal the driver to move over or let the faster car through. But this isn't a standard procedure as in the race. So the answer would be that blue flags do apply during qualifying, but their use is less",
+    "prompt_b_response": "{\n  \"confidence_percent\": 70,\n  \"reasoning\": \"Blue flags are primarily for race lapping scenarios, but qualifying rules may have exceptions not fully covered in my knowledge.\"\n}",
+    "confidence_percent": 70,
+    "timestamp": "2026-06-05T14:12:33.658347+00:00"
+  },
+  {
+    "question_id": "fia_030",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "No. Full points are awarded only if the race has completed at least 75% of the scheduled distance when stopped and cannot be resumed. If less than 75% is completed, 50% of the points are awarded.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA Formula 1 regulations explicitly state the 75% distance threshold for awarding full points when a race is stopped early, with 50% points for shorter distances, and this is a well-established rule.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:12:46.268293+00:00"
+  },
+  {
+    "question_id": "fia_031",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: No, drivers are not allowed to change tyres under parc ferm\u00e9 conditions without prior authorization from the stewards. Parc ferm\u00e9 restrictions prohibit unauthorized modifications to the car.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"Parc ferm\u00e9 regulations strictly prohibit unauthorized modifications, including tyre changes, to ensure fairness and safety.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:13:03.498029+00:00"
+  },
+  {
+    "question_id": "fia_032",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "The purpose of the formation lap before a standing-start race is to allow drivers to warm up their tires and brakes, confirm their grid positions, check track conditions, and synchronize for the race start. It ensures all cars are correctly positioned and ready for the standing start, as per FIA regulations.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer covers the primary purposes outlined in FIA regulations, though minor technical details (e.g., marshals' role in track checks) might not be explicitly mentioned.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:13:08.788822+00:00"
+  },
+  {
+    "question_id": "fia_033",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: The driver at the front of the field (typically the race leader) controls the pace during the formation lap after the safety car has returned to the pits, ensuring cars are spaced appropriately for a safe restart.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The driver at the front managing pace during the formation lap is a standard procedure in F1 safety car restart protocols.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:13:20.305870+00:00"
+  },
+  {
+    "question_id": "fia_034",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, so the question is whether overtaking is allowed under the Virtual Safety Car (VSC) in FIA Formula 1. Let me think.\n\nFirst, I remember that the VSC is used when there's a hazard on the track that doesn't require a full Safety Car deployment. It's like a slower version of the Safety Car. Under the Safety Car, overtaking is definitely not allowed. But what about the VSC?\n\nI think under VSC, drivers have to reduce their speed to a certain percentage of the track's average speed. But can they overtake? I recall that during VSC periods, there are specific speed limits set for each sector. If a driver is faster than the VSC speed limit, they might be penalized. But does that mean they can overtake as long as they stay within the speed limit?\n\nWait, maybe there's a rule that prohibits overtaking during VSC. Or maybe it's allowed if they don't exceed the speed. I need to check my memory. I think the FIA regulations state that during VSC, drivers must not overtake unless they are lapped by the leader. Wait, no, that might be under the Safety Car. Let me think again.\n\nUnder the Safety Car, no overtaking is allowed. Under VSC, the rules are a bit different. The drivers can overtake if they are lapped by the leader, but otherwise, they have to stay within the speed limits. So maybe overtaking is not allowed unless you're being lapped. Or is it allowed if you're within the speed limit?\n\nWait, I think the key point is that during VSC, drivers are allowed to overtake if they are lapped by the leader. Otherwise, they must maintain the VSC speed. So if a driver is faster than the VSC speed, they can't overtake. But if they're being lapped, they can. But the question is general: is overtaking permitted under VSC?\n\nHmm. Let me try to recall the exact regulation. The FIA's official rulebook says that during VSC, drivers must not overtake unless they are lapped by the leader. So if you're not being lapped, you can't overtake. Therefore, overtaking is not permitted under VSC unless you're being lapped. But the question is phrased as \"Is overtaking permitted under the Virtual Safety Car?\" So the answer would be no, unless they are lapped. But the question is general, not specific to being lapped. So the answer is no, overtaking is not permitted under VSC except when being lapped. But the question is whether it's permitted, so the answer would be no, unless in the case of being lapped. But the question is asking if it's permitted, so the answer is no. Wait, but maybe the answer is that it's not permitted except when lapped. But the question is phrased as a yes/no. So the answer is no, overtaking is not permitted under VSC. Wait, but maybe there's an exception. Let me check again.\n\nAlternatively, maybe during VSC, drivers can overtake if they are within the speed limit. For example, if a driver is faster than another but both are within the VSC speed, can they overtake? I think the answer is no. Because the VSC is meant to slow down",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"Based on FIA regulations, overtaking is generally prohibited under the Virtual Safety Car unless a driver is lapped by the leader, but the question does not specify exceptions.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:13:49.220478+00:00"
+  },
+  {
+    "question_id": "fia_035",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "No. A driver can only use DRS if they are within one second of the car ahead at the designated detection line, not because they are being chased. DRS is for overtaking, not defense.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"DRS activation is strictly based on being within one second of the car ahead at the detection line, not the presence of a car behind.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:13:55.473604+00:00"
+  },
+  {
+    "question_id": "fia_036",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: No. During a safety car period, cars must follow the safety car in formation without overtaking. Racing blue flags, which signal lapped cars to let faster cars pass, are not used during this time.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"Safety car periods prohibit overtaking, and blue flags are not used during this time as per FIA regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:14:04.154095+00:00"
+  },
+  {
+    "question_id": "fia_037",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. Both the Drivers' and Constructors' Championships use the same points scale (25-18-15-12-10-8-6-4-2-1 for the top 10 finishers). Constructors accumulate points by summing the points of their two drivers, but the scale itself is identical for both championships.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The points scale (25-18-15-12-10-8-6-4-2-1) is identical for both championships, with Constructors' points derived from their drivers' results.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:14:13.323057+00:00"
+  },
+  {
+    "question_id": "fia_038",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "If a driver exceeds track limits on their fastest lap in qualifying, their fastest time is deleted, and their next best valid lap time is used instead. If no valid lap remains, they receive no time.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer aligns with FIA regulations stating that exceeding track limits invalidates a lap time, replacing the fastest lap with the next valid one if available.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:14:24.746748+00:00"
+  },
+  {
+    "question_id": "fia_039",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "The pit lane speed limit applies during all on-track sessions: Practice 1, Practice 2, Practice 3, Qualifying, and the Race.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state the pit lane speed limit applies during all on-track sessions, including practice, qualifying, and the race.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:14:38.163618+00:00"
+  },
+  {
+    "question_id": "fia_040",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, let's see. The question is about the flag and signal that indicate the safety car has been deployed in F1. I need to recall the FIA regulations.\n\nFirst, I remember that in Formula 1, different flags are used to communicate to the drivers. The most common ones are the yellow flag for caution, red for stop, blue for a faster car approaching, and the chequered flag for the end of the race. But the safety car... I think there's a specific flag for when the safety car is deployed.\n\nWait, the safety car is deployed when there's an incident on the track, like a crash or debris. So the drivers need to slow down and follow the safety car. What flag is shown then? I think it's a yellow flag with a red border. Or maybe a black flag? No, the black flag is for a driver being excluded from the race. Let me think again.\n\nOh, right! The safety car deployment is indicated by a yellow flag with a red diagonal stripe. Wait, no, maybe it's a yellow flag with a red border. Or is it a different signal altogether? Also, there's a light signal on the cars. I remember that when the safety car is out, the cars have to follow it, and there's a light that comes on in the pit lane. But the question is about the flag and signal. So the flag would be the yellow with red diagonal, and the signal is the blue lights on the cars? Or maybe the safety car itself has a light?\n\nWait, the safety car is deployed, so the track shows a yellow flag with a red diagonal stripe. And the drivers are told via the marshals' flags and also through the pit board signals. Also, the cars have a light on the steering wheel. But the question is about the flag and signal. The flag is the yellow with red diagonal, and the signal is the blue lights? Or maybe the safety car is accompanied by a specific light?\n\nNo, the blue lights are for when a driver is being lapped. Wait, no. When the safety car is deployed, the marshals show a yellow flag with a red diagonal stripe. Additionally, the cars have a light on the steering wheel that indicates the safety car is out. But the question is about the flag and signal. So the flag is the yellow with red diagonal, and the signal is the blue lights? Or maybe the safety car itself has a light?\n\nWait, I think the correct flag is the yellow with a red diagonal stripe. And the signal is the blue lights on the cars. Let me confirm. The safety car is deployed, so the marshals show a yellow flag with a red diagonal stripe. The drivers also see a blue light on their steering wheels indicating to follow the safety car. So the answer would be the yellow flag with a red diagonal stripe and the blue light. But I need to be precise.\n\nAlternatively, maybe the signal is the safety car itself being on track. But the question specifies \"flag and signal\". So the flag is the yellow with red diagonal, and the signal is the blue lights on the cars. Or maybe the signal is the safety car's presence. Hmm. The FIA regulations might specify that the deployment is indicated by the yellow flag with a red diagonal stripe and the blue lights. Let me check my memory. Yes, the yellow flag with a red diagonal stripe is shown when the",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"The yellow flag with a red diagonal stripe is the correct flag for safety car deployment, and the blue lights on the cars indicate the same. However, there is a slight uncertainty about the exact signal terminology.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:14:53.291081+00:00"
+  },
+  {
+    "question_id": "fia_041",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "The principle behind the FIA's rear wing flexibility (deflection) tests is to ensure the rear wing does not exceed permissible deflection under aerodynamic load, maintaining structural integrity, safety, and aerodynamic fairness. This prevents teams from gaining an unfair advantage through excessive wing deformation.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer accurately reflects standard FIA regulations on aerodynamic component integrity and fairness, though minor nuances in testing specifics could exist.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:15:03.558764+00:00"
+  },
+  {
+    "question_id": "fia_042",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "No. Passing the static FIA deflection test ensures compliance with specific structural flexibility requirements but does not guarantee legality under all circumstances. Additional regulations, such as dimensional limits, material rules, dynamic testing, and in-race compliance checks, must also be satisfied for a wing to be fully legal.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The static deflection test addresses structural flexibility but does not cover all regulatory requirements like dimensional compliance, material specifications, or dynamic performance checks.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:15:13.927984+00:00"
+  },
+  {
+    "question_id": "fia_043",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: DRS becomes available again after the first two laps following a safety car restart.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state DRS is disabled for the first two laps after a safety car restart, a rule consistently applied in races.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:15:23.096246+00:00"
+  },
+  {
+    "question_id": "fia_044",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, so I need to figure out when parc ferm\u00e9 conditions start on a Sprint weekend versus a standard Formula 1 weekend. Let me start by recalling what parc ferm\u00e9 means. From what I remember, parc ferm\u00e9 is a French term meaning \"closed park.\" In F1, it refers to the period when teams are restricted from making changes to their cars. This is usually after the final practice session before qualifying, to ensure that the cars are in the same condition for qualifying as they were in the previous sessions.\n\nNow, the question is comparing a Sprint weekend to a standard weekend. A standard weekend has practice sessions, qualifying, and then the race. A Sprint weekend includes an additional Sprint race, which is a shorter race held on Saturday. So the structure of a Sprint weekend is different. Let me think about the schedule.\n\nIn a standard weekend, parc ferm\u00e9 typically starts after the third practice session (FP3), which is held on Friday. After FP3, teams can't make any changes to the cars until the race. But in a Sprint weekend, there's a Sprint Qualifying session on Friday, followed by the Sprint race on Saturday. Then the main race is on Sunday. So the structure is different.\n\nI think in a Sprint weekend, parc ferm\u00e9 conditions might start after the Sprint Qualifying session. Wait, but Sprint Qualifying is part of the Sprint weekend's setup. Let me check. The Sprint Qualifying determines the grid for the Sprint race, and then the main race grid is determined by a separate process. But when does parc ferm\u00e9 apply for the main race?\n\nIn a standard weekend, parc ferm\u00e9 is after FP3, which is before qualifying. But in a Sprint weekend, the main race's qualifying is actually after the Sprint race. So parc ferm\u00e9 for the main race would start after the Sprint race. Wait, but the main race's qualifying is called Sprint Qualifying? No, Sprint Qualifying is for the Sprint race. The main race's qualifying is part of the Sprint weekend's structure. Let me get this straight.\n\nIn a Sprint weekend, the schedule is:\n\n- Friday: Practice 1 and 2, then Sprint Qualifying (which is a form of qualifying for the Sprint race).\n- Saturday: Sprint race.\n- Sunday: Main race, with a shorter qualifying session (maybe a single session instead of the usual three parts?).\n\nWait, no. The main race's qualifying is actually held on Saturday after the Sprint race. So parc ferm\u00e9 for the main race would start after the Sprint race. But in a standard weekend, parc ferm\u00e9 starts after FP3, which is before qualifying. So in a Sprint weekend, parc ferm\u00e9 for the main race would start after the Sprint race, which is on Saturday morning, and then the main race qualifying would be later that day. Whereas in a standard weekend, parc ferm\u00e9 starts after FP3 on Friday, and then qualifying is later that day.\n\nSo the key difference is that in a Sprint weekend, parc ferm\u00e9 for the main race begins after the Sprint race on Saturday, whereas in a standard weekend, it starts after FP3 on Friday. Therefore, the answer would be that parc ferm\u00e9 conditions begin after the Sprint race on a Sprint weekend, compared to after FP3 on a standard weekend. But I need to confirm the exact timing.\n\nWait, let me check again. In a Sprint weekend, the main race's qualifying is",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"Parc ferm\u00e9 on Sprint weekends begins after the Sprint race on Saturday, whereas on standard weekends it starts after FP3 on Friday, due to the altered schedule structure.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:15:41.935683+00:00"
+  },
+  {
+    "question_id": "fia_045",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Yes, setup changes are permitted between the Sprint and the Grand Prix on a 2024 Sprint weekend, including adjustments to aerodynamic and mechanical configurations, provided they comply with FIA regulations.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"Historical precedent and FIA regulations allow setup adjustments between Sprint and Grand Prix, with no indication of 2024-specific restrictions.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:15:53.801668+00:00"
+  },
+  {
+    "question_id": "fia_046",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, let's see. The question is about how many points are awarded to the winner of an F1 Sprint race. I need to recall the current FIA Formula 1 regulations regarding Sprint races.\n\nFirst, I remember that Sprint races were introduced in 2021 as a way to add more excitement and competition over the weekend. They are shorter races held on the Saturday of a Grand Prix weekend. The main race on Sunday still determines the championship points, but the Sprint race has its own points system.\n\nI think the points for the Sprint race are different from the main race. In the main race, the winner gets 25 points, then 18, 15, etc. But for the Sprint, I believe the points are fewer. Let me try to remember. I think it's a smaller number, maybe 3 points for the winner? Wait, no, that doesn't sound right. Wait, I think the points for the Sprint race are 3, 2, 1 for the top three, but maybe more for the winner. Wait, no, maybe it's 9, 6, 4, 3 for the first four positions? Wait, I'm getting confused.\n\nWait, I should check my memory. Let me think. In 2022, the Sprint race points were adjusted. The winner of the Sprint race gets 3 points, second place 2, third 1. But then in 2023, maybe they changed it again. Wait, no, I think the current system is that the Sprint race winner gets 3 points, second 2, third 1. But I'm not entirely sure. Wait, another angle: the Sprint race is meant to influence the grid for the main race, but the points from the Sprint are separate. The main race points are what count towards the championship. So the Sprint points are just for the Sprint race itself, maybe for the Sprint race championship? Or are they added to the main race points?\n\nWait, no, the points from the Sprint race are separate and only count towards the Sprint race results. The main race points are separate. So the winner of the Sprint race gets a certain number of points, but those don't contribute to the overall Drivers' or Constructors' Championships. Wait, but I think in 2023, they changed the points system again. Let me try to recall. I think currently, the winner of the Sprint race gets 3 points, second 2, third 1. But maybe in some years it was different. For example, in 2021, the points were 9, 6, 4, 3 for the first four positions. But in 2022, they reduced it to 3, 2, 1. Wait, I need to confirm.\n\nLooking up in my memory: In 2021, the points for the Sprint race were 9, 6, 4, 3 for the first four places. Then in 2022, the FIA reduced the points to 3, 2, 1 for the top three. But in 2023, they might have changed it again. Wait, no, I think in 2023, the points for the Sprint race are still 3, 2, 1. However, there",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA Formula 1 regulations for 2023 award 3 points to the winner of a Sprint race, with 2 and 1 for second and third, based on confirmed updates from the 2022 season.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:16:13.732702+00:00"
+  },
+  {
+    "question_id": "fia_047",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Yes, crash damage repair is included within a team's cost cap as it falls under the expenses related to the operation and maintenance of the car.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"Crash damage repair is categorized under operational and maintenance expenses, which are explicitly included in the FIA's cost cap regulations.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:16:23.238124+00:00"
+  },
+  {
+    "question_id": "fia_048",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, so I need to figure out which category of costs is excluded from the F1 cost cap. Let me start by recalling what I know about the F1 cost cap. From what I remember, the cost cap is a regulation that limits how much a Formula 1 team can spend in a season. The idea is to make the sport more competitive by preventing wealthier teams from outspending others.\n\nNow, the question is about which broad category is excluded. I think there are certain costs that are not counted towards the cap. I recall that there are exceptions for things like driver salaries and some other specific areas. Wait, but I need to be precise here. Let me think. The cost cap typically includes things like R&D, manufacturing, and other operational costs related to the car. But maybe things like driver wages, marketing, and other non-operational expenses are excluded. \n\nWait, I think the official answer is that driver salaries are excluded. Let me verify. The F1 cost cap, as I understand it, excludes driver salaries and certain other costs like those related to the team's facilities, maybe? Or is it just driver salaries? I think the main exclusion is driver salaries. Also, maybe some other things like the cost of the power unit, but I'm not sure. Wait, no, the power unit costs are included. \n\nAnother angle: the cost cap is supposed to cover the costs directly related to the development and production of the car. So things like the chassis, engine components, aerodynamics, etc. But driver salaries are considered separate because they're part of the team's personnel costs. So the answer is probably driver salaries. Let me check if there are other categories. I think the official answer is that driver salaries and certain other personnel costs are excluded. But the question says \"broad category,\" so maybe the main one is driver salaries. \n\nAlternatively, maybe it's also things like the cost of the power unit, but I think the power unit is included. Wait, the power unit is part of the car, so it's included. So the main exclusion is driver salaries. Let me confirm. According to the FIA regulations, the cost cap excludes driver salaries, marketing, and other non-operational expenses. But the question is about the broad category. So the answer is driver salaries. But maybe there's another category. Wait, the F1 cost cap excludes driver salaries and certain other costs like those related to the team's facilities, but I'm not sure. \n\nWait, the official F1 cost cap rules state that the cap includes all costs related to the development, design, and production of the car, but excludes driver salaries, marketing, and other non-operational expenses. So the broad category excluded is driver salaries. Therefore, the answer should be driver salaries. But I need to be precise. Let me check again. The F1 cost cap excludes driver salaries and certain other costs like those related to the team's facilities, but the main one is driver salaries. So the answer is driver salaries. Alternatively, maybe it's also things like the cost of the power unit, but I think that's included. \n\nYes, I think the correct answer is that driver salaries are excluded. So the answer is driver salaries. But wait, the question says \"broad category,\" so maybe it's \"personnel costs\" but specifically driver salaries. Hmm. The answer is driver salaries. Let me confirm",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"Driver salaries are explicitly excluded from the F1 cost cap as per regulations, though some nuances like other personnel costs or marketing might also be excluded, the primary and most cited exclusion is driver salaries.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:16:42.485796+00:00"
+  },
+  {
+    "question_id": "fia_049",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, so I need to figure out the two broad categories of cost cap breaches under the FIA Formula 1 Financial Regulations. Let me start by recalling what I know about the cost cap in F1. The cost cap is a regulation that limits how much a team can spend on certain aspects of their operations to keep the sport competitive and financially sustainable.\n\nFrom what I remember, the cost cap has different categories or areas where teams can't exceed the set budget. The question is asking for the two main categories of breaches. I think there's something about exceeding the budget in specific areas and maybe another related to not following the rules on how the money is spent. \n\nWait, I think the first category is when a team spends more than the allowed amount in a particular category. For example, if they go over the budget in the design and development of the car. The second category might be about not adhering to the cost cap's structural requirements, like not having the right cost control officer or not submitting the necessary documentation. \n\nAlternatively, maybe the two categories are \"Excess Expenditure\" and \"Non-Compliance with Cost Cap Procedures.\" Let me check my memory. The Financial Regulations outline that breaches can occur either through exceeding the budget in specific cost categories or through procedural violations, such as failing to maintain proper records or not having the required oversight structures in place. \n\nAnother angle: the cost cap is divided into different sections, like the \"Cost Cap\" itself and the \"Cost Cap Excess.\" But the question is about the categories of breaches, not the types of costs. So perhaps the two categories are \"Excess Expenditure in a Cost Category\" and \"Failure to Comply with Cost Cap Administration Requirements.\" \n\nWait, I think the official terms might be \"Excess Expenditure\" and \"Non-Compliance with Cost Cap Procedures.\" Let me try to recall. The FIA regulations state that breaches can be either in terms of the amount spent (exceeding the cap) or in terms of not following the administrative procedures required to manage and report the costs. \n\nYes, that makes sense. So the two broad categories would be breaches related to exceeding the budget in specific areas and breaches related to not following the administrative processes set out in the regulations. Therefore, the answer should be something like \"Excess Expenditure in a Cost Category\" and \"Non-Compliance with Cost Cap Administration Procedures.\" \n\nAlternatively, maybe the exact terms are \"Excess Expenditure\" and \"Non-Compliance with Cost Cap Procedures.\" I need to be precise here. Let me think again. The Financial Regulations have a cost cap that is divided into different cost categories. If a team exceeds the budget in any of these categories, that's one type of breach. The other type is if they don't follow the procedures for managing the cost cap, such as not having the necessary cost control officer, not submitting the required reports, or not maintaining proper records. \n\nSo the two categories are breaches due to exceeding the budget in specific cost categories and breaches due to procedural non-compliance. Therefore, the answer should be: Excess Expenditure in a Cost Category and Non-Compliance with Cost Cap Administration Requirements. \n\nI think that's it. Let me confirm. The FIA's Financial Regulations outline that there are two main types of cost cap breaches: one is when the team's expenditure exceeds the allowed amount in any",
+    "prompt_b_response": "{\n  \"confidence_percent\": 85,\n  \"reasoning\": \"The answer correctly identifies the two main categories of cost cap breaches as Excess Expenditure in a Cost Category and Non-Compliance with Cost Cap Administration Procedures, which align with FIA regulations, though exact terminology may vary slightly.\"\n}",
+    "confidence_percent": 85,
+    "timestamp": "2026-06-05T14:16:59.841029+00:00"
+  },
+  {
+    "question_id": "fia_050",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Each driver is allowed **three** of each main power unit element (ICE, MGU-H, MGU-K, turbocharger, energy store, control electronics) per season before grid penalties apply.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA's current regulations (as of 2023) explicitly state three of each main power unit element per driver per season before penalties apply, a rule consistently enforced in recent years.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:17:09.540051+00:00"
+  },
+  {
+    "question_id": "fia_051",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, let's see. The question is about the grid penalty in FIA Formula 1 when a driver exceeds their allocation of a power unit element for the first time. I need to recall the regulations regarding power unit components and penalties.\n\nFirst, I remember that each driver has a limited number of power unit components they can use in a season. These components are categorized into different elements like the ICE (Internal Combustion Engine), MGU-H, MGU-K, turbocharger, and others. If a driver uses more than the allowed number of any component, they get a grid penalty.\n\nNow, the question is about the first time they exceed the allocation. I think the penalty depends on which component it is. For example, the ICE, MGU-K, and turbocharger have different penalty points. Wait, but maybe the first excess of any component has a specific penalty. Let me think. I recall that each component has a certain number of penalty points assigned. For instance, using an extra ICE might be 10 grid positions, while an extra MGU-K might be 15. But the question is about the first time exceeding any element. Wait, no, maybe the first excess of any component is a certain number of positions, and subsequent excesses add more. \n\nWait, the FIA regulations have a system where each component has a penalty value. The first time a driver exceeds their allocation for a component, they get a certain number of grid positions penalty. For example, the ICE is 10 positions, MGU-K is 15, turbocharger is 5, etc. So if a driver uses an extra ICE for the first time, they get a 10-position penalty. But the question is asking what the penalty is the first time they exceed any element. So the answer would depend on which element it is. However, the question is phrased as \"a given power unit element,\" so maybe it's asking for the penalty for the first excess of any element, regardless of which one. But that doesn't make sense because each element has a different penalty. Wait, maybe the question is asking for the general rule. Let me check my memory again.\n\nAh, right. The first time a driver exceeds their allocation for any power unit component, the grid penalty is 10 positions for the ICE, 15 for the MGU-K, 5 for the turbocharger, and so on. But the question is about the first time exceeding \"a given power unit element.\" So if the driver exceeds the allocation for a specific element for the first time, the penalty is based on that element's value. However, the question is phrased as \"the first time a driver exceeds their allocation of a given power unit element,\" so the answer would be the specific penalty for that element. But the question isn't specifying which element, so maybe the answer is that the penalty is 10 grid positions for the first excess of any element. Wait, no, that's not right. Because different elements have different penalties. For example, the ICE is 10, MGU-K is 15, turbo is 5, etc. So the answer would depend on which element was exceeded. But the question is asking for the penalty when exceeding \"a given\" element, which implies that the answer is the specific penalty for that element. However, since the question doesn't specify which element",
+    "prompt_b_response": "{\n  \"confidence_percent\": 70,\n  \"reasoning\": \"The penalty varies by component (e.g., 10 positions for ICE, 15 for MGU-K), but the answer assumes a generic first-excess penalty without specifying the component, which may be incomplete.\"\n}",
+    "confidence_percent": 70,
+    "timestamp": "2026-06-05T14:17:30.349344+00:00"
+  },
+  {
+    "question_id": "fia_052",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "If a driver accumulates grid penalties totaling more than 15 places at a single event, they are placed at the back of the grid instead of the calculated position.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state that exceeding 15 grid penalty positions results in the driver starting at the back of the grid, a rule consistently applied in recent seasons.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:17:39.675910+00:00"
+  },
+  {
+    "question_id": "fia_053",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "If a car is stranded on the grid during the formation lap, the race director will abort the formation lap. Marshals will remove the stranded car, and the driver involved is officially retired before the race starts. The formation lap is then restarted with the remaining cars, and the race proceeds as scheduled. The stranded driver does not participate in the race results.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The process aligns with standard FIA procedures for aborting formation laps due to safety or grid issues, including marshals removing stranded cars and restarting the lap.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:17:54.331069+00:00"
+  },
+  {
+    "question_id": "fia_054",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, so the question is about how the starting order is determined when a Formula 1 race is restarted from the grid after a red flag. Let me think.\n\nFirst, I remember that in Formula 1, if a race is red-flagged, they might either restart from the same positions as when the red flag was given or from the grid. But the question specifies a restart from the grid. So when they restart from the grid, how do they decide the order?\n\nI think there are different scenarios. If the race is stopped before the first lap has started, like during the formation lap, then they just start again in the original grid positions. But if the race has already started and then is red-flagged, maybe they use the positions from when the red flag was called. Wait, but the question says \"restarted from the grid,\" so maybe that's when the race is stopped early on, like before a certain number of laps have been completed. \n\nI recall that if the race is red-flagged after more than 75% of the race distance, they finish under a shortened race, but if it's before that, they might restart from the grid. But how is the order determined then? Is it based on the original grid or the positions when the red flag was called?\n\nWait, there's a rule that if the race is stopped and then restarted from the grid, the drivers start in the order they were in when the red flag was shown. But they have to maintain the original grid positions. Hmm, maybe not. Let me check my memory. \n\nOh right, if the race is red-flagped and then restarted from the grid, the drivers start in the same order as they were when the red flag was shown. But they have to keep their positions relative to each other. For example, if a driver was leading when the red flag came out, they start at the front, but they can't change positions. Wait, no, maybe they start in the order they were in when the red flag was shown, but they have to line up on the grid in that order. So the first driver in that order is on pole, then the next, etc. But how does that work if the original grid was different?\n\nWait, maybe the key point is that when restarting from the grid after a red flag, the starting order is the same as the order of the cars when the red flag was displayed. So if the race was running, and then a red flag happens, the cars are lined up on the grid in the order they were in when the red flag was shown. So if a driver was in first place when the red flag came out, they start first, even if that's not their original grid position. But they have to be in the same order as they were on track when the red flag was shown. \n\nBut there's also a rule that if the race is stopped before a certain number of laps (like the first lap hasn't completed), they might just restart from the grid in the original order. But if the race has already started and some cars have moved positions, then they use the order from when the red flag was shown. \n\nSo putting it all together, the answer should be that the starting order is determined by the order of the cars when the red flag was displayed. They line up on the grid in that order, maintaining the same sequence as they were on the track at the",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer correctly states that the starting order is determined by the order of the cars when the red flag was displayed, which aligns with FIA regulations for restarts after a red flag.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:18:12.509586+00:00"
+  },
+  {
+    "question_id": "fia_055",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Yes, teams can change tyres and work on the car during a red flag stoppage without penalty. The red flag halts the race, allowing teams to perform necessary adjustments and repairs.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The red flag halts the race, allowing teams to perform adjustments and repairs without penalty as per FIA regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:18:23.337009+00:00"
+  },
+  {
+    "question_id": "fia_056",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, let's see. The question is about FIA Formula 1 regulations regarding where a car restarts if it's in the pit lane when a red flag is shown.\n\nFirst, I need to recall what happens during a red flag. A red flag stops the race, and all cars must return to the pits. But if a car is already in the pit lane when the red flag is shown, where do they go?\n\nI remember that when the red flag is shown, the race director stops the race, and all cars have to go back to the pits. If a car is on the track, they have to get back to the pits. But if they're already in the pit lane, maybe they just stay there? Or do they have to go to the grid?\n\nWait, no. When the red flag is shown, the restart is usually from the grid, but only after the race has been stopped. If a car is in the pit lane during the red flag, they can't be on the track, so they might be allowed to stay in the pit lane. But when the race restarts, they need to get back to the grid. But how?\n\nWait, maybe the rule is that if a car is in the pit lane when the red flag is shown, they have to stay there until the race is restarted. Then, when the race restarts, they have to rejoin the track from the pit lane and get back to the grid. But the grid is where the restart happens. So perhaps they have to go back to the grid, but since they were already in the pit lane, they might start from the pit lane exit? Or maybe they have to start from the pit lane and then join the grid?\n\nAlternatively, maybe they have to start from the pit lane exit, but the restart is from the grid. So if they were in the pit lane during the red flag, they have to go back to the grid via the pit lane. But how does that work? If the red flag stops the race, and they are in the pit lane, they can't be on the track. So when the race restarts, they have to get back to the grid. But if they were already in the pit lane, they can't just drive onto the track. So maybe they have to start from the pit lane exit, but the restart is from the grid. Therefore, they would have to start from the pit lane exit, but then how do they get to the grid? Maybe they have to start from the pit lane and then join the grid, but that might not be allowed. Wait, maybe the rule is that if a car is in the pit lane when the red flag is shown, they have to stay there until the race is restarted, and then they start from the pit lane exit. But the restart is from the grid, so they have to get back to the grid. Hmm.\n\nWait, maybe the answer is that they restart from the pit lane exit. Because if they were in the pit lane when the red flag was shown, they can't be on the track, so when the race restarts, they have to start from the pit lane exit. But I need to check the regulations.\n\nLooking up the FIA Formula 1 regulations, specifically the part about red flags. According to the FIA's official regulations, when a red flag is shown, the race director may stop the race. All cars",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"Based on FIA regulations, cars in the pit lane during a red flag restart from the pit lane exit as they cannot be on the track during the red flag.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:18:41.380842+00:00"
+  },
+  {
+    "question_id": "fia_057",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: No, a team is not permitted to change the driver of a car between qualifying and the race unless there is a valid reason such as injury, illness, or another exceptional circumstance approved by the stewards. Under normal circumstances, the driver who qualifies must start the race.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state that the driver who qualifies must start the race unless approved by stewards for exceptional circumstances.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:18:52.171546+00:00"
+  },
+  {
+    "question_id": "fia_058",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Yes, points scored by a substitute driver count toward the Constructors' Championship. The FIA regulations stipulate that any driver entered by a constructor for a race (including substitutes) contributes their points to the team's total.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations explicitly state that points earned by any driver entered by a constructor for a race, including substitutes, contribute to the team's Constructors' Championship total.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:19:00.206490+00:00"
+  },
+  {
+    "question_id": "fia_059",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "The car must meet the minimum weight requirement **at the start of the race**.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state that the minimum weight requirement must be met at the start of the race, verified through pre-race checks and the official race start procedure.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:19:12.487243+00:00"
+  },
+  {
+    "question_id": "fia_060",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, let's see. The question is whether the minimum weight in F1 includes the driver. I need to recall the FIA regulations regarding the minimum weight for a Formula 1 car.\n\nFrom what I remember, the minimum weight requirement in F1 is for the entire car, including the driver and all the fuel. Wait, but there's a distinction between the car's weight and the driver's weight. Let me think. The regulations specify a minimum weight for the car itself, and then the driver's weight is considered separately. \n\nWait, no, maybe the minimum weight includes the driver. Because in the past, teams had to ensure that the total weight of the car plus driver met the minimum. For example, if the car's weight is a certain amount, and the driver is lighter, they might have to add ballast. But I need to confirm if the driver is included in the minimum weight.\n\nLooking up in my memory, the current F1 minimum weight is 798 kg (as of recent seasons), and that includes the driver. So the total weight of the car plus driver must not be less than that. However, there's also a minimum driver weight, which is 80 kg. So if a driver weighs less than 80 kg, the team has to add ballast to the car to make up the difference. \n\nWait, but the minimum weight of the car itself is separate. Let me clarify. The car's minimum weight is 798 kg, and the driver's weight is added on top of that. But actually, no, the total weight of the car plus driver must be at least 798 kg. So if the driver is lighter, the car's weight (without driver) would be adjusted with ballast. \n\nWait, maybe the minimum weight is the total of the car and driver. So the driver's weight is part of the minimum. Therefore, the answer is yes, the minimum weight includes the driver. But I need to be precise. Let me check the exact wording. The FIA regulations state that the minimum weight of the car is 798 kg, and the driver's weight is considered separately. However, the total weight of the car plus driver must not be less than 798 kg plus the driver's weight. Wait, that doesn't make sense. Maybe the minimum weight is the car's weight without the driver, and the driver's weight is added. \n\nNo, I think the correct approach is that the car's minimum weight is 798 kg, and the driver's weight is added. But if the driver is under 80 kg, the team must add ballast to the car to reach the minimum total weight. Wait, perhaps the minimum total weight (car + driver) is 798 kg plus the driver's weight. No, that can't be. Let me think again. \n\nThe FIA regulations state that the minimum weight of the car (without driver) is 798 kg. Then, the driver's weight is considered separately. If the driver's weight is less than 80 kg, the team must add ballast to the car to make up the difference. So the total weight of the car plus driver must be at least 798 kg plus the driver's weight? No, that's not right. \n\nWait, here's the correct breakdown: The car",
+    "prompt_b_response": "{\n  \"confidence_percent\": 70,\n  \"reasoning\": \"The FIA regulations state that the minimum weight of the car is 798 kg, and the driver's weight is considered separately. However, if the driver's weight is below 80 kg, ballast is added to the car to",
+    "confidence_percent": 70,
+    "timestamp": "2026-06-05T14:19:31.588771+00:00"
+  },
+  {
+    "question_id": "fia_061",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: The car must have at least 2 liters of fuel remaining for the post-race sample. If a team cannot provide it, the car is excluded from the race results.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The 2-liter requirement and exclusion penalty are standard FIA regulations, though recent rule changes could slightly affect accuracy.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:19:43.673440+00:00"
+  },
+  {
+    "question_id": "fia_062",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. The stewards may issue penalties after the race has finished, provided the penalty is imposed within the 48-hour window following the race (as per FIA regulations) and before the results are officially confirmed. Provisional results allow for post-race investigations and penalties if a breach of regulations is identified.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly allow stewards to issue penalties within 48 hours post-race, and provisional results are subject to change during this period.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:19:54.141757+00:00"
+  },
+  {
+    "question_id": "fia_063",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "A team can seek a Right of Review of a steward's decision **within 24 hours of the decision being communicated** and **only if new evidence or information not previously available is presented**, which could affect the outcome of the decision.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The 24-hour deadline and requirement for new evidence are well-established in FIA regulations, though specific nuances in procedural exceptions could slightly affect accuracy.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:20:03.431765+00:00"
+  },
+  {
+    "question_id": "fia_064",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "No, a black-and-orange flag indicates the car is dangerous and must retire; it is not a penalty.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The black-and-orange flag is a safety warning, not a penalty, as per FIA regulations requiring dangerous cars to retire.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:20:12.201640+00:00"
+  },
+  {
+    "question_id": "fia_065",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "An 'unsafe release' occurs when a car is released from the pit stop before the pit crew has fully cleared the danger area. It is typically penalized with a 10-second time penalty added to the driver's race time.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer correctly identifies an unsafe release as releasing a car before pit crew clearance and the standard 10-second penalty, which aligns with FIA regulations and observed race incidents.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:20:22.927688+00:00"
+  },
+  {
+    "question_id": "fia_066",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "The purpose of the FIA's plank (skid block) wear measurement is to enforce the minimum ride height regulations, ensuring cars do not run too low to the ground. This prevents unsafe aerodynamic configurations (e.g., excessive ground effect downforce) and ensures compliance with technical rules by measuring wear caused by contact between the skid block and the track surface.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The skid block wear measurement directly enforces minimum ride height rules to prevent unsafe ground effect exploitation and ensure compliance with technical regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:20:32.454392+00:00"
+  },
+  {
+    "question_id": "fia_067",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: No. Once a driver installs a new power unit element beyond their allocated limit, they must serve a penalty (grid or time penalty). However, the element itself is not restricted afterward; it becomes part of their used elements. They can continue using it without further penalties unless they exceed the allowed number of elements again. The penalty is a one-time consequence for exceeding the limit, not an ongoing restriction on the element.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The penalty is applied upon installation of the new element beyond the limit, not an ongoing restriction on the element itself.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:20:45.049668+00:00"
+  },
+  {
+    "question_id": "fia_068",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: A deduction of constructor championship points.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state that a material cost cap overspend breach can result in a deduction of constructor championship points as a sporting sanction.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:20:55.689190+00:00"
+  },
+  {
+    "question_id": "fia_069",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "No. The fastest lap bonus point does not apply in the Sprint race.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations for 2023 explicitly state that the Sprint race awards points based on finishing positions (8-1 for 1st-8th) without a fastest lap bonus, while the main race retains the fastest lap bonus.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:21:04.431181+00:00"
+  },
+  {
+    "question_id": "fia_070",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, let's see. The question is about FIA Formula 1 regulations regarding when a car is eligible to take a restart after a red flag. I need to recall the specific rules here.\n\nFirst, I remember that during a red flag, the race director can decide to restart the race or end it. If they decide to restart, there are certain conditions. The main thing is the time lost. If the race has been stopped for more than 10 minutes, they might not restart. But if it's less than that, they can. Also, the cars need to be in the order they were when the red flag was shown. So, any cars that were lapped before the red flag would stay lapped? Or maybe they get to unlap? Wait, no, during a red flag, the race is paused. So when they restart, the positions are as they were at the red flag. But what about cars that were on the track during the red flag? Like, if a car was out on a pit stop when the red flag came out, can they still restart?\n\nI think the key point is that all cars must be in the pits or on the track in a stationary position when the red flag is shown. If a car is out on track during a red flag, they might not be allowed to restart. Also, the race control has to declare the restart, and the cars have to be in the same order as when the red flag was displayed. So, if a car was lapped before the red flag, they would stay lapped. But if they were on the lead lap, they stay in their position. Also, any cars that were not in the race at the time of the red flag, like if they retired before, can't restart. So, eligibility is based on being in the race when the red flag was shown and being in the correct position. Also, the time lost\u2014if the race director decides to end the race instead of restarting, then the positions at the red flag are the final ones. But the question is specifically about eligibility to take a restart. So, the main factors are: the car was in the race when the red flag was shown, they were in the correct position (not lapped if they were lapped before), and they were in the pits or stationary on track. Also, the race director's decision to restart within the time limits. So, the answer would be that a car is eligible if it was in the race at the time of the red flag, in the correct position relative to other cars, and the restart is declared within the allowed time frame. But I need to check if there's a specific rule about time lost. For example, if the race is stopped for more than 10 minutes, they can't restart. So, if the red flag is out for more than 10 minutes, the race is ended, and no restart. Otherwise, if it's less than 10 minutes, they can restart. So the time lost since the red flag is a factor. Therefore, the eligibility depends on the time lost (under 10 minutes) and the car being in the race at the time of the red flag. Also, the race director's decision. So putting it all together: A car is eligible to restart after a red flag if the race is restarted within 10 minutes of the red flag being shown, and the",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"The answer correctly identifies the 10-minute time limit and position at red flag as key factors, which align with FIA regulations, though minor nuances may exist.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:21:23.326645+00:00"
+  },
+  {
+    "question_id": "fia_071",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, so the question is about what happens if a Formula 1 car is found underweight after qualifying. Let me think. I remember that in F1, there are strict weight regulations. The minimum weight for the car plus the driver is something like 752 kg, right? If a car is under that, they have to penalize them.\n\nWait, but when is the weight checked? I think they check the car after qualifying. If it's underweight, the driver might get a penalty. But what kind of penalty? Maybe they have to start from the back of the grid? Or maybe they get a time penalty added to their qualifying time? Or perhaps they're excluded from the session?\n\nWait, I think the usual penalty is that the driver has to start the race from the back of the grid. But I'm not 100% sure. Let me recall. If the car is underweight, the team has to add weight to bring it up to the minimum. But if they can't do that, then the driver is excluded from the race. But if they can add the weight, maybe they just start from the back. Hmm. Or maybe they have to start at the back regardless. \n\nWait, another angle: if the car is underweight after qualifying, the team might be allowed to add ballast to meet the minimum weight. But if they don't have the time or the means to do that, then the driver is excluded. But if they can add the ballast, then they can participate but maybe with a grid penalty. But I'm not sure. \n\nAlternatively, maybe the driver is excluded from the race if the car is underweight. But I think the answer is that they have to start from the back of the grid. Let me check my memory. I think in some cases, if the car is underweight, they can add ballast and start from the back. But if they can't add ballast, then they're excluded. But the question is about the typical consequence. So probably starting from the back. But maybe the answer is that they are excluded. Wait, maybe the answer is that they are excluded from the race. \n\nWait, I need to be precise. Let me think again. The FIA regulations state that if a car is found underweight after qualifying, the driver is excluded from the race unless the team can add ballast to bring the car up to the minimum weight. If they can add the ballast, then they are allowed to start the race but from the back of the grid. So the typical consequence is either exclusion or starting from the back, depending on whether they can add the necessary ballast. But the question says \"typical consequence\". So maybe the answer is that the driver is excluded from the race. Or maybe they start from the back. \n\nWait, I think the correct answer is that the driver is excluded from the race unless the team can add ballast. But if they can add ballast, then they start from the back. But the question is about the consequence if the car is found underweight. So if they can't add ballast, they're excluded. If they can, they start from the back. But the question is phrased as \"typical consequence\". So maybe the answer is that the driver is excluded from the race. But I'm not sure. Alternatively, maybe the answer is that the",
+    "prompt_b_response": "{\n  \"confidence_percent\": 70,\n  \"reasoning\": \"I recall that underweight cars typically face exclusion unless ballast can be added, but I'm uncertain about the exact penalty details.\"\n}",
+    "confidence_percent": 70,
+    "timestamp": "2026-06-05T14:21:42.193482+00:00"
+  },
+  {
+    "question_id": "fia_072",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: No. Teams are not permitted to use any active aerodynamic devices other than the Drag Reduction System (DRS) to alter bodywork during a lap. The FIA prohibits such systems to maintain safety and standardization.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations explicitly prohibit active aerodynamic devices other than DRS to ensure safety and standardization, and this is a well-established rule in Formula 1.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:21:52.255868+00:00"
+  },
+  {
+    "question_id": "fia_073",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Yes.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA Super Licence is a mandatory requirement for all drivers participating in Formula 1 races, including substitutes, as per FIA regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:22:00.038379+00:00"
+  },
+  {
+    "question_id": "fia_074",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. The stewards can impose a penalty for causing a collision regardless of whether the offending driver retires from the race. The FIA regulations hold drivers accountable for their actions during the race, and penalties may include disqualification, time penalties, or other sanctions, irrespective of the driver's final race status.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations explicitly state that penalties for causing collisions are determined by the incident's severity and intent, not the driver's final race outcome.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:22:10.158343+00:00"
+  },
+  {
+    "question_id": "fia_075",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: No, aerodynamic testing restrictions (wind tunnel/CFD allocations) are not tied to a team's championship position. They are governed by the FIA's resource restrictions, which aim to limit spending and promote parity, but these restrictions are based on team status (e.g., protected teams) and budget cap compliance, not championship results.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA's resource restrictions for aerodynamic testing are based on team status (e.g., protected teams) and budget cap compliance, not championship results, as confirmed by recent F1 regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:22:22.070783+00:00"
+  },
+  {
+    "question_id": "fia_076",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, let's tackle this question about the F1 2024 regulations. The user is asking if the Sprint race result determines the starting grid for the Grand Prix in the 2024 format.\n\nFirst, I need to recall the current Sprint race format. From what I remember, the Sprint race was introduced in 2021 as a way to add more excitement and competition on Saturdays. In the 2023 season, the Sprint results determined the grid for the main race on Sunday. But I need to check if there were any changes for 2024.\n\nWait, the user is asking specifically about the 2024 format. I should verify if there have been any rule changes for 2024 regarding the Sprint and the Grand Prix grid. From my knowledge, in 2024, F1 made some adjustments. The Sprint race is still held on Saturday, but the main race grid is determined by a combination of the Sprint results and the traditional qualifying on Friday. Wait, no, maybe not. Let me think again.\n\nActually, in the 2023 format, the Sprint race result directly set the grid for the Grand Prix. However, in 2024, there was a change. The Sprint race is now held on Saturday, but the grid for the Grand Prix is determined by the Sprint race result, but with some modifications. Wait, no, maybe the Sprint race result still sets the grid, but there's a limit on how many positions a driver can move. For example, in some circuits, the Sprint result directly sets the grid, but in others, it's combined with the Friday practice or qualifying. Hmm, I'm getting a bit confused here.\n\nWait, let me check. The 2024 regulations: The Sprint race is held on Saturday, and the result of the Sprint race determines the starting grid for the Grand Prix. However, there's a rule that drivers can only move a maximum of five positions from their Sprint result. So, if a driver finishes the Sprint in 10th place, they can't start the Grand Prix higher than 5th or lower than 15th. This is to prevent too much grid movement and to ensure that the Sprint result has a significant impact but not complete control. \n\nWait, no, maybe that's not correct. Another possibility is that the Sprint result sets the grid, but the top three drivers from the Sprint are fixed in their positions, and the rest are reversed or something. No, that doesn't sound right. Let me try to recall. In 2024, the Sprint race result directly sets the grid for the Grand Prix, but there's a rule that the grid can't be more than five positions different from the Sprint result. So, for example, if a driver finishes 1st in the Sprint, they start 1st in the Grand Prix. If they finish 2nd, they start 2nd, etc. But if a driver finishes 6th, they can't start higher than 1st or lower than 11th. Wait, that doesn't make sense. Maybe it's a five-position limit in either direction. So, the grid for the Grand Prix is the same as the Sprint result, but drivers can only move up or down by five positions. That way, the Sprint result is the base,",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The 2024 F1 regulations confirm that the Sprint race result directly sets the Grand Prix grid, with no reversal or position limits applied.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:22:41.639645+00:00"
+  },
+  {
+    "question_id": "fia_077",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Power unit grid penalties are applied to the grid for the main race, which is determined by the results of the Sprint race.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The Sprint race determines the main race grid, and power unit penalties are applied to this grid as per standard FIA regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:22:51.550971+00:00"
+  },
+  {
+    "question_id": "fia_078",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "The FIA's standardized accident data recorder (ADR) is a device installed in Formula 1 cars to record critical crash data, such as impact forces, G-forces, and vehicle dynamics, during collisions. This data is used to analyze accident causes and improve safety measures. It is mandatory for all F1 cars to be equipped with the ADR as per FIA regulations.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The ADR's role and mandatory status are well-documented in FIA safety regulations, though minor updates to technical specifications could theoretically affect details.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:23:03.621776+00:00"
+  },
+  {
+    "question_id": "fia_079",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Yes, a Virtual Safety Car can be converted into a full Safety Car deployment if the race director deems the situation on track has escalated to require a full Safety Car. The decision is based on safety concerns, such as a moving hazard or additional incidents.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations grant the race director full discretion to escalate safety measures, and historical incidents confirm VSC can transition to SC if conditions worsen.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:23:11.368977+00:00"
+  },
+  {
+    "question_id": "fia_080",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "No. Stewards' decisions on penalties during a race are not subject to immediate on-track appeal. Appeals must be submitted post-race through the FIA's formal procedures.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations confirm that penalties are final during the race, with appeals handled post-race via formal channels.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:23:26.511936+00:00"
+  },
+  {
+    "question_id": "fia_081",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: The regulation refers to all lapped cars, not just those between the leader and second place.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state that all lapped cars may overtake when the safety car withdraws, as confirmed by the literal wording in the sporting regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:23:33.053015+00:00"
+  },
+  {
+    "question_id": "fia_082",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, let's tackle this question about the FIA Formula 1 regulations regarding the safety car. The question is asking, under the literal wording of the safety car rules, on which lap does the safety car return to the pits after lapped cars have been waved past?\n\nFirst, I need to recall the specific regulations related to the safety car. From what I remember, when the safety car is deployed, it's usually because of an incident on the track. The safety car leads the field at a reduced speed until the situation is resolved. Once the track is clear, the safety car should return to the pits, allowing the race to resume at full speed.\n\nBut there's a nuance here about lapped cars being waved past. When the safety car is out, lapped cars can be waved through to overtake the safety car and get back on track. The question is about when the safety car actually returns to the pits after this process.\n\nI think the key point here is the timing. The safety car doesn't return immediately after waving past the first lapped car. Instead, there's a specific lap mentioned in the regulations. From what I've studied before, the safety car is supposed to return to the pits on the lap following the one on which the last lapped car was waved through. Wait, no, maybe it's the same lap. Let me think again.\n\nWait, the FIA regulations state that the safety car must return to the pits on the same lap that the last lapped car is waved through. But I'm not entirely sure. Another angle: sometimes, after the safety car is deployed, they might do a few laps before waving through the lapped cars. Once all lapped cars have been waved through, the safety car should then return to the pits. So the return to pits happens on the same lap that the last lapped car is waved through. But maybe the regulations specify that it's the next lap. Hmm.\n\nAlternatively, perhaps the safety car returns to the pits on the same lap that the last lapped car is waved through. For example, if the safety car waves through the last lapped car on lap 10, then the safety car would return to the pits on lap 10. But I need to check the exact wording. Since I can't look it up, I have to rely on my memory.\n\nI recall that the safety car is supposed to return to the pits on the same lap that the last lapped car is waved through. The reason is to allow the race to restart as soon as possible. So if the last lapped car is waved through on lap X, the safety car returns to the pits on lap X. Therefore, the answer would be that the safety car returns to the pits on the same lap that the last lapped car is waved past. But the question is phrased as \"after lapped cars have been waved past,\" so maybe it's the next lap. Wait, no. If all lapped cars have been waved past, then the safety car can return immediately. So perhaps the answer is that the safety car returns to the pits on the same lap that the last lapped car is waved through. Therefore, the answer would be the same lap. But I need to be precise here.\n\nWait, another thought: sometimes the safety car might stay out for a few more laps even after waving through the lapped cars if there's another reason,",
+    "prompt_b_response": "{\n  \"confidence_percent\": 85,\n  \"reasoning\": \"The FIA regulations state the safety car must return to the pits on the same lap that the last lapped car is waved through, but uncertainty remains about edge cases or exceptions.\"\n}",
+    "confidence_percent": 85,
+    "timestamp": "2026-06-05T14:23:54.046434+00:00"
+  },
+  {
+    "question_id": "fia_083",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: No. The 2021 FIA regulations explicitly required the race director to release lapped cars as soon as possible after the safety car was deployed, removing prior discretion.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"The 2021 FIA regulations explicitly mandated releasing lapped cars 'as soon as possible' under the safety car, removing prior discretion, though minor nuances in interpretation could slightly affect certainty.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:24:10.150180+00:00"
+  },
+  {
+    "question_id": "fia_084",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Repeated track limit exceedances result in escalating penalties: first a 5-second time penalty, then a drive-through penalty, followed by a stop-and-go penalty. Persistent violations may lead to disqualification.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"The answer aligns with FIA's documented escalation process for track limit violations, though nuances in specific rule versions or race director discretion could slightly affect interpretation.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:24:23.869792+00:00"
+  },
+  {
+    "question_id": "fia_085",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "A car is deemed to have exceeded track limits if any part of the car (excluding bodywork) crosses the defined track boundaries (white lines or kerbs) and the driver uses this to gain a competitive advantage. The definitive criterion is the crossing of track limits with the wheels or tyres to improve position or speed.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer aligns with FIA regulations stating that crossing track limits with wheels/tyres to gain an advantage is the definitive criterion, excluding bodywork.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:24:29.594542+00:00"
+  },
+  {
+    "question_id": "fia_086",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Yes, stewards can retroactively reinstate a deleted lap time after a session has ended if they determine the deletion was unjustified, provided the decision is made within the regulatory timeframe for post-session rulings.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations explicitly allow stewards to correct or reinstate lap times post-session if errors or unjustified deletions are identified, provided decisions are made within defined procedural timeframes.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:24:41.673799+00:00"
+  },
+  {
+    "question_id": "fia_087",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Yes, the stewards can retroactively change the outcome of a race result declared FINAL if they impose a valid penalty (e.g., time penalty, disqualification) that affects the result, provided the infringement is within their jurisdiction and adheres to procedural timelines (e.g., technical infringements up to 48 hours post-race).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly allow stewards to impose penalties post-race, including on final results, for valid infringements within their jurisdiction and procedural timelines.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:24:54.188468+00:00"
+  },
+  {
+    "question_id": "fia_088",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: No. During a Virtual Safety Car period, drivers must adhere to a reduced speed and are prohibited from overtaking. A lapped driver cannot regain a lap (unlap) while the VSC is in effect.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly prohibit overtaking during a Virtual Safety Car period, making it impossible for a lapped driver to regain a lap.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:25:02.540673+00:00"
+  },
+  {
+    "question_id": "fia_089",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "A drive-through penalty requires the driver to enter the pit lane, drive through without stopping, and rejoin the track, typically taking ~20 seconds. A stop-and-go (pit lane) penalty mandates the driver to enter the pit lane, stop at a designated area for 10 seconds, and then rejoin the track. The key difference is that a drive-through involves continuous movement, while a stop-and-go requires a mandatory 10-second stationary period.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer correctly distinguishes between continuous movement in a drive-through and the mandatory 10-second stop for a stop-and-go penalty, aligning with FIA regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:25:13.780197+00:00"
+  },
+  {
+    "question_id": "fia_090",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Yes, a team can perform pit work, including a tyre change, while a driver is serving a stop-and-go penalty, provided the car remains stationary in the pit lane until the penalty duration is completed.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"The FIA regulations permit pit work during a stop-and-go penalty as long as the car remains stationary in the pit lane for the full penalty duration.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:25:23.616783+00:00"
+  },
+  {
+    "question_id": "fia_091",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Positions are preserved as they were at the red flag. Cars form behind the safety car in the same order and follow it without overtaking until the race director initiates a standing start. Racing resumes with a standing start once the safety car pulls in.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer aligns with FIA regulations on red-flag restarts, which specify preserved positions, safety car formation, and resumption with a standing start.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:25:36.448248+00:00"
+  },
+  {
+    "question_id": "fia_092",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Yes, track-limits enforcement must be applied consistently to all cars. This is governed by Article 3.15 of the FIA Formula One World Championship Sporting Regulations, which mandates that stewards enforce track limits uniformly to ensure fair competition.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"High confidence in the principle of consistent enforcement, but potential uncertainty about the exact article number without direct reference.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:25:46.085262+00:00"
+  },
+  {
+    "question_id": "fia_093",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: DRS is not available immediately after a Virtual Safety Car ends. There is a delay of two laps before DRS can be used again.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"Based on FIA regulations, DRS is disabled for two laps following a Virtual Safety Car period, aligning with historical race practices and technical rules.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:25:55.135584+00:00"
+  },
+  {
+    "question_id": "fia_094",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "<think>\nOkay, let's see. The question is about a five-second time penalty in F1 and what happens if the team touches the car before the five seconds are up.\n\nFirst, I remember that in F1, when a driver gets a time penalty, they have to serve it by adding the time to their total race time. But there's a specific rule about serving the penalty during a pit stop. The driver has to stay in the pit lane for the duration of the penalty. If the team touches the car before the penalty time is up, does that affect the penalty?\n\nWait, the five-second penalty is served by the driver staying in the pit lane for five seconds. If the team touches the car before those five seconds, maybe they're trying to work on the car, but the car is supposed to be stationary during the penalty. If they touch it before the time is up, does that mean the penalty isn't served properly? Or does it trigger another penalty?\n\nI think the rule is that if the team touches the car before the penalty time is served, the driver has to serve the remaining time. So if the five seconds are supposed to be served, but the team starts working on the car (like changing tires) before the five seconds are up, the driver hasn't actually served the full penalty. Therefore, the remaining time would be added to their race time. Alternatively, maybe the penalty is considered served once the car is touched, but that doesn't make sense because the time hasn't elapsed yet.\n\nWait, another angle: the driver is supposed to stay in the pit lane for the duration of the penalty. If the team starts working on the car before the five seconds, maybe the driver is allowed to leave the pit lane earlier, but the penalty time is still added. Or maybe the team can't touch the car until the penalty is served. If they do touch it early, the driver might have to stay longer. Hmm.\n\nI think the correct answer is that if the team touches the car before the five seconds elapse, the driver must serve the remaining time of the penalty. So the total penalty time is still applied, but the driver can't leave the pit lane until the full five seconds have passed, even if the team starts working on the car earlier. Therefore, the consequence is that the driver has to stay in the pit lane for the full five seconds regardless of the team's actions. Alternatively, maybe the team is allowed to work on the car as long as they don't interfere with the penalty serving. Wait, but the penalty is served by the driver staying in the pit lane. If the team starts working on the car before the five seconds, maybe that's allowed, but the driver still has to stay until the five seconds are up. So the consequence is that the driver must serve the full five seconds, and the team can work on the car during that time. But the question is about the consequence if they touch the car before the five seconds. Maybe the answer is that the driver must serve the remaining time of the penalty. Wait, I'm getting confused here.\n\nLet me check my memory. In F1, when a driver serves a time penalty during a pit stop, the team can perform a normal pit stop (like changing tires) while the driver is serving the penalty. The driver has to stay in the pit lane for the duration of the penalty. If the team starts working on the car before the penalty time",
+    "prompt_b_response": "{\n  \"confidence_percent\": 80,\n  \"reasoning\": \"The driver must serve the full five-second penalty regardless of the team's actions, as the penalty duration is fixed once applied.\"\n}",
+    "confidence_percent": 80,
+    "timestamp": "2026-06-05T14:26:15.170270+00:00"
+  },
+  {
+    "question_id": "fia_095",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "The safety car can be called in only if the situation affecting the track or race (e.g., debris, accident, hazardous conditions) impacts the **entire field** of competitors, necessitating their collective management under reduced speed and controlled formation.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state the safety car is deployed when the entire field is affected by a hazard, which aligns with the answer provided.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:26:28.100480+00:00"
+  },
+  {
+    "question_id": "fia_096",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. According to FIA Formula 1 regulations (Article 37.1), a driver must not gain a lasting advantage by leaving the track. If such an advantage is gained, the position must be returned, regardless of whether a lap time is being set.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations explicitly state that any lasting advantage gained by leaving the track requires returning the position, regardless of lap time status.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:26:38.954505+00:00"
+  },
+  {
+    "question_id": "fia_097",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. Under FIA Formula 1 regulations (specifically Rule 48.13), drivers are prohibited from practicing starts during the formation lap. Stewards may impose penalties, such as a time or drive-through penalty, for unsafe or regulated violations during this phase.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"Confident based on FIA Rule 48.13 prohibiting unsafe practices during formation lap, though minor rule updates could affect specifics.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:26:48.964905+00:00"
+  },
+  {
+    "question_id": "fia_098",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. The car must respect the VSC delta from the point it rejoins the track. The VSC delta is enforced for all cars on the track, including those re-entering after a pit-stop.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly require cars to adhere to VSC delta speeds upon rejoining the track after a pit-stop, as the VSC applies to all vehicles on the circuit.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:27:01.966441+00:00"
+  },
+  {
+    "question_id": "fia_099",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "No. A time penalty served by adding seconds to a race time post-race does not require the driver to perform any action during the race. The penalty is applied directly to the driver's total race time after the event.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations confirm post-race time penalties are applied directly to the final time without requiring driver action during the race.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:27:16.938734+00:00"
+  },
+  {
+    "question_id": "fia_100",
+    "model": "qwen3_32b",
+    "domain": "fia",
+    "prompt_a_response": "Answer: Unserved time penalties from before the red flag carry into the restart and must be served.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"Based on standard FIA regulations where penalties not served before a red flag are carried over unless the race is stopped for an extended period (typically over 10 minutes), which is not specified in the question.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:27:21.996676+00:00"
+  }
+]

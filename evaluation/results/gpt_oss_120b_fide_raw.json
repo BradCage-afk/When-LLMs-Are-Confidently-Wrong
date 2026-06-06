@@ -1,0 +1,902 @@
+[
+  {
+    "question_id": "fide_001",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "A bishop moves any number of unoccupied squares along a diagonal, staying on the same colour, and may capture an opponent\u2019s piece on the first occupied square it meets; it cannot jump over any pieces.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The description matches the FIDE Laws of Chess definition of a bishop\u2019s diagonal, unobstructed movement and capture rules.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:12.820824+00:00"
+  },
+  {
+    "question_id": "fide_002",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "A knight moves in an \u201cL\u2011shape\u201d: it goes two squares horizontally\u202for\u202fvertically and then one square at a right angle (or one square horizontally/vertically followed by two squares perpendicular). It may jump over any intervening pieces.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The description matches the official FIDE definition of a knight's L\u2011shaped move and its ability to jump over pieces.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:13.718387+00:00"
+  },
+  {
+    "question_id": "fide_003",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "One square in any direction (horizontally, vertically, or diagonally).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The FIDE Laws of Chess clearly state that a king moves one square in any direction, which matches the answer given.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:55:14.332563+00:00"
+  },
+  {
+    "question_id": "fide_004",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "A rook moves any number of unoccupied squares horizontally or vertically (along a rank or a file). It may capture an opponent\u2019s piece by moving onto its square, but it cannot jump over any pieces. (During castling the rook also moves two squares toward the king.)",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The answer accurately reflects the FIDE Laws of Chess regarding rook movement and castling.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:15.343567+00:00"
+  },
+  {
+    "question_id": "fide_005",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The queen may move any number of squares in a straight line horizontally, vertically, or diagonally, provided no pieces block its path; it captures an opponent\u2019s piece by landing on its square.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The description matches the FIDE Laws of Chess definition of the queen's movement and capture abilities.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:16.116557+00:00"
+  },
+  {
+    "question_id": "fide_006",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "A pawn may move forward either one square or, from its starting rank, two squares\u2014so it can advance up to **two squares** on its first move.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws of Chess clearly state that a pawn may move one square forward, or optionally two squares from its initial position, making two squares the maximum on its first move.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:17.001527+00:00"
+  },
+  {
+    "question_id": "fide_007",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "A pawn captures by moving one square diagonally forward (to the left or right) onto a square occupied by an opponent\u2019s piece, thereby removing that piece from the board. (The only exception is the en\u2011passant capture, where a pawn may capture an opposing pawn that has just advanced two squares by moving diagonally to the square the pawn passed over.)",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The description matches the FIDE rules for pawn captures, including the standard diagonal capture and the en\u2011passant exception.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:17.932795+00:00"
+  },
+  {
+    "question_id": "fide_008",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "When a pawn reaches the opponent\u2019s farthest rank (the 8th rank for White, the 1st rank for Black), it **must be promoted**: the player replaces the pawn with a queen, rook, bishop, or knight of the same colour (their choice). The new piece must be placed on the square and the clock started before the move is considered complete.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The answer correctly states the mandatory promotion rule and the options for the new piece according to the FIDE Laws of Chess.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:19.090278+00:00"
+  },
+  {
+    "question_id": "fide_009",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "In check.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The FIDE Laws explicitly define a king under attack as being 'in check', matching the question precisely.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:55:19.716619+00:00"
+  },
+  {
+    "question_id": "fide_010",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "A player can meet a check by:\n\n1. **Moving the king** to a square where it is no longer in check.  \n2. **Capturing the checking piece** with any of his pieces (including the king).  \n3. **Blocking the line of attack** by interposing a piece between the checking piece and the king (possible only against a sliding piece \u2013 bishop, rook, or queen).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The three standard legal responses to a check\u2014moving the king, capturing the checking piece, or interposing a piece\u2014are directly stated in the FIDE Laws of Chess.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:20.741979+00:00"
+  },
+  {
+    "question_id": "fide_011",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "**Checkmate** is a position in which a player\u2019s king is in check and that player has no legal move that can remove the check; consequently the game ends immediately with a win for the player delivering the mate.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The definition matches the FIDE Laws of Chess description of checkmate as a position where the king is in check with no legal move to escape, ending the game.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:21.628913+00:00"
+  },
+  {
+    "question_id": "fide_012",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Under the FIDE Laws of Chess, any move that leaves or places your own king in check is illegal.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws explicitly state that a move leaving one's own king in check is illegal, matching the answer given.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:27.582930+00:00"
+  },
+  {
+    "question_id": "fide_013",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Under the FIDE Laws of Chess there is no obligation to announce \u201ccheck\u201d; a player may do so, but it is not required.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws explicitly state that announcing check is optional, making the answer highly certain.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:28.370088+00:00"
+  },
+  {
+    "question_id": "fide_014",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Stalemate is a draw that occurs when the player whose turn it is to move is **not in check** and **has no legal move** available. (FIDE Laws of Chess, Art.\u202f5.2.2)",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The definition matches the FIDE Laws of Chess (Art.\u202f5.2.2) stating stalemate is a draw when the player to move is not in check and has no legal move.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:29.328099+00:00"
+  },
+  {
+    "question_id": "fide_015",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes.  Under Article\u202f9.1.2 of the FIDE Laws of Chess the players may agree to a draw at any time.  The game is considered drawn the instant the opponent accepts the offer (or, in practice, when the arbiter records the accepted offer).  The draw does **not** take effect merely when the offer is made; it takes effect only upon acceptance.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer accurately reflects the current FIDE Laws of Chess regarding draw offers and when the game is considered drawn.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:55:35.798175+00:00"
+  },
+  {
+    "question_id": "fide_016",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. Under Article\u202f5.2 of the FIDE Laws of Chess, the game is immediately drawn when a position is reached in which, by any possible series of legal moves, neither side can ever checkmate the opponent\u2019s king. This is the \u201cdraw by insufficient material\u201d rule.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The answer directly matches Article\u202f5.2 of the FIDE Laws, which defines that situation as an immediate draw.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:36.973829+00:00"
+  },
+  {
+    "question_id": "fide_017",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "50 consecutive moves by each player.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The FIDE Laws explicitly state a draw can be claimed after 50 moves by each player without a pawn move or capture.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:55:38.827693+00:00"
+  },
+  {
+    "question_id": "fide_018",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. The game is not automatically drawn; a player (or the arbiter in certain cases) must claim a draw when the same position has occurred three times.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The answer correctly reflects the FIDE rule that threefold repetition requires a claim, not an automatic draw.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:44.611904+00:00"
+  },
+  {
+    "question_id": "fide_019",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "9 points.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The queen is universally assigned a value of 9 points in standard material evaluation.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:55:49.247718+00:00"
+  },
+  {
+    "question_id": "fide_020",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "5 points.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The standard material value assigned to a rook in chess is universally recognized as 5 points.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:54.081621+00:00"
+  },
+  {
+    "question_id": "fide_021",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "3 points.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The conventional valuation in chess assigns 3 points to each minor piece, which is well-established.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:55:58.912929+00:00"
+  },
+  {
+    "question_id": "fide_022",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "1 point.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The standard material valuation in chess assigns a pawn a value of one point, which is widely accepted.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:56:07.474293+00:00"
+  },
+  {
+    "question_id": "fide_023",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "White moves first.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The FIDE Laws of Chess explicitly state that White always makes the first move.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:56:08.074832+00:00"
+  },
+  {
+    "question_id": "fide_024",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "White (a light\u2011colored) square.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The standard rule states the right-hand corner square for each player must be a light (white) square, so the answer is well\u2011known and unambiguous.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:56:12.918716+00:00"
+  },
+  {
+    "question_id": "fide_025",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Both queens start on the **d\u2011file** \u2013 White\u2019s queen on d1 and Black\u2019s queen on d8.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The standard initial chess position places White's queen on d1 and Black's queen on d8, confirming the d\u2011file.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:56:18.517547+00:00"
+  },
+  {
+    "question_id": "fide_026",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Each side starts with 16 pieces: 8 pawns and 8 pieces (king, queen, 2 rooks, 2 bishops, and 2 knights).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The standard initial chess setup universally includes 8 pawns and 8 other pieces per side, totaling 16 pieces.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:56:23.417267+00:00"
+  },
+  {
+    "question_id": "fide_027",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "1 point.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"Standard chess tournament scoring awards 1 point for any win, including a win by checkmate.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:56:28.192349+00:00"
+  },
+  {
+    "question_id": "fide_028",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Each player receives\u202f\u00bd\u202fpoint for a drawn game.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The FIDE Laws of Chess clearly state that a drawn game awards \u00bd point to each player.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:56:32.934493+00:00"
+  },
+  {
+    "question_id": "fide_029",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "When a player declares resignation, the game ends immediately and that player loses; the opponent is declared the winner (recorded as\u202f1\u20110 if White resigns,\u202f0\u20111 if Black resigns).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer directly reflects the FIDE rule that a declared resignation ends the game with the resigning player losing and the opponent winning.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:56:38.940643+00:00"
+  },
+  {
+    "question_id": "fide_030",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Extending a hand\u2014i.e., offering a handshake to the opponent\u2014is the customary physical signal of resignation.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer matches the FIDE Laws, which state that extending a hand (offering a handshake) is the customary physical signal of resignation.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:56:45.484521+00:00"
+  },
+  {
+    "question_id": "fide_031",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Under the FIDE Laws of Chess any move that leaves one\u2019s own king in check is illegal; a player may not make a move elsewhere on the board that results in his king being in check.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws explicitly state that a player may not make a move that leaves his own king in check, making the answer correct.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:56:50.449919+00:00"
+  },
+  {
+    "question_id": "fide_032",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Under the FIDE Laws of Chess each square may contain at most one piece, so two pieces of the same colour cannot occupy the same square.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The FIDE Laws explicitly state that each square can hold at most one piece, so two same\u2011color pieces cannot share a square.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:56:55.249391+00:00"
+  },
+  {
+    "question_id": "fide_033",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The opponent\u2019s piece is captured: it is removed from the board (placed on the capturer\u2019s side) and the moving piece occupies the square.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The answer directly reflects the FIDE rule that moving onto an opponent's occupied square results in capture and removal of that piece.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:57:00.103402+00:00"
+  },
+  {
+    "question_id": "fide_034",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. A draw by agreement is only valid when both players mutually consent to it.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws explicitly state that a draw by agreement is only valid when both players mutually agree to it.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:57:04.965001+00:00"
+  },
+  {
+    "question_id": "fide_035",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The white king starts on e1 and the black king starts on e8.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The standard initial chessboard placement defined by FIDE places the white king on e1 and the black king on e8.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:57:09.664681+00:00"
+  },
+  {
+    "question_id": "fide_036",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. A king may never move to a square where it would give check to the opposing king; kings cannot be placed on adjacent squares, so a king cannot deliver check.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws explicitly forbid kings from moving to adjacent squares, making it impossible for a king to give check to the opposing king.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:57:14.441496+00:00"
+  },
+  {
+    "question_id": "fide_037",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. A pawn may only move forward (one square, or two squares from its starting rank) and capture diagonally forward; it cannot move backward toward its own side.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The FIDE Laws of Chess clearly define pawn movement as only forward (one or two squares) and diagonal captures forward, with no provision for backward moves.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:57:19.251590+00:00"
+  },
+  {
+    "question_id": "fide_038",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Draw. A king and bishop cannot force checkmate against a lone king; it is insufficient mating material.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws state that king and bishop versus king is insufficient mating material, making it a theoretical draw.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:57:24.141973+00:00"
+  },
+  {
+    "question_id": "fide_039",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Draw. A king and knight cannot force checkmate against a lone king.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The rules and standard endgame theory clearly state that a king and knight cannot force checkmate against a lone king, making the position a draw.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:57:31.963612+00:00"
+  },
+  {
+    "question_id": "fide_040",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. With correct technique, a king and queen can always force checkmate against a lone king.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"King and queen versus a lone king is a well\u2011known forced mate in chess, so the answer is virtually certain.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:57:34.855816+00:00"
+  },
+  {
+    "question_id": "fide_041",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "A pawn may capture en\u202fpassant only when **all** of the following are true:\n\n1. **Opponent\u2019s pawn makes a double\u2011step move** \u2013 it moves two squares forward from its **starting rank** (White: from rank\u202f2 to rank\u202f4; Black: from rank\u202f7 to rank\u202f5).\n\n2. **The double\u2011step lands the opponent\u2019s pawn on a square immediately adjacent** (horizontally) to the player\u2019s pawn.\n\n3. **The player\u2019s pawn is on its fifth rank** (White on rank\u202f5, Black on rank\u202f4) \u2013 i.e., the rank from which it could capture the opponent\u2019s pawn had that pawn moved only one square.\n\n4",
+    "prompt_b_response": "{\n  \"confidence_percent\": 70,\n  \"reasoning\": \"The answer lists most key conditions but omits the requirement that the en\u202fpassant capture must be made immediately on the next move and that the capturing pawn moves to the square the opponent pawn passed over.\"\n}",
+    "confidence_percent": 70,
+    "timestamp": "2026-06-05T12:57:40.953565+00:00"
+  },
+  {
+    "question_id": "fide_042",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. The black pawn on\u202fb4 may capture en\u202fpassant, moving to **a3** (and the white pawn on a4 is removed).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The rules for en passant clearly allow a pawn on b4 to capture a pawn that moved a2\u2011a4 by moving to a3, so the answer matches the law.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:57:46.793989+00:00"
+  },
+  {
+    "question_id": "fide_043",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Under the FIDE Laws of Chess the en\u2011passant capture must be played on the very next move after the opponent\u2019s pawn makes the two\u2011square advance. If the player makes any other move, the right to capture en\u202fpassant is lost and cannot be exercised later.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws explicitly state that an en passant capture must be made on the very next move, otherwise the right is forfeited.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:57:52.574268+00:00"
+  },
+  {
+    "question_id": "fide_044",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. After Black\u2019s two\u2011square move\u202fc7\u2011c5, the white pawn on d5 may capture en\u202fpassant by playing **dxc6**, removing the pawn that just passed through c6. The king on e5 and the distant rook do not affect the legality of the en\u2011passant capture.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The rules of en passant clearly allow d5 to capture the pawn that moved c7\u2011c5 by playing dxc6, and the king and rook positions are irrelevant.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:57:57.883047+00:00"
+  },
+  {
+    "question_id": "fide_045",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Castling is illegal if the king is in check (or would move through or land on a square under attack).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws explicitly state that castling is illegal when the king is in check, so the answer aligns directly with the official rule.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:58:02.716513+00:00"
+  },
+  {
+    "question_id": "fide_046",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Castling is illegal if the king must pass over a square that is under attack.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws of Chess explicitly forbid castling when the king passes over a square that is under attack.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:58:07.559492+00:00"
+  },
+  {
+    "question_id": "fide_047",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Castling is illegal if the king\u2019s destination square (or any square it passes over) is under attack.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws explicitly forbid castling when the king's destination or any traversed square is under attack.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:58:12.392401+00:00"
+  },
+  {
+    "question_id": "fide_048",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Under the FIDE Laws of Chess, castling is illegal only if the king is in check, or if any square the **king** moves through (e\u2011g, e1\u2011d1\u2011c1 for White queenside) or the square on which it lands is under attack. Squares that only the rook traverses (such as b1 in queenside castling) may be attacked without affecting the legality of the castling move.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 96,\n  \"reasoning\": \"The FIDE Laws explicitly state only the king's path squares must be unattacked, so the answer aligns with the official rule.\"\n}",
+    "confidence_percent": 96,
+    "timestamp": "2026-06-05T12:58:17.319207+00:00"
+  },
+  {
+    "question_id": "fide_049",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. A past check does **not** affect castling rights.  \nUnder the FIDE Laws of Chess (Art.\u202f3.8.2), castling is prohibited only if:\n\n* the king has previously moved, or  \n* the rook involved has previously moved, or  \n* the king is currently in check, or  \n* any square the king must cross (e1, f1, g1 for kingside) is under attack.\n\nSince White\u2019s king has never moved, the h1\u2011rook is still on its original square, the king is not presently in check, and f1 and g1 are empty and unattacked, White may still castle kingside. The earlier check that was already dealt with does not forfeit the right to castle.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 96,\n  \"reasoning\": \"The FIDE Laws clearly state only current check or prior king/rook moves affect castling, so the answer aligns with the rules.\"\n}",
+    "confidence_percent": 96,
+    "timestamp": "2026-06-05T12:58:22.568063+00:00"
+  },
+  {
+    "question_id": "fide_050",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. All squares between the king and the rook must be unoccupied for a castling move to be legal.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws explicitly require that all squares between the king and rook be vacant for castling to be legal.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:58:27.487284+00:00"
+  },
+  {
+    "question_id": "fide_051",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "They must move that piece (i.e., make a legal move with it) if any legal move exists; only if the piece has no legal move may they play any other legal move.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer directly reflects FIDE rule 4.3 on the touch\u2011move obligation for a player's own piece.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:58:32.250487+00:00"
+  },
+  {
+    "question_id": "fide_052",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "They must capture that opponent\u2019s piece (if a legal capture is available). If no capture is possible, they may make any other legal move.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer matches the FIDE rule that a touched opponent piece must be captured if legally possible, otherwise any legal move may be played.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:58:37.129694+00:00"
+  },
+  {
+    "question_id": "fide_053",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Say \u201cj\u2019adoube\u201d (or \u201cI adjust\u201d) before touching the piece, then adjust it. This announcement removes the touch\u2011move obligation.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The answer correctly states the required verbal announcement (j'adoube/I adjust) to avoid the touch\u2011move rule.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T12:58:42.253985+00:00"
+  },
+  {
+    "question_id": "fide_054",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Under the FIDE Laws (Article\u202f4.3.2), a player who touches a piece must move it **only if it can be moved to a legal square**.  \nIf the touched piece has **no legal moves** (e.g., it is pinned and any move would leave the king in check), the player is **not obliged to move that piece** and may make any other legal move with a different piece. If no legal move exists at all, the game ends (checkmate or stalemate).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 96,\n  \"reasoning\": \"The answer directly reflects Article\u202f4.3.2 of the FIDE Laws, which states that a touched piece must be moved only if a legal move exists; otherwise the player may move another piece.\"\n}",
+    "confidence_percent": 96,
+    "timestamp": "2026-06-05T12:58:47.512634+00:00"
+  },
+  {
+    "question_id": "fide_055",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "A move is completed \u2013 and therefore cannot be taken back \u2013 the instant the player **releases the piece on its new square and then presses his clock (starting the opponent\u2019s time)**. Once the clock has been pressed, the move is considered made.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer matches the FIDE definition that a move is completed when the piece is released and the player presses the clock, making it irreversible.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:58:56.043085+00:00"
+  },
+  {
+    "question_id": "fide_056",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The same hand that was used to move the pieces must be used to press the clock.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIDE Laws explicitly state that a player must press the clock with the same hand used to move the pieces, matching my answer.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:59:07.113414+00:00"
+  },
+  {
+    "question_id": "fide_057",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "It is the moving player\u2019s responsibility \u2013 after completing a move the player must press the clock. The opponent may point out the error, but the onus is on the player who moved to stop his/her own time.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 96,\n  \"reasoning\": \"The answer directly reflects FIDE Law 6.2, which places the duty to press the clock on the player who made the move.\"\n}",
+    "confidence_percent": 96,
+    "timestamp": "2026-06-05T12:59:12.992585+00:00"
+  },
+  {
+    "question_id": "fide_058",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. Under the FIDE Laws a move is completed as soon as the player releases the piece on a legal square and then presses the clock (or the opponent makes a move). The piece does not have to be standing upright; it only has to be placed on the destination square. The arbiter may ask the player to stand the piece up, but that does not affect the legality or completion of the move. Therefore the opponent\u2019s claim is invalid \u2013 the move is considered completed.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 92,\n  \"reasoning\": \"The FIDE Laws state a move is completed when the piece is released on a legal square and the clock is pressed, regardless of the piece\u2019s orientation.\"\n}",
+    "confidence_percent": 92,
+    "timestamp": "2026-06-05T12:59:14.503148+00:00"
+  },
+  {
+    "question_id": "fide_059",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The player whose flag falls loses the game (the opponent wins), because the opponent has sufficient mating material. If the opponent lacked mating material the result would be a draw, but with mating material the flag\u2011fall is a loss.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The rule is clear: a flag fall results in loss unless the opponent lacks sufficient mating material, which is not the case here.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T12:59:20.452432+00:00"
+  },
+  {
+    "question_id": "fide_060",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Draw \u2013 the player whose flag fell does not lose because the opponent, having only a lone king, has insufficient material to force checkmate.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIDE rule on flag fall states the game is drawn if the opponent lacks sufficient mating material, which a lone king satisfies.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:59:23.439689+00:00"
+  },
+  {
+    "question_id": "fide_061",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. In any standard\u2011time\u2011control game each player must keep a scoresheet and record **both** his own move and his opponent\u2019s move in algebraic notation. The move is written **immediately after it is made** (i.e., before pressing the clock), using the standard symbols (move number, \u201cx\u201d for captures, \u201c+\u201d for check, \u201c#\u201d for mate, \u201c=Q\u201d etc. for promotions, \u201cO\u2011O\u201d/\u201cO\u2011O\u2011O\u201d for castling) and the final result is entered at the end of the game.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer accurately reflects FIDE Articles 8.1\u20138.1.1 regarding mandatory recording of both players' moves in algebraic notation during standard\u2011time\u2011control games.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:59:29.594785+00:00"
+  },
+  {
+    "question_id": "fide_062",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. Under Article\u202f8.1.2 of the FIDE Laws of Chess, a player who has less than five minutes remaining on the clock is not required to record his moves, provided the time control does **not** include an increment of 30\u202fseconds or more. In that situation he may stop keeping score.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer directly cites the correct FIDE article and accurately reflects the rule about scorekeeping with under five minutes and no 30\u2011second increment.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:59:34.853183+00:00"
+  },
+  {
+    "question_id": "fide_063",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The scoresheets are the property of the arbiter (i.e., the tournament\u2019s arbiter).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIDE Laws state that scoresheets are the property of the arbiter, making the answer highly reliable.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:59:40.039795+00:00"
+  },
+  {
+    "question_id": "fide_064",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The scoresheet is the only reliable record of what has actually happened on the board. Under the FIDE Laws (Art.\u202f8.7), a claim of a draw by the 50\u2011move rule or by threefold repetition must be supported by the player\u2019s written record so that the arbiter can verify:\n\n* that at least 50 consecutive moves have been played without a pawn move or capture, and  \n* that the same position (with the same rights to move, castle, en\u2011passant, etc.) has occurred three times.\n\nIf the scoresheet is incomplete, the arbiter has no way to confirm those conditions, and the claim cannot be accepted. Hence the scoresheet matters because it provides the evidence required to substantiate the draw claim.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 92,\n  \"reasoning\": \"The answer accurately reflects the FIDE Laws requiring a complete scoresheet as evidence for 50\u2011move or threefold repetition draw claims.\"\n}",
+    "confidence_percent": 92,
+    "timestamp": "2026-06-05T12:59:48.334428+00:00"
+  },
+  {
+    "question_id": "fide_065",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "**Procedure:**  \nWhen the position is about to appear for the third time, the player must claim the draw **before** actually making the move that creates the repetition.\n\n1. **Write the intended move on the scoresheet.**  \n2. **Stop his own clock** (or press the clock after writing the move, but before the move is executed).  \n3. **Notify the arbiter** (or make a verbal claim) that he is claiming a draw by three\u2011fold repetition.  \n\nThe arbiter then checks the scoresheets/board. If the claim is valid, the game is declared drawn; if not, play continues and the player must make the move he wrote.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer matches the FIDE procedure that a claim must be made before executing the move that creates the third repetition, including writing the move, stopping the clock, and notifying the arbiter.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T12:59:54.764520+00:00"
+  },
+  {
+    "question_id": "fide_066",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The position must be identical in every respect\u202f\u2014\u202fthe same side to move, the same castling rights for both players, and the same en\u2011passant capture rights (i.e., the same pawn that could be taken en\u202fpassant).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The answer lists the exact additional conditions required by the FIDE Laws for positions to be considered identical in a threefold repetition.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T13:00:00.874508+00:00"
+  },
+  {
+    "question_id": "fide_067",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "If the claim is examined and found not to meet the three\u2011fold\u2011repetition condition, the claim is rejected, the game continues from the position as it stood, and the opponent is awarded two extra minutes on his/her clock.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The response matches the FIDE Laws of Chess provision that an invalid threefold\u2011repetition claim is rejected and the opponent receives two extra minutes.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:00:09.620223+00:00"
+  },
+  {
+    "question_id": "fide_068",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. The threefold\u2011repetition claim does **not** require the positions to occur on consecutive moves; the same position (with the same player to move and the same rights to castle or capture en\u202fpassant) may appear at any three separate times during the game.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 96,\n  \"reasoning\": \"The FIDE Laws clearly state that three identical positions can occur at any times in the game, not necessarily consecutively.\"\n}",
+    "confidence_percent": 96,
+    "timestamp": "2026-06-05T13:00:14.367612+00:00"
+  },
+  {
+    "question_id": "fide_069",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "**Procedure:**  \nWhen the opponent\u2019s move makes the count reach 50 moves without a pawn move or capture, the player whose turn it is must claim the draw **immediately, before making his own move or pressing his clock**. He stops his clock, calls the arbiter, and states that he is invoking the 50\u2011move rule. The arbiter checks the scoresheets; if the claim is correct the game is declared a draw. If the claim is made after the player has made a move, the claim is invalid.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 96,\n  \"reasoning\": \"The answer accurately reflects the FIDE rule that a draw claim under the 50\u2011move rule must be made immediately after the opponent's move that reaches the count, before the claimant makes any move or presses the clock.\"\n}",
+    "confidence_percent": 96,
+    "timestamp": "2026-06-05T13:00:20.785684+00:00"
+  },
+  {
+    "question_id": "fide_070",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. Under the FIDE Laws of Chess, the 50\u2011move\u2011rule counter is reset whenever a pawn is moved **or** any piece is captured. Any pawn move or any capture restarts the count.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws explicitly state that any pawn move or capture resets the 50\u2011move counter, matching the answer provided.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T13:00:26.647110+00:00"
+  },
+  {
+    "question_id": "fide_071",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The 50\u2011move rule is **not automatic**; a player must claim the draw (or the arbiter must be asked to apply it). Only the 75\u2011move rule is an automatic draw.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws clearly state that the 50\u2011move draw must be claimed, while only the 75\u2011move rule is automatic, matching the answer given.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T13:00:32.542057+00:00"
+  },
+  {
+    "question_id": "fide_072",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Under the FIDE Laws (art.\u202f6.9), a player who runs out of time loses **unless** the opponent has no possible way to deliver checkmate by any legal sequence of moves.  \nWith king\u202f+\u202ftwo knights versus a lone king, checkmate is possible (e.g., if Black\u2019s king walks into a corner and White\u2019s knights cooperate), so the material is not \u201cinsufficient mating material.\u201d Consequently Black\u2019s flag\u2011fall is a loss for Black and a win for White.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer correctly applies FIDE rule 6.9, noting that mate is possible with two knights, so the flag fall is a loss, not an automatic draw.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:00:44.416221+00:00"
+  },
+  {
+    "question_id": "fide_073",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Under the FIDE Laws (Art.\u202f6.9), a player who runs out of time loses **unless** the opponent cannot possibly checkmate by any legal sequence of moves. With king\u202f+\u202fbishop White **can** deliver a checkmate against a king\u202f+\u202fknight (the knight can be trapped or block its own king\u2019s escape squares), so White has sufficient mating material. Therefore Black\u2019s flag\u2011fall is a loss for Black, not a draw.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 92,\n  \"reasoning\": \"The answer follows the FIDE rule that any possible mating sequence, even if not forced, means the opponent has sufficient material, so Black loses on time\"\n}",
+    "confidence_percent": 92,
+    "timestamp": "2026-06-05T13:00:51.850965+00:00"
+  },
+  {
+    "question_id": "fide_074",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. Under the FIDE Laws of Chess a position with K\u202f+\u202fB versus K\u202f+\u202fB where both bishops are on the same colour is a dead\u2011position, and the game is immediately drawn.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIDE rules list K+B vs K+B with bishops on the same colour as a dead position, so the answer is highly likely correct.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:01:00.044603+00:00"
+  },
+  {
+    "question_id": "fide_075",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. A king and rook can force checkmate against a lone king.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"The rules and standard endgame theory confirm that a king and rook can force checkmate against a lone king.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T13:01:04.858464+00:00"
+  },
+  {
+    "question_id": "fide_076",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "",
+    "prompt_b_response": "{\n  \"confidence_percent\": 30,\n  \"reasoning\": \"I am uncertain because I did not provide a substantive answer to the chess rules question.\"\n}",
+    "confidence_percent": 30,
+    "timestamp": "2026-06-05T13:01:14.089385+00:00"
+  },
+  {
+    "question_id": "fide_077",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "According to the FIDE Laws of Chess (Art.\u202f7.5.1), if during a standard game it is discovered that the pieces were set up incorrectly at the start, the game is **cancelled** and a **new game is played** with the correct initial position, with the clocks reset. The aborted game has no result.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer directly matches Article\u202f7.5.1 of the FIDE Laws, which states the game is cancelled and a new one started.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:01:22.529845+00:00"
+  },
+  {
+    "question_id": "fide_078",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The arbiter stops the clocks, re\u2011orients the board so that the right\u2011hand corner square for each player is light, then restarts the clocks. The game continues from the same position; no penalties are applied.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 92,\n  \"reasoning\": \"The answer matches the FIDE rule that the arbiter corrects the board orientation during play and resumes the game without penalty.\"\n}",
+    "confidence_percent": 92,
+    "timestamp": "2026-06-05T13:01:29.352147+00:00"
+  },
+  {
+    "question_id": "fide_079",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "If it is discovered after play has begun that the players were using the wrong colors, the game is **not replayed**. The game continues, but the result is recorded as a **loss for the player who should have had the opposite color** (i.e., the player who was playing the wrong color is deemed to have lost).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 15,\n  \"reasoning\": \"The answer contradicts the FIDE rule that a game started with reversed colors is generally annulled and replayed, so I am not confident it is correct.\"\n}",
+    "confidence_percent": 15,
+    "timestamp": "2026-06-05T13:01:39.482280+00:00"
+  },
+  {
+    "question_id": "fide_080",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No.\u202fThe move was legal. Under the FIDE Laws the *castling move* is a single move in which the king and rook end up on their proper squares; the order in which the player physically lifts and replaces the pieces is irrelevant as long as both pieces are moved before the clock is pressed. Therefore no illegal move occurred and no penalty or forced king move is required.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 20,\n  \"reasoning\": \"I'm uncertain because FIDE rules may require the king to be moved before the rook, making the described sequence potentially illegal.\"\n}",
+    "confidence_percent": 20,
+    "timestamp": "2026-06-05T13:01:46.183671+00:00"
+  },
+  {
+    "question_id": "fide_081",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Two. After a player makes a second completed illegal move in a standard game, they lose the game.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIDE Laws clearly state that in standard play a player loses after making a second completed illegal move.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:01:53.162687+00:00"
+  },
+  {
+    "question_id": "fide_082",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The move is illegal. Under the Laws of Chess a pawn is not considered promoted until the pawn is removed and a piece of the player\u2019s choice (queen, rook, bishop or knight) is placed on the eighth\u2011rank square **before** the clock is pressed.  \n\nIf a player presses the clock while the pawn is still on the promotion square:\n\n1. The opponent may claim an illegal move (or the arbiter may intervene if he sees it).  \n2. The arbiter orders the player to complete the promotion by removing the pawn and putting the chosen piece on that square.  \n3. The illegal\u2011move penalty is applied: for the first illegal move the opponent receives a two\u2011minute time bonus (or the arbiter may apply the appropriate penalty under the competition rules); a second illegal move by the same player results in loss of the game.  \n\nThus the position is corrected to a proper promotion and the",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer correctly reflects the FIDE rule that a promotion is incomplete without replacing the pawn, making the move illegal and subject to the standard illegal\u2011move penalties.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:02:05.526616+00:00"
+  },
+  {
+    "question_id": "fide_083",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No.\u202fUnder the FIDE Laws a game ends only by checkmate, stalemate, the 50\u2011move rule, insufficient material, a draw agreement, a time\u2011control result, or a player\u2019s explicit resignation.  Accidentally toppling your own king is treated like any other displaced piece (Article\u202f4.2): the player must replace it on its original square and play continues.  Since the player gave no verbal or written indication of resignation, the opponent\u2019s claim is invalid and the arbiter will order the game to continue.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer directly follows the FIDE Laws regarding piece displacement and resignation, which are clear and unambiguous.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:02:10.773564+00:00"
+  },
+  {
+    "question_id": "fide_084",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Under the FIDE Laws (Article\u202f11.3.1) a player is forbidden to use any electronic device\u2014including a mobile phone\u2014while playing a FIDE\u2011rated standard game, unless the arbiter expressly permits it (e.g., for a medical emergency).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIDE Laws explicitly prohibit using electronic devices, including mobile phones, at the board during a rated game, with only rare arbiter exceptions.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:02:17.239501+00:00"
+  },
+  {
+    "question_id": "fide_085",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Under the FIDE Laws of Chess, an en\u2011passant capture is permitted **only** when an opponent\u2019s **pawn** makes the two\u2011square advance from its starting rank and passes through a square that is attacked by your pawn. The capture is made as if the pawn had moved only one square. Therefore you cannot capture any piece other than a pawn, and you cannot capture a pawn that has moved only a single square.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The answer directly reflects the FIDE Laws, which state en passant applies only to a pawn that has moved two squares and cannot involve other pieces.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T13:02:24.230400+00:00"
+  },
+  {
+    "question_id": "fide_086",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. In blitz (or rapid) when there is no arbiter, the opponent may only claim a win for an illegal move **before** he makes his own reply. Once he has completed his next move, the illegal move is deemed accepted and the game continues; the claim is no longer valid.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 92,\n  \"reasoning\": \"The FIDE Laws clearly state that in blitz without an arbiter, an illegal move can only be claimed before the opponent makes a move, so the answer aligns with that rule.\"\n}",
+    "confidence_percent": 92,
+    "timestamp": "2026-06-05T13:02:31.493309+00:00"
+  },
+  {
+    "question_id": "fide_087",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Under the FIDE Laws a draw offer is only valid when it is made **after you have completed your own move on the board and before you stop your clock** (or, equivalently, before the opponent makes a move). Offering a draw while it is the opponent\u2019s turn \u2013 i.e., before you have just moved \u2013 does not meet the rule and is not a proper draw offer.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIDE Laws explicitly require a draw offer to be made after completing your own move and before pressing the clock, so an offer made while it is the opponent's turn is not valid.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:02:38.394994+00:00"
+  },
+  {
+    "question_id": "fide_088",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. A player may write the move on the scoresheet before completing it on the board, provided the move is legal.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 85,\n  \"reasoning\": \"The FIDE Laws do not forbid writing a legal move before playing it, so I am fairly certain the answer is correct.\"\n}",
+    "confidence_percent": 85,
+    "timestamp": "2026-06-05T13:02:47.770450+00:00"
+  },
+  {
+    "question_id": "fide_089",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The player must now make a **legal move with the same piece that made the illegal move, if that piece can make any legal move**; if that piece has no legal move, the player may make any other legal move.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer matches the specific rule in the FIDE Laws (Article 7.5.1) regarding the required move after correcting an illegal move.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:02:55.046525+00:00"
+  },
+  {
+    "question_id": "fide_090",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The game is declared a **draw**.  \nAccording to the FIDE Laws of Chess (Article\u202f6.10), when both flags have fallen and it cannot be determined which fell first, the result is a draw, regardless of the position on the board.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The answer directly reflects Article\u202f6.10 of the FIDE Laws, which states that when both flags fall and the order cannot be determined, the game is drawn.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T13:03:04.578525+00:00"
+  },
+  {
+    "question_id": "fide_091",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. A king may not move onto a square that is attacked. If an enemy piece is defended, the square it occupies is under attack by that defender, so the king would be moving into check. Therefore a king cannot legally capture a defended piece.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIDE Laws clearly forbid a king from moving into check, which includes capturing a defended piece.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:03:08.461543+00:00"
+  },
+  {
+    "question_id": "fide_092",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. Once a rook has left its original corner square, it is considered to have moved, and even if it later returns to that square the rook may no longer be used for castling. The king and the rook involved must both be unmoved for castling to be legal.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIDE Laws state that a rook that has moved at any point cannot be used for castling, so the answer aligns with that rule.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:03:13.400741+00:00"
+  },
+  {
+    "question_id": "fide_093",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Draw. If both flags are seen to have fallen and no claim is made, the game is declared a draw.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 96,\n  \"reasoning\": \"The FIDE Laws state that when both flags fall and no claim is made, the game is declared a draw, matching my answer.\"\n}",
+    "confidence_percent": 96,
+    "timestamp": "2026-06-05T13:03:19.609942+00:00"
+  },
+  {
+    "question_id": "fide_094",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No.\u202fOnce the game is finished, the scoresheets are signed and the result is recorded, the result is final. An illegal move discovered after that point does not alter the outcome; the arb",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIDE Laws state that once a game is finished and the result is recorded, it cannot be altered even if an illegal move is later found.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:03:28.912067+00:00"
+  },
+  {
+    "question_id": "fide_095",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "No. An en\u2011passant capture must be made on the very next move after the opponent\u2019s pawn makes the two\u2011square advance. Once the player has played any other move (including castling), the right to capture en\u202fpassant disappears, so attempting it two moves later is illegal.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 98,\n  \"reasoning\": \"The FIDE Laws explicitly state that an en passant capture is only legal on the move immediately following the opponent's two\u2011square pawn advance.\"\n}",
+    "confidence_percent": 98,
+    "timestamp": "2026-06-05T13:03:34.749843+00:00"
+  },
+  {
+    "question_id": "fide_096",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The game is a draw \u2013 it is a stalemate. The opponent\u2019s king is not in check and has no legal move, so the position is a stalemate regardless of material.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 99,\n  \"reasoning\": \"Stalemate is defined exactly as a position where the player to move has no legal move and is not in check, resulting in a draw regardless of material.\"\n}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T13:03:39.650465+00:00"
+  },
+  {
+    "question_id": "fide_097",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The player whose flag fell loses on time; the opponent wins (by time). The checkmate does not count because the flag fell before the mating move was completed.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 96,\n  \"reasoning\": \"The FIDE rules state that a flag fall ends the game with a loss on time unless the opponent cannot possibly checkmate, and here the opponent already delivered mate.\"\n}",
+    "confidence_percent": 96,
+    "timestamp": "2026-06-05T13:03:46.303761+00:00"
+  },
+  {
+    "question_id": "fide_098",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Draw. Under the FIDE Laws a player who runs out of time loses **unless** the opponent does not have sufficient material to force (or even to deliver) a checkmate by any legal sequence. A king\u202f+\u202fknight cannot ever checkmate a lone king, even with the",
+    "prompt_b_response": "{\n  \"confidence_percent\": 92,\n  \"reasoning\": \"The answer correctly states the FIDE rule that a flag fall is a draw when the opponent lacks sufficient mating material, which applies to king\u202f+\u202fknight, despite the incomplete trailing sentence.\"\n}",
+    "confidence_percent": 92,
+    "timestamp": "2026-06-05T13:03:56.564281+00:00"
+  },
+  {
+    "question_id": "fide_099",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "The arbiter must **re\u2011establish the position that existed immediately before the illegal move**, give the opponent **two minutes extra time** (the penalty for an illegal move in a standard game), and then have the player who made the illegal move make a legal move with the same piece if possible (or any legal move if not). Play then continues from that corrected position. (If the illegal move were discovered only after the game had ended, the result would stand, but while the game is still in progress it is corrected as above.)",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer matches the FIDE rule that an illegal move is corrected by reinstating the prior position and adding two minutes to the opponent, which is the standard procedure.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:04:07.069109+00:00"
+  },
+  {
+    "question_id": "fide_100",
+    "model": "gpt_oss_120b",
+    "domain": "fide",
+    "prompt_a_response": "Yes. Under the FIDE Laws a pawn promotion is not final until the new piece has been **released** on the promotion square (and the pawn removed). If the player has only placed a queen there but has not let it go, they may replace it with any legal promotion piece\u2014queen, rook, bishop or knight\u2014before the move is completed. Once the piece is released, the choice is irrevocable.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIDE Laws clearly state that a promotion is not completed until the new piece is released on the promotion square, so changing the piece before release is permitted.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T13:04:15.616647+00:00"
+  }
+]

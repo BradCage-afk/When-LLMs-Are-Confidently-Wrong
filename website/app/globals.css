@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --card: #111111;
+  --accent: #e8ff47;
+  --border: #222222;
+  --muted: #888888;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: #ededed;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent);
+  color: #0a0a0a;
+}
+
+/* Subtle scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a;
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-border bg-card transition-all duration-300;
+  }
+  /* Cards that should respond to hover (lift + accent edge + soft glow). */
+  .card-hover:hover {
+    transform: translateY(-2px);
+    border-color: rgba(232, 255, 71, 0.3);
+    box-shadow: 0 0 0 1px rgba(232, 255, 71, 0.06),
+      0 18px 40px -20px rgba(232, 255, 71, 0.18);
+  }
+  .accent-btn {
+    @apply inline-flex items-center justify-center rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-black transition-all hover:opacity-90;
+  }
+  .accent-btn:hover {
+    box-shadow: 0 8px 30px -8px rgba(232, 255, 71, 0.5);
+  }
+  .chip {
+    @apply inline-flex items-center gap-2 rounded-full border border-border px-3 py-1.5 text-sm transition-colors;
+  }
+  .section-title {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-accent;
+  }
+  .accent-gradient-text {
+    background: linear-gradient(120deg, #e8ff47 0%, #b6f0a0 50%, #8fe3ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/* ---- Depth & texture ---------------------------------------------------- */
+
+/* Faint dotted grid that fades out toward the bottom — sits behind the hero. */
+.grid-bg {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(255, 255, 255, 0.05) 1px,
+    transparent 0
+  );
+  background-size: 28px 28px;
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent 85%);
+  mask-image: linear-gradient(to bottom, black, transparent 85%);
+}
+
+/* Soft accent glow blob, used as an absolutely-positioned hero backdrop. */
+.glow-accent {
+  background: radial-gradient(
+    closest-side,
+    rgba(232, 255, 71, 0.16),
+    transparent
+  );
+  filter: blur(8px);
+}
+
+/* ---- Motion ------------------------------------------------------------- */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseDot {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 0 0 rgba(232, 255, 71, 0.5);
+  }
+  50% {
+    opacity: 0.7;
+    box-shadow: 0 0 0 5px rgba(232, 255, 71, 0);
+  }
+}
+
+.animate-fade-up {
+  opacity: 0;
+  animation: fadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.live-dot {
+  animation: pulseDot 2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up {
+    animation: none;
+    opacity: 1;
+  }
+  .live-dot {
+    animation: none;
+  }
+}
+
+/* Recharts tooltip + cursor restyling for the dark theme */
+.recharts-default-tooltip {
+  background-color: #0a0a0a !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 8px !important;
+}
+.recharts-tooltip-cursor {
+  fill: rgba(255, 255, 255, 0.04);
+}

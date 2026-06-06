@@ -1,0 +1,902 @@
+[
+  {
+    "question_id": "fia_001",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Five drivers are eliminated at the end of Q1.",
+    "prompt_b_response": "{\"confidence_percent\": 100, \"reasoning\": \"The FIA Formula 1 regulations state that the bottom five drivers in Q1 are eliminated.\"}",
+    "confidence_percent": 100,
+    "timestamp": "2026-06-05T14:35:56.785218+00:00"
+  },
+  {
+    "question_id": "fia_002",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "10 drivers.",
+    "prompt_b_response": "{\"confidence_percent\": 100, \"reasoning\": \"The FIA Formula 1 regulations state that the top ten drivers from Q2 advance to Q3.\"}",
+    "confidence_percent": 100,
+    "timestamp": "2026-06-05T14:36:00.423731+00:00"
+  },
+  {
+    "question_id": "fia_003",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "80\u202fkm/h.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"The FIA regulations state that the maximum pit lane speed limit during a race is 80\u202fkm/h, a well-established rule.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:36:04.100702+00:00"
+  },
+  {
+    "question_id": "fia_004",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "A drive\u2011through penalty.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations state that exceeding the pit lane speed limit during a race results in a drive\u2011through penalty, which is a standard and well\u2011documented sanction.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:36:08.704392+00:00"
+  },
+  {
+    "question_id": "fia_005",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "By the race director pressing the start button on the start\u2011lights control panel, which extinguishes the red lights and turns them green.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The start lights are controlled by the race director\u2019s start button, which extinguishes the red lights to signal the start.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:36:13.530550+00:00"
+  },
+  {
+    "question_id": "fia_006",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "",
+    "prompt_b_response": "{\n  \"confidence_percent\": 20,\n  \"reasoning\": \"I did not provide the requested answer, so my confidence in the answer is low.\"\n}",
+    "confidence_percent": 20,
+    "timestamp": "2026-06-05T14:36:22.730150+00:00"
+  },
+  {
+    "question_id": "fia_007",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Overtaking is prohibited while the safety car is on track.",
+    "prompt_b_response": "{\"confidence_percent\": 99, \"reasoning\":\"The FIA regulations explicitly prohibit overtaking while the safety car is on track, so the answer is definitive.\"}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T14:36:26.339170+00:00"
+  },
+  {
+    "question_id": "fia_008",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "It means the safety\u2011car is about to leave the track and the race will resume. The orange/amber lights are turned off when the safety\u2011car is no longer controlling the field.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The safety car turns off its orange/amber lights when it exits the track, signalling the end of the safety\u2011car period and the resumption of racing.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:36:31.243294+00:00"
+  },
+  {
+    "question_id": "fia_009",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Under a Virtual Safety Car, drivers must keep their speed within the VSC\u2011set delta time (i.e., maintain the prescribed speed limit), not exceed that delta, and may not overtake or change position.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\": \"The answer accurately reflects the FIA regulations for VSC periods, specifying speed limits and no overtaking.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:36:36.785465+00:00"
+  },
+  {
+    "question_id": "fia_010",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. Pit stops are permitted during a Virtual Safety Car, with the pit lane remaining open and the normal pit\u2011lane speed limit in effect.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations state that pit stops are allowed during a Virtual Safety Car with the pit lane open and normal speed limits applied.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:36:41.582770+00:00"
+  },
+  {
+    "question_id": "fia_011",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Within 1\u202fsecond of the car ahead at the detection point.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA Formula 1 regulations state that DRS can be activated if the following car is within 1 second of the car ahead at the detection point.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:36:46.251864+00:00"
+  },
+  {
+    "question_id": "fia_012",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "After the first lap \u2013 once the cars cross the start/finish line.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"DRS is officially permitted after the first lap of a race or restart, which is a well-established rule in FIA regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:36:51.084603+00:00"
+  },
+  {
+    "question_id": "fia_013",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. DRS is disabled when the race director declares wet conditions.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations explicitly state that DRS must be disabled in wet conditions as declared by the race director.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:36:55.619298+00:00"
+  },
+  {
+    "question_id": "fia_014",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "It means the driver must let a faster car overtake and must not impede it.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"The blue flag is a standard FIA signal indicating a driver must allow a faster car to overtake and not impede it.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:36:59.238775+00:00"
+  },
+  {
+    "question_id": "fia_015",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "They can be penalised \u2013 the race director may issue a drive\u2011through or stop\u2011and\u2011go penalty for ignoring repeated blue\u2011flag instructions.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\": \"The FIA regulations state that a driver who ignores repeated blue flags may be penalised with a drive\u2011through or stop\u2011and\u2011go penalty.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:37:04.113911+00:00"
+  },
+  {
+    "question_id": "fia_016",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "25 points.",
+    "prompt_b_response": "{\"confidence_percent\": 100, \"reasoning\": \"The FIA Formula 1 points system awards 25 points to the race winner, a well-established rule.\"}",
+    "confidence_percent": 100,
+    "timestamp": "2026-06-05T14:37:08.746134+00:00"
+  },
+  {
+    "question_id": "fia_017",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "10 finishing positions score championship points in a standard F1 Grand Prix.",
+    "prompt_b_response": "{\"confidence_percent\": 100, \"reasoning\": \"The FIA Formula 1 regulations state that points are awarded to the top ten finishers.\"}",
+    "confidence_percent": 100,
+    "timestamp": "2026-06-05T14:37:12.388572+00:00"
+  },
+  {
+    "question_id": "fia_018",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "1 point, awarded only if the driver finishes in the top\u202f10.",
+    "prompt_b_response": "{\"confidence_percent\": 99, \"reasoning\":\"The FIA regulations state that 1 point is awarded for the fastest lap only if the driver finishes in the top 10.\"}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T14:37:16.137239+00:00"
+  },
+  {
+    "question_id": "fia_019",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "18 points.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\": \"The FIA points system awards 18 points to the second-place finisher in a standard Grand Prix.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:37:19.783447+00:00"
+  },
+  {
+    "question_id": "fia_020",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Parc\u202fferm\u00e9 conditions start immediately after the final practice session (FP3) of the race weekend.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations state that parc ferm\u00e9 conditions commence immediately after the final practice session (FP3) of a standard race weekend.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:37:25.691278+00:00"
+  },
+  {
+    "question_id": "fia_021",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Once a car is under parc\u202fferm\u00e9, the rear\u2011wing angle may not be altered except for repairs to a failed component or other changes expressly permitted by the FIA.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations explicitly prohibit changing the rear wing angle under parc ferm\u00e9 except for repairs or FIA\u2011approved changes, so the answer is accurate.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:37:31.556701+00:00"
+  },
+  {
+    "question_id": "fia_022",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The car is excluded from the race and must start from the back of the grid.",
+    "prompt_b_response": "",
+    "confidence_percent": null,
+    "timestamp": "2026-06-05T14:37:40.409708+00:00"
+  },
+  {
+    "question_id": "fia_023",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Closed.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"FIA regulations state that the pit lane is closed when the safety car is deployed.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:37:45.975109+00:00"
+  },
+  {
+    "question_id": "fia_024",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The car is moved to the pit lane and the driver must start the race from the pit lane.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"The FIA regulations state that a stalled car before the formation lap is moved to the pit lane and the driver must start from there.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:37:55.263640+00:00"
+  },
+  {
+    "question_id": "fia_025",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. In 2024 the top\u2011ten qualifiers must start the race on the same tyre compound they used in Q2.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA 2024 regulations explicitly state that the top ten qualifiers must start the race on the tyre compound used in Q2.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:38:02.208585+00:00"
+  },
+  {
+    "question_id": "fia_026",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Overtaking in the pit lane is prohibited by the FIA Formula\u202f1 regulations.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations explicitly forbid overtaking in the pit lane, making the answer definitive.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:38:06.788215+00:00"
+  },
+  {
+    "question_id": "fia_027",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "10\u202fseconds.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"The FIA regulations state that drivers receive a 10\u2011second notice before racing resumes after a VSC.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:38:12.739762+00:00"
+  },
+  {
+    "question_id": "fia_028",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Two.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"FIA regulations state that a circuit may have a maximum of two DRS activation zones per race.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:38:14.276564+00:00"
+  },
+  {
+    "question_id": "fia_029",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. Blue flags are used in all FIA\u2011regulated sessions, including both qualifying and the race.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations state that blue flags are applied to any session where a faster car is approaching a slower car, including both qualifying and race sessions.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:38:18.965885+00:00"
+  },
+  {
+    "question_id": "fia_030",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Full points are only awarded if at least 75\u202f% of the scheduled race distance is completed. If less than 75\u202f% but more than 50\u202f% is completed, half points are awarded; if less than 50\u202f% is completed, no points are awarded.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"The answer accurately reflects the FIA Formula 1 regulations regarding points allocation when a race is stopped early.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:38:25.643213+00:00"
+  },
+  {
+    "question_id": "fia_031",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Under parc ferm\u00e9, tyre changes are prohibited.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations explicitly prohibit tyre changes during parc ferm\u00e9, except for safety reasons, so the answer is accurate.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:38:28.067624+00:00"
+  },
+  {
+    "question_id": "fia_032",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "To allow the cars to warm up the tires and brakes, verify that all systems are functioning, and position the cars for the standing\u2011start.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The answer accurately reflects the FIA regulations regarding the formation lap before a standing\u2011start race.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:38:34.826078+00:00"
+  },
+  {
+    "question_id": "fia_033",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The race director.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations state that the race director is responsible for controlling the pace of the field when the safety car returns to the pits and is about to release the cars.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:38:39.711096+00:00"
+  },
+  {
+    "question_id": "fia_034",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Overtaking is prohibited while the Virtual Safety Car is in effect.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"The FIA Formula 1 regulations explicitly prohibit overtaking during a Virtual Safety Car period.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:38:42.184180+00:00"
+  },
+  {
+    "question_id": "fia_035",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. DRS can only be activated if the driver is within one second of the car ahead at the detection point; being chased from behind does not qualify.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"The FIA Formula 1 regulations explicitly state that DRS activation requires the driver to be within one second of the car ahead at the detection point; a trailing car does not meet this condition.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:38:45.707820+00:00"
+  },
+  {
+    "question_id": "fia_036",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Blue\u2011flag signals are not used during a safety\u2011car period; lapped cars are instructed to let the leaders pass by other means (e.g., the safety car will pick them up).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"Regulations state blue flags are not issued during safety\u2011car periods; lapped cars are simply required to let the safety car pass.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:38:53.711973+00:00"
+  },
+  {
+    "question_id": "fia_037",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. Both the Drivers' and Constructors' Championships use the identical points scale (25\u201118\u201115\u201112\u201110\u20118\u20116\u20114\u20112\u20111 for the top ten finishers).",
+    "prompt_b_response": "{\"confidence_percent\": 99, \"reasoning\": \"The FIA Formula 1 regulations state that the same points scale applies to both championships in a standard Grand Prix.\"}",
+    "confidence_percent": 99,
+    "timestamp": "2026-06-05T14:38:57.308563+00:00"
+  },
+  {
+    "question_id": "fia_038",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The lap time is deleted.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations state that a lap where track limits are exceeded is deleted, so the answer is accurate.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:39:04.015380+00:00"
+  },
+  {
+    "question_id": "fia_039",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The pit\u2011lane speed limit applies during the race, during the final practice session (FP3), and during the qualifying session.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state that the pit lane speed limit applies during the race, the final practice session, and the qualifying session.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:39:08.835345+00:00"
+  },
+  {
+    "question_id": "fia_040",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "",
+    "prompt_b_response": "{\n  \"confidence_percent\": 10,\n  \"reasoning\": \"I did not provide an answer to the question, so my confidence in the answer is very low.\"\n}",
+    "confidence_percent": 10,
+    "timestamp": "2026-06-05T14:39:17.277206+00:00"
+  },
+  {
+    "question_id": "fia_041",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The FIA tests rear\u2011wing deflection to confirm that the aero\u2011element does not flex beyond the maximum allowed limit under aerodynamic load, thereby ensuring aerodynamic stability and safety.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer accurately reflects the FIA's purpose of testing rear wing deflection limits to ensure aerodynamic stability and safety.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:39:23.007381+00:00"
+  },
+  {
+    "question_id": "fia_042",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Passing the static FIA deflection test is only one requirement; a wing can still be illegal for other reasons (e.g., aerodynamic performance, dimensions, placement, or other technical regulations).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer accurately reflects that the static deflection test is only one of many FIA regulations governing wing legality.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:39:24.642218+00:00"
+  },
+  {
+    "question_id": "fia_043",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "On the second lap after the safety\u2011car has left the track \u2013 DRS is disabled during the safety\u2011car period and the first lap following its departure.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations state that DRS is disabled during the safety\u2011car period and during the first lap after the safety car leaves, so it becomes available again on the second lap.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:39:33.635001+00:00"
+  },
+  {
+    "question_id": "fia_044",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "",
+    "prompt_b_response": "{\"confidence_percent\":0,\"reasoning\":\"I did not provide an answer to the question, so confidence is zero.\"}",
+    "confidence_percent": 0,
+    "timestamp": "2026-06-05T14:39:42.789019+00:00"
+  },
+  {
+    "question_id": "fia_045",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "",
+    "prompt_b_response": "\" The assistant didn't answer. Now the user asks: \"Now rate your confidence in the answer you just gave.\" But the assistant didn't give an answer. So we need to respond with JSON: confidence_percent and reasoning. But we have no answer. We should give confidence in the answer we gave. Since we gave no answer, confidence is 0? But maybe we should say we are uncertain. The user wants a JSON with confidence percent and reasoning. We can say confidence 0 because we didn't answer. But maybe we should say we are uncertain. Let's give 0% confidence. Reasoning: I did not provide an answer.{\n  \"confidence_percent\": 0,\n  \"reasoning\": \"I did not provide an answer to the question.\"\n}",
+    "confidence_percent": 0,
+    "timestamp": "2026-06-05T14:39:51.297262+00:00"
+  },
+  {
+    "question_id": "fia_046",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "8 points.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"The FIA regulations state that the sprint race winner receives 8 points, a well-established fact in the current points system.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:39:55.947720+00:00"
+  },
+  {
+    "question_id": "fia_047",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Crash\u2011damage repair is excluded from the cost\u2011cap calculation.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"The FIA cost\u2011cap rules explicitly state that crash\u2011damage repair costs are excluded from the cap.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:39:59.446178+00:00"
+  },
+  {
+    "question_id": "fia_048",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The cost of the car\u2019s chassis and power\u2011unit.",
+    "prompt_b_response": "",
+    "confidence_percent": null,
+    "timestamp": "2026-06-05T14:40:04.695158+00:00"
+  },
+  {
+    "question_id": "fia_049",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Non\u2011compliance with the cost cap and non\u2011compliance with the financial regulations.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer directly matches the two broad categories defined in the FIA Formula 1 Financial Regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:40:16.913792+00:00"
+  },
+  {
+    "question_id": "fia_050",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Four of each main power\u2011unit element (ICE, turbocharger, MGU\u2011H, MGU\u2011K, energy store, and control electronics) may be used in a season before grid penalties apply.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The regulations state that a driver may use up to four of each main power\u2011unit element before grid penalties are imposed.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:40:23.170455+00:00"
+  },
+  {
+    "question_id": "fia_051",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "10\u2011place grid penalty.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations state that the first time a driver exceeds the allocation of a power unit element, a 10\u2011place grid penalty is applied.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:40:28.898950+00:00"
+  },
+  {
+    "question_id": "fia_052",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The driver is given a 15\u2011place grid drop and a 10\u2011second time penalty at the start of the race.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations state that a driver with more than 15 grid places penalty receives a 15\u2011place grid drop and a 10\u2011second penalty at the start of the race.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:40:35.980180+00:00"
+  },
+  {
+    "question_id": "fia_053",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The race is red\u2011flagged. The cars return to the pit lane and the race restarts from the pit lane.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations state that an aborted formation lap due to a stranded car triggers a red flag, with cars returning to the pit lane and the race restarting from the pit lane.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:40:44.146802+00:00"
+  },
+  {
+    "question_id": "fia_054",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The cars start in the same order they were running when the red flag was shown (or, if the red flag came before the start of the lap, the order of the last completed lap).",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer matches the FIA Formula 1 regulations for grid restarts after a red flag.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:40:52.292437+00:00"
+  },
+  {
+    "question_id": "fia_055",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "",
+    "prompt_b_response": "{\"confidence_percent\":0,\"reasoning\":\"The answer was not provided, so confidence is zero.\"}",
+    "confidence_percent": 0,
+    "timestamp": "2026-06-05T14:41:00.618920+00:00"
+  },
+  {
+    "question_id": "fia_056",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "From the pit lane.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"FIA regulations state that a car in the pit lane at the time of a red flag must restart from the pit lane.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:41:06.429427+00:00"
+  },
+  {
+    "question_id": "fia_057",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. The driver who sets the qualifying time must be the same driver who starts the race.",
+    "prompt_b_response": "",
+    "confidence_percent": null,
+    "timestamp": "2026-06-05T14:41:10.811359+00:00"
+  },
+  {
+    "question_id": "fia_058",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. Points earned by a substitute driver for a team are added to that team\u2019s Constructors\u2019 Championship total.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\": \"FIA regulations state that all points scored by a car, regardless of the driver, contribute to the Constructors' Championship.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:41:18.694811+00:00"
+  },
+  {
+    "question_id": "fia_059",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "",
+    "prompt_b_response": "{\"confidence_percent\":0,\"reasoning\":\"I did not provide an answer to the question, so confidence is zero.\"}",
+    "confidence_percent": 0,
+    "timestamp": "2026-06-05T14:41:28.012324+00:00"
+  },
+  {
+    "question_id": "fia_060",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. The minimum car weight (including driver, seat, and all equipment) is the weight that must be met.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations state that the minimum weight includes the driver, seat, and all equipment, so the answer is accurate.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:41:31.515879+00:00"
+  },
+  {
+    "question_id": "fia_061",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The car must have **at least 1.5\u202flitres of fuel** remaining in the tank for the mandatory post\u2011race fuel sample.  \nIf a team cannot provide the sample, the driver is **disqualified from the race results**.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations state a minimum of 1.5\u202flitres must remain for the post\u2011race fuel sample, and failure to provide it results in disqualification.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:41:38.604563+00:00"
+  },
+  {
+    "question_id": "fia_062",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. The stewards may issue a penalty after the race has finished, as long as the results are still provisional and have not yet been declared final.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations allow stewards to impose penalties after the race as long as the results are still provisional.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:41:43.446578+00:00"
+  },
+  {
+    "question_id": "fia_063",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "A team may seek a Right of Review only if the steward\u2019s decision was made in error or in breach of the regulations.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer accurately reflects the FIA Formula 1 Regulations requirement that a Right of Review can be sought only when a steward\u2019s decision was made in error or breached the regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:41:49.472854+00:00"
+  },
+  {
+    "question_id": "fia_064",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. The black\u2011and\u2011orange flag is a caution flag indicating a damaged car on the track; it is not a penalty.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"The black\u2011and\u2011orange caution flag is defined in FIA regulations as a signal for a damaged car on track, not a penalty.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:41:55.071406+00:00"
+  },
+  {
+    "question_id": "fia_065",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "An unsafe release occurs when a car is let out of the pit box while a pit\u2011crew member is still in the pit lane or in front of the car, or before the crew has cleared the pit lane. It is penalised with a 10\u2011second stop\u2011and\u2011go (or a drive\u2011through if the infraction is deemed more severe), or, if the driver cannot serve it during the race, a time penalty added to the final result.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The answer accurately reflects the FIA definition of an unsafe release and the standard 10\u2011second stop\u2011and\u2011go or drive\u2011through penalty.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:42:01.005030+00:00"
+  },
+  {
+    "question_id": "fia_066",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "To enforce the minimum ride\u2011height rule \u2013 the plank\u2019s wear is measured to ensure the car\u2019s floor stays above the prescribed height and to detect any illegal lowering that would give an aerodynamic advantage.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The answer accurately reflects the primary regulatory purpose of the plank wear measurement in FIA Formula 1.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:42:06.714536+00:00"
+  },
+  {
+    "question_id": "fia_067",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No \u2013 a driver who takes a new power\u2011unit element under penalty must use that element for the remainder of the race and cannot change it.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"The regulation states that a driver who takes a new power\u2011unit element under penalty must use that element for the remainder of the race and cannot change it.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:42:11.492215+00:00"
+  },
+  {
+    "question_id": "fia_068",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "A 10\u2011point penalty.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The regulations state that a material cost cap overspend breach results in a 10\u2011point sporting penalty.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:42:16.216204+00:00"
+  },
+  {
+    "question_id": "fia_069",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. The fastest\u2011lap bonus point is awarded only in the Feature race, not in the Sprint race.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly state that the fastest lap bonus point is awarded only in the Feature race, not in the Sprint race.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:42:20.949861+00:00"
+  },
+  {
+    "question_id": "fia_070",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "A car may restart only if it was running at the instant the red flag was shown and has not been excluded from the race.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"The answer reflects the key rule that only cars running at the red flag and not excluded may restart.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:42:26.875213+00:00"
+  },
+  {
+    "question_id": "fia_071",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The car is excluded from the session and the driver loses the grid position \u2013 the car cannot start the race from its qualifying spot and must start from the back of the grid or from the pit lane.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"The FIA regulations state that an underweight car after qualifying is excluded from the session and the driver must start from the back of the grid or pit lane.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:42:32.809145+00:00"
+  },
+  {
+    "question_id": "fia_072",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Active aerodynamic devices other than DRS are prohibited; teams may not alter bodywork during a lap.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations explicitly ban all active aerodynamic devices except DRS, so the answer is accurate.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:42:37.469929+00:00"
+  },
+  {
+    "question_id": "fia_073",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. A substitute driver must hold a valid FIA Super Licence to compete in Formula\u202f1.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations require any driver, including substitutes, to hold a valid Super Licence to compete in Formula\u202f1.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:42:42.026515+00:00"
+  },
+  {
+    "question_id": "fia_074",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. The stewards may penalise a driver for causing a collision even if that driver retires from the race.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations allow stewards to impose penalties for causing a collision regardless of whether the offending driver retires.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:42:45.596148+00:00"
+  },
+  {
+    "question_id": "fia_075",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Wind\u2011tunnel and CFD hour allocations are set by the FIA and the budget\u2011cap rules, not by a team\u2019s championship standing.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations and budget\u2011cap rules explicitly set wind\u2011tunnel and CFD hour limits independent of championship position.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:42:50.545839+00:00"
+  },
+  {
+    "question_id": "fia_076",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. In the 2024 Sprint format, the finishing order of the Sprint race sets the starting grid for the Grand Prix.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA 2024 regulations state that the Sprint race determines the starting grid for the Grand Prix.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:42:55.193624+00:00"
+  },
+  {
+    "question_id": "fia_077",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "They are applied to the grid for the race \u2013 i.e. the Sprint race grid.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"Power unit grid penalties are applied to the grid for the race, not the Sprint, according to the FIA regulations.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:43:00.032140+00:00"
+  },
+  {
+    "question_id": "fia_078",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The FIA\u2019s standardized accident data recorder (SADR) is a safety device that logs key vehicle parameters (speed, braking, steering, throttle, etc.) during a crash to aid investigations and improve safety. It is mandatory for all Formula\u202f1 cars.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"The FIA regulations explicitly require a standardized accident data recorder on all Formula\u202f1 cars, and its purpose is to record crash data for safety investigations.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:43:05.782156+00:00"
+  },
+  {
+    "question_id": "fia_079",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. The race director may replace a Virtual Safety Car with a full safety\u2011car deployment if the circumstances warrant it.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"The FIA regulations explicitly allow the race director to replace a Virtual Safety Car with a full safety car if conditions warrant.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:43:10.463460+00:00"
+  },
+  {
+    "question_id": "fia_080",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Stewards\u2019 penalty decisions cannot be appealed on\u2011track; any appeal must be lodged with the race director/FIA after the decision is made.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations state that stewards\u2019 decisions are final on\u2011track and can only be appealed after the race, not during.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:43:15.024134+00:00"
+  },
+  {
+    "question_id": "fia_081",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "",
+    "prompt_b_response": "{\"confidence_percent\":0,\"reasoning\":\"I did not provide an answer to the question, so confidence is zero.\"}",
+    "confidence_percent": 0,
+    "timestamp": "2026-06-05T14:43:24.624447+00:00"
+  },
+  {
+    "question_id": "fia_082",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "At the end of the lap on which the lapped cars were waved past.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 30,\n  \"reasoning\": \"The wording suggests the safety car returns on the lap after the lapped cars are waved past, not on the same lap.\"\n}",
+    "confidence_percent": 30,
+    "timestamp": "2026-06-05T14:43:30.901294+00:00"
+  },
+  {
+    "question_id": "fia_083",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. The 2021 FIA safety\u2011car wording did not explicitly state whether lapped cars must be released before racing resumes; that decision was left to the race director\u2019s discretion.",
+    "prompt_b_response": "{\"confidence_percent\":85,\"reasoning\":\"Based on the 2021 FIA Formula 1 Sporting Regulations, the safety\u2011car procedure does not mandate the release of lapped cars before racing resumes, leaving that decision to the race director.\"}",
+    "confidence_percent": 85,
+    "timestamp": "2026-06-05T14:43:37.628058+00:00"
+  },
+  {
+    "question_id": "fia_084",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "",
+    "prompt_b_response": "{\"confidence_percent\":0,\"reasoning\":\"I did not provide an answer to the question, so confidence is zero.\"}",
+    "confidence_percent": 0,
+    "timestamp": "2026-06-05T14:43:45.989377+00:00"
+  },
+  {
+    "question_id": "fia_085",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The car has exceeded track limits when its front or rear wheels cross the track boundary lines.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The answer accurately reflects the FIA regulation that a car is out of limits when any part, including wheels, crosses the track boundary lines.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:43:50.650418+00:00"
+  },
+  {
+    "question_id": "fia_086",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Once a session has finished, lap times are final and stewards cannot retroactively reinstate a deleted lap time.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"Regulations state that lap times are final after a session, so stewards cannot retroactively reinstate a deleted lap time.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:43:55.408322+00:00"
+  },
+  {
+    "question_id": "fia_087",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. Once the race result has been declared final, the stewards cannot retroactively alter it. They may impose penalties that affect the result, but the final classification is considered final.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations state that once a race result is declared final, stewards cannot retroactively alter it, though they can impose penalties that may affect the result.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:44:03.930490+00:00"
+  },
+  {
+    "question_id": "fia_088",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. A lapped driver cannot unlap themselves during a Virtual Safety Car unless the race director explicitly authorises it.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"The regulations state that lapped cars cannot unlap themselves during a VSC unless the race director explicitly authorises it.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:44:10.756938+00:00"
+  },
+  {
+    "question_id": "fia_089",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Drive\u2011through: the driver must enter the pit lane, drive through it at the pit\u2011lane speed limit and exit without stopping.  \nStop\u2011and\u2011go: the driver must enter the pit lane, stop at a pit\u2011lane station for the prescribed time (e.g., 10\u202fs) and then exit.",
+    "prompt_b_response": "{\"confidence_percent\":95,\"reasoning\":\"The answer correctly distinguishes the procedural steps for a drive\u2011through versus a stop\u2011and\u2011go penalty as per FIA regulations.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:44:16.890343+00:00"
+  },
+  {
+    "question_id": "fia_090",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. A driver must serve a stop\u2011and\u2011go penalty alone; the team may not perform any pit work (including a tyre change) while the driver is in the pit box.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations explicitly prohibit any team work on the car while a driver is serving a stop\u2011and\u2011go penalty, so the answer is accurate.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:44:23.649433+00:00"
+  },
+  {
+    "question_id": "fia_091",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "",
+    "prompt_b_response": "{\"confidence_percent\":0,\"reasoning\":\"I did not provide an answer to the question, so confidence in the answer is nonexistent.\"}",
+    "confidence_percent": 0,
+    "timestamp": "2026-06-05T14:44:29.883101+00:00"
+  },
+  {
+    "question_id": "fia_092",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. Track\u2011limits enforcement must be applied consistently to every car. This is mandated by Article\u202f3.7 of the FIA Formula\u202f1 Sporting Regulations (the FIA Sporting Code).",
+    "prompt_b_response": "{\"confidence_percent\": 90, \"reasoning\":\"The answer cites the correct regulation (Article\u202f3.7) and accurately states the requirement for consistent enforcement across all cars.\"}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:44:38.910858+00:00"
+  },
+  {
+    "question_id": "fia_093",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "",
+    "prompt_b_response": "{\"confidence_percent\":0,\"reasoning\":\"No answer was provided, so confidence in correctness is zero.\"}",
+    "confidence_percent": 0,
+    "timestamp": "2026-06-05T14:44:47.210163+00:00"
+  },
+  {
+    "question_id": "fia_094",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "The driver receives a 10\u2011second time penalty.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"Regulation states that if a team touches the car before the five\u2011second penalty time has elapsed, the penalty is increased to a 10\u2011second penalty.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:44:54.335860+00:00"
+  },
+  {
+    "question_id": "fia_095",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "",
+    "prompt_b_response": "{\"confidence_percent\":0,\"reasoning\":\"The answer provided was empty, so confidence in its correctness is zero.\"}",
+    "confidence_percent": 0,
+    "timestamp": "2026-06-05T14:45:03.647678+00:00"
+  },
+  {
+    "question_id": "fia_096",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes \u2013 a driver who gains a lasting advantage by leaving the track must give back the position, even if no lap time is being set.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA sporting regulations explicitly state that a driver who gains a lasting advantage by leaving the track must give back the position, regardless of whether a lap time is being set.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:45:08.484053+00:00"
+  },
+  {
+    "question_id": "fia_097",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "Yes. The stewards may penalise a driver for any infringement of the sporting regulations, including unsafe practice starts during the formation lap (FIA Formula\u202f1 Sporting Regulations, Article\u202f3.10).",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA sporting regulations explicitly allow stewards to penalise unsafe practice starts during the formation lap, so the answer is accurate.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:45:17.559084+00:00"
+  },
+  {
+    "question_id": "fia_098",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. A car in the pit lane is not subject to the VSC delta; it must obey the pit\u2011lane speed limit. The VSC delta only applies once the car re\u2011enters the track, from the point of re\u2011entry onward.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 90,\n  \"reasoning\": \"The FIA regulations state that VSC delta applies only to cars on the track; pit\u2011lane cars must obey the pit\u2011lane speed limit, so the answer is correct.\"\n}",
+    "confidence_percent": 90,
+    "timestamp": "2026-06-05T14:45:25.866854+00:00"
+  },
+  {
+    "question_id": "fia_099",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "No. A post\u2011race time penalty is added to the driver\u2019s final race time and does not require any action during the race.",
+    "prompt_b_response": "{\"confidence_percent\": 95, \"reasoning\":\"The FIA regulations state that post\u2011race time penalties are added to the final race time and do not require any in\u2011race action.\"}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:45:30.538844+00:00"
+  },
+  {
+    "question_id": "fia_100",
+    "model": "gpt_oss_20b",
+    "domain": "fia",
+    "prompt_a_response": "They carry into the restart. Unserved time penalties that were imposed before a red\u2011flag are not cancelled; they remain pending and are added to the driver\u2019s race time after the restart.",
+    "prompt_b_response": "{\n  \"confidence_percent\": 95,\n  \"reasoning\": \"The FIA regulations state that time penalties imposed before a red flag remain pending and are added to the driver\u2019s race time after the restart.\"\n}",
+    "confidence_percent": 95,
+    "timestamp": "2026-06-05T14:45:36.380304+00:00"
+  }
+]

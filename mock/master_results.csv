@@ -1,0 +1,1001 @@
+question_id,domain,tier,subtopic,model,confidence_percent,score,justification,common_misconception
+fide_001,fide,1,basic_moves,gpt4o,82,1.0,Matches the ground truth precisely.,That a bishop can also slide one square sideways or jump over pieces.
+fide_002,fide,1,basic_moves,gpt4o,92,1.0,Fully aligned with the regulation cited.,That a knight is blocked if pieces stand between its start and destination squares.
+fide_003,fide,1,basic_moves,gpt4o,99,1.0,Matches the ground truth precisely.,That the king can move two squares like other long-range pieces in open positions.
+fide_004,fide,1,basic_moves,gpt4o,98,1.0,Correctly states the rule and its application.,That a rook may move diagonally to reach nearby squares.
+fide_005,fide,1,basic_moves,gpt4o,99,1.0,Matches the ground truth precisely.,That a queen can also move like a knight in an L-shape.
+fide_006,fide,1,basic_moves,gpt4o,91,0.0,States a common misconception rather than the actual rule.,"That a pawn can always move two squares forward, not just on its first move."
+fide_007,fide,1,basic_moves,gpt4o,93,1.0,Correctly states the rule and its application.,That a pawn captures the piece directly in front of it.
+fide_008,fide,1,basic_moves,gpt4o,87,1.0,Correctly states the rule and its application.,"That a pawn can only become a queen, or that you can only promote to a piece already captured."
+fide_009,fide,1,check_checkmate,gpt4o,99,1.0,Correctly states the rule and its application.,That a king must be attacked by two or more pieces to be considered in check.
+fide_010,fide,1,check_checkmate,gpt4o,86,1.0,Matches the ground truth precisely.,That you can ignore a check for one move or castle out of it.
+fide_011,fide,1,check_checkmate,gpt4o,97,1.0,Accurate and complete; captures the essential point.,That the king must actually be captured to end the game.
+fide_012,fide,1,check_checkmate,gpt4o,98,1.0,Correctly states the rule and its application.,That you may expose your king to check as long as you can recapture next move.
+fide_013,fide,1,check_checkmate,gpt4o,85,1.0,Accurate and complete; captures the essential point.,That announcing 'check' is mandatory in official play.
+fide_014,fide,1,stalemate_draws,gpt4o,89,1.0,Fully aligned with the regulation cited.,"That stalemate is a win for the side delivering it, or a loss for the stalemated player."
+fide_015,fide,1,stalemate_draws,gpt4o,95,1.0,Fully aligned with the regulation cited.,That a draw offer can be withdrawn after it has already been accepted.
+fide_016,fide,1,stalemate_draws,gpt4o,96,1.0,Fully aligned with the regulation cited.,That the players must keep playing until stalemate or time runs out even with no mating material.
+fide_017,fide,1,stalemate_draws,gpt4o,99,1.0,Correctly states the rule and its application.,That the rule counts 50 moves by one player rather than 50 by each.
+fide_018,fide,1,stalemate_draws,gpt4o,90,1.0,Correctly states the rule and its application.,"That only three identical moves in a row, rather than three identical positions, trigger the rule."
+fide_019,fide,1,piece_values,gpt4o,85,0.5,Right general direction but omits a key qualifying detail.,That the queen is worth exactly the sum of all minor pieces or has a fixed legal value.
+fide_020,fide,1,piece_values,gpt4o,99,0.5,Captures the gist but the specifics are imprecise.,That a rook is worth the same as a bishop or knight.
+fide_021,fide,1,piece_values,gpt4o,99,1.0,Accurate and complete; captures the essential point.,That a bishop is worth substantially more than a knight in all positions.
+fide_022,fide,1,piece_values,gpt4o,92,1.0,Correctly states the rule and its application.,That all pawns are always equal in practical value regardless of position.
+fide_023,fide,1,tournament_basics,gpt4o,87,1.0,Accurate and complete; captures the essential point.,That the player who wins a coin toss may choose to move first regardless of color.
+fide_024,fide,1,tournament_basics,gpt4o,92,1.0,Matches the ground truth precisely.,That the bottom-right corner should be a dark square.
+fide_025,fide,1,tournament_basics,gpt4o,97,1.0,Correctly states the rule and its application.,That the queen starts on the e-file beside the king on both sides.
+fide_026,fide,1,tournament_basics,gpt4o,96,0.5,Right general direction but omits a key qualifying detail.,That each side starts with a different count or includes extra queens.
+fide_027,fide,1,tournament_basics,gpt4o,93,1.0,Fully aligned with the regulation cited.,That a checkmate win is worth more points than a win on time or resignation.
+fide_028,fide,1,tournament_basics,gpt4o,90,1.0,Accurate and complete; captures the essential point.,That a draw by stalemate scores differently from a draw by agreement.
+fide_029,fide,1,tournament_basics,gpt4o,99,1.0,Fully aligned with the regulation cited.,That resignation must be confirmed by the arbiter before it takes effect.
+fide_030,fide,1,tournament_basics,gpt4o,92,1.0,Correctly states the rule and its application.,That accidentally knocking over your own king automatically forfeits the game.
+fide_031,fide,1,check_checkmate,gpt4o,81,1.0,Fully aligned with the regulation cited.,That you may develop a piece elsewhere and answer the check on the following move.
+fide_032,fide,1,basic_moves,gpt4o,87,1.0,Fully aligned with the regulation cited.,That a defending piece can sit on the same square as the piece it protects.
+fide_033,fide,1,basic_moves,gpt4o,94,1.0,Fully aligned with the regulation cited.,That the captured piece stays beside the board and can re-enter play later.
+fide_034,fide,1,stalemate_draws,gpt4o,94,0.5,Captures the gist but the specifics are imprecise.,That simply offering a draw ends the game even without acceptance.
+fide_035,fide,1,tournament_basics,gpt4o,84,1.0,Correctly states the rule and its application.,That the king and queen positions are mirrored so both kings sit on their own color.
+fide_036,fide,1,check_checkmate,gpt4o,93,0.5,Captures the gist but the specifics are imprecise.,That a king can check the other king when they are next to each other.
+fide_037,fide,1,basic_moves,gpt4o,86,1.0,Fully aligned with the regulation cited.,That a pawn can retreat to defend or reposition.
+fide_038,fide,1,stalemate_draws,gpt4o,87,1.0,Matches the ground truth precisely.,That a bishop can corner and checkmate a lone king like a rook can.
+fide_039,fide,1,stalemate_draws,gpt4o,95,1.0,Accurate and complete; captures the essential point.,That a knight can mate a lone king with proper technique.
+fide_040,fide,1,check_checkmate,gpt4o,87,1.0,Matches the ground truth precisely.,"That a queen alone without king support can mate, or that the ending is a draw."
+fide_041,fide,2,en_passant,gpt4o,75,1.0,Matches the ground truth precisely.,That en passant can be played at any later time after the two-square advance.
+fide_042,fide,2,en_passant,gpt4o,90,0.0,States a common misconception rather than the actual rule.,That the capturing pawn lands on a4 where the enemy pawn actually stands.
+fide_043,fide,2,en_passant,gpt4o,82,0.5,Right general direction but omits a key qualifying detail.,That en passant rights persist as long as the two pawns remain adjacent.
+fide_044,fide,3,en_passant,gpt4o,61,0.0,Contradicts the governing regulation.,"That if the two-square advance and adjacency conditions are satisfied, the en passant capture must always be legal."
+fide_045,fide,2,castling_rules,gpt4o,88,1.0,Matches the ground truth precisely.,That castling is a valid way to move the king out of check.
+fide_046,fide,2,castling_rules,gpt4o,74,0.5,Partially correct; misstates one condition of the rule.,"That only the king's final square needs to be safe, not the square it crosses."
+fide_047,fide,2,castling_rules,gpt4o,85,1.0,Accurate and complete; captures the essential point.,That castling exempts the king from the rule against moving into check.
+fide_048,fide,2,castling_rules,gpt4o,78,1.0,Matches the ground truth precisely.,That castling queenside is illegal whenever the b1/b8 square is attacked.
+fide_049,fide,3,castling_rules,gpt4o,67,0.0,Confidently wrong on the core procedure.,That a king which was ever in check at any point in the game permanently loses the right to castle.
+fide_050,fide,2,castling_rules,gpt4o,83,0.5,Partially correct; misstates one condition of the rule.,That you can castle by jumping the king over an intervening knight or bishop.
+fide_051,fide,2,touch_move,gpt4o,71,1.0,Fully aligned with the regulation cited.,That you may touch a piece to test ideas and then freely move a different one.
+fide_052,fide,2,touch_move,gpt4o,79,1.0,Correctly states the rule and its application.,That touching an enemy piece carries no obligation at all.
+fide_053,fide,2,touch_move,gpt4o,75,1.0,Accurate and complete; captures the essential point.,That you can adjust a piece silently and announce 'I adjust' only if challenged.
+fide_054,fide,2,touch_move,gpt4o,83,1.0,Matches the ground truth precisely.,That touching a pinned piece forfeits the game or forces an illegal move.
+fide_055,fide,2,touch_move,gpt4o,74,1.0,Matches the ground truth precisely.,"That a move can be taken back as long as you have not pressed the clock, even after releasing the piece."
+fide_056,fide,2,clock_handling,gpt4o,77,0.0,Confidently wrong on the core procedure.,That a player may move with one hand and press the clock with the other for speed.
+fide_057,fide,2,clock_handling,gpt4o,63,1.0,Matches the ground truth precisely.,That the opponent must tell the player to press their clock or it does not count.
+fide_058,fide,3,clock_handling,gpt4o,57,0.0,States a common misconception rather than the actual rule.,That a move is invalid or incomplete if the moved piece is left tipped over rather than standing upright on its square.
+fide_059,fide,2,clock_handling,gpt4o,64,1.0,Fully aligned with the regulation cited.,That running out of time is always an automatic loss regardless of the opponent's material.
+fide_060,fide,2,clock_handling,gpt4o,66,1.0,Fully aligned with the regulation cited.,"That losing on time is always a loss, even against an opponent who has only a king."
+fide_061,fide,2,scoresheet_obligations,gpt4o,79,0.0,States a common misconception rather than the actual rule.,"That a player only needs to record their own moves, not the opponent's."
+fide_062,fide,2,scoresheet_obligations,gpt4o,70,1.0,Accurate and complete; captures the essential point.,That score-keeping is always mandatory even in severe time pressure.
+fide_063,fide,2,scoresheet_obligations,gpt4o,84,0.0,Confidently wrong on the core procedure.,That each player owns and may keep their personal scoresheet.
+fide_064,fide,2,scoresheet_obligations,gpt4o,67,1.0,Fully aligned with the regulation cited.,That a verbal claim alone suffices regardless of whether the moves were recorded.
+fide_065,fide,2,threefold_repetition,gpt4o,82,0.0,Confidently wrong on the core procedure.,That you can play the repeating move first and then claim the draw afterward.
+fide_066,fide,2,threefold_repetition,gpt4o,71,1.0,Correctly states the rule and its application.,"That identical piece placement alone makes positions count as repetitions, regardless of side to move or castling rights."
+fide_067,fide,2,threefold_repetition,gpt4o,73,0.0,States a common misconception rather than the actual rule.,That an incorrect repetition claim carries no penalty and you can simply retract it.
+fide_068,fide,2,threefold_repetition,gpt4o,84,1.0,Matches the ground truth precisely.,That the same position must repeat three times back-to-back to claim a draw.
+fide_069,fide,2,fifty_move_rule,gpt4o,75,1.0,Correctly states the rule and its application.,That you can complete the 50th move first and then claim the draw.
+fide_070,fide,2,fifty_move_rule,gpt4o,72,0.5,"Close, but conflates two related provisions.","That only captures reset the count, while quiet pawn moves do not."
+fide_071,fide,2,fifty_move_rule,gpt4o,89,0.0,Contradicts the governing regulation.,That the game is always automatically drawn exactly at 50 moves without any claim.
+fide_072,fide,3,insufficient_material,gpt4o,62,0.0,Misidentifies the applicable article and outcome.,"That because two knights cannot force mate, a flag fall against them is automatically scored as a draw."
+fide_073,fide,3,insufficient_material,gpt4o,71,0.0,Misidentifies the applicable article and outcome.,"That whenever neither side can FORCE mate, a flag fall is automatically a draw, ignoring that extra enemy material can make a helpmate possible."
+fide_074,fide,2,insufficient_material,gpt4o,81,0.0,Confidently wrong on the core procedure.,That the players must keep playing until a flag falls or a draw is agreed.
+fide_075,fide,2,insufficient_material,gpt4o,84,0.5,"Close, but conflates two related provisions.","That a rook, like a single bishop or knight, cannot force checkmate alone with its king."
+fide_076,fide,3,illegal_position_procedure,gpt4o,38,0.0,Confidently wrong on the core procedure.,That any illegal position discovered mid-game forces the entire game to be cancelled and replayed from the start.
+fide_077,fide,2,illegal_position_procedure,gpt4o,67,0.0,States a common misconception rather than the actual rule.,That you can just correct the pieces mid-game and keep playing from where you are.
+fide_078,fide,2,illegal_position_procedure,gpt4o,57,1.0,Matches the ground truth precisely.,That a wrongly oriented board always voids the game and forces a restart.
+fide_079,fide,2,illegal_position_procedure,gpt4o,56,1.0,Matches the ground truth precisely.,That a wrong-color assignment always voids the game no matter how many moves have been played.
+fide_080,fide,3,arbiter_edge_cases,gpt4o,47,0.0,States a common misconception rather than the actual rule.,That touching or moving the rook first during castling is automatically a penalized illegal move giving the opponent two minutes.
+fide_081,fide,2,arbiter_edge_cases,gpt4o,53,0.0,Contradicts the governing regulation.,That the loss occurs on the very first illegal move rather than the second.
+fide_082,fide,2,arbiter_edge_cases,gpt4o,52,0.0,Misidentifies the applicable article and outcome.,That the pawn automatically becomes a queen if left on the last rank.
+fide_083,fide,3,arbiter_edge_cases,gpt4o,44,0.0,Contradicts the governing regulation.,"That any time your own king falls over, even by accident, the game is automatically lost as a resignation."
+fide_084,fide,2,arbiter_edge_cases,gpt4o,56,1.0,Fully aligned with the regulation cited.,That having a silent phone in your pocket is acceptable as long as it does not ring.
+fide_085,fide,2,en_passant,gpt4o,89,1.0,Fully aligned with the regulation cited.,That any passing pawn or piece can be taken en passant.
+fide_086,fide,3,clock_handling,gpt4o,61,0.0,Contradicts the governing regulation.,That you can still claim a win for an opponent's illegal move even after you have already replied with your own move.
+fide_087,fide,2,arbiter_edge_cases,gpt4o,61,0.0,Contradicts the governing regulation.,That an out-of-turn draw offer is automatically void and cannot be accepted.
+fide_088,fide,2,scoresheet_obligations,gpt4o,74,1.0,Matches the ground truth precisely.,That you may write your intended move down before playing it to help calculation.
+fide_089,fide,2,illegal_position_procedure,gpt4o,64,1.0,Fully aligned with the regulation cited.,That after correcting an illegal move the player is completely free of any touch-move obligation.
+fide_090,fide,3,clock_handling,gpt4o,49,0.0,States a common misconception rather than the actual rule.,That a player with a clearly winning position is awarded the win when both flags fall together in the last period.
+fide_091,fide,3,arbiter_edge_cases,gpt4o,36,0.0,States a common misconception rather than the actual rule.,That a king may capture any adjacent enemy piece since it is right next to it.
+fide_092,fide,3,castling_rules,gpt4o,56,0.0,Misidentifies the applicable article and outcome.,That castling rights are restored when the rook comes back to its starting square.
+fide_093,fide,3,arbiter_edge_cases,gpt4o,42,0.0,Misidentifies the applicable article and outcome.,That the player who still has a winning position wins despite both flags being down.
+fide_094,fide,3,illegal_position_procedure,gpt4o,38,1.0,Matches the ground truth precisely.,That an illegal move found after the game ends retroactively invalidates the result.
+fide_095,fide,3,en_passant,gpt4o,60,0.0,Confidently wrong on the core procedure.,That the en passant right is merely postponed and can be taken a move or two later.
+fide_096,fide,3,stalemate_draws,gpt4o,63,0.5,Right general direction but omits a key qualifying detail.,That having an overwhelming material advantage converts a stalemate into a win.
+fide_097,fide,3,arbiter_edge_cases,gpt4o,43,0.5,"Close, but conflates two related provisions.",That a flag fall always beats a checkmate delivered around the same moment.
+fide_098,fide,3,insufficient_material,gpt4o,67,1.0,Fully aligned with the regulation cited.,That any theoretical helpmate possibility automatically makes a flag fall a loss even with a single knight.
+fide_099,fide,3,illegal_position_procedure,gpt4o,53,1.0,Accurate and complete; captures the essential point.,That failing to claim immediately means the illegal move stands permanently with no remedy.
+fide_100,fide,3,arbiter_edge_cases,gpt4o,43,0.0,Confidently wrong on the core procedure.,That the moment you touch or place a queen on the promotion square you are bound to promote to a queen.
+fia_001,fia,1,qualifying_format,gpt4o,93,1.0,Fully aligned with the regulation cited.,"People assume the slowest six are cut to leave a round number, but with a 20-car grid it is exactly five eliminated per round."
+fia_002,fia,1,qualifying_format,gpt4o,89,1.0,Correctly states the rule and its application.,"Some think Q3 includes all surviving cars from Q1, but it is strictly the ten fastest from Q2."
+fia_003,fia,1,pit_lane_rules,gpt4o,84,1.0,Accurate and complete; captures the essential point.,"Many believe the limit is always 60 km/h because some circuits use it, but the default standard is 80 km/h."
+fia_004,fia,1,pit_lane_rules,gpt4o,87,0.5,Right general direction but omits a key qualifying detail.,"People assume it is always a drive-through, but in the race a standard time penalty is the typical sanction, with fines used in practice."
+fia_005,fia,1,race_start,gpt4o,85,0.5,Partially correct; misstates one condition of the rule.,"Some think a green light signals the start, but it is the extinguishing of the red lights that starts the race."
+fia_006,fia,1,race_start,gpt4o,83,1.0,Fully aligned with the regulation cited.,"Many think any twitch is penalized, but the car must actually move out of position before the lights go out to trigger a jump start."
+fia_007,fia,1,safety_car,gpt4o,87,1.0,Correctly states the rule and its application.,"People assume drivers can race up to catch the pack, but overtaking is banned the moment the safety car is deployed."
+fia_008,fia,1,safety_car,gpt4o,87,0.0,Contradicts the governing regulation.,People think a green light tells drivers to pass; in fact it is the extinguishing of the safety car's lights that signals it is returning to the pits.
+fia_009,fia,1,vsc,gpt4o,77,0.0,Contradicts the governing regulation.,"Drivers think they just need to be slower overall, but they must stay positive to the VSC delta in every mini-sector, not just on average."
+fia_010,fia,1,vsc,gpt4o,91,0.5,Captures the gist but the specifics are imprecise.,"Some believe the pit lane is closed during a VSC like at the start of a safety car period, but pitting is allowed under VSC."
+fia_011,fia,1,drs,gpt4o,94,1.0,Correctly states the rule and its application.,"People often think it is a two-second gap, but the threshold is one second at the detection point."
+fia_012,fia,1,drs,gpt4o,86,1.0,Fully aligned with the regulation cited.,"Drivers assume DRS is available from lap one, but it is disabled for the first two laps after a start or restart."
+fia_013,fia,1,drs,gpt4o,94,0.0,Misidentifies the applicable article and outcome.,"Some think DRS is always available once the one-second gap is met, but the race director can disable it in the wet."
+fia_014,fia,1,blue_flags,gpt4o,86,1.0,Matches the ground truth precisely.,"Some think a blue flag tells the faster car to back off, but it instructs the slower lapped car to yield."
+fia_015,fia,1,blue_flags,gpt4o,74,1.0,Matches the ground truth precisely.,"People think blue flags are merely advisory, but ignoring them is a penalizable offence."
+fia_016,fia,1,points_scoring,gpt4o,94,0.0,States a common misconception rather than the actual rule.,"Some still think first place is worth 10 points from the older system, but it has been 25 since 2010."
+fia_017,fia,1,points_scoring,gpt4o,82,1.0,Matches the ground truth precisely.,"People sometimes think the top eight or six score, reflecting older systems, but it has been the top ten since 2010."
+fia_018,fia,1,points_scoring,gpt4o,87,1.0,Correctly states the rule and its application.,"People think anyone can win the fastest-lap point, but the driver must finish in the top ten to receive it."
+fia_019,fia,1,points_scoring,gpt4o,82,1.0,Accurate and complete; captures the essential point.,"Some assume a smaller gap like 20 points, but second is 18, a deliberate seven-point gap from the win."
+fia_020,fia,1,parc_ferme,gpt4o,85,1.0,Accurate and complete; captures the essential point.,"People think parc fermé only applies after the race, but it actually begins at the start of qualifying."
+fia_021,fia,1,parc_ferme,gpt4o,90,0.5,Captures the gist but the specifics are imprecise.,"Teams are thought to be able to tweak wings overnight, but aero setup changes are forbidden under parc fermé."
+fia_022,fia,1,parc_ferme,gpt4o,91,1.0,Correctly states the rule and its application.,"People assume a grid drop, but the standard consequence for breaking parc fermé is a pit lane start."
+fia_023,fia,1,safety_car,gpt4o,78,1.0,Matches the ground truth precisely.,"People assume the pit lane is always open under safety car, but it can be temporarily closed at deployment for safety."
+fia_024,fia,1,race_start,gpt4o,82,1.0,Correctly states the rule and its application.,"People think the race simply continues around a stalled car, but the start is aborted and the car removed for safety."
+fia_025,fia,1,qualifying_format,gpt4o,78,0.0,Contradicts the governing regulation.,"Many still believe the top ten must start on their Q2 tyres, but that rule was abolished."
+fia_026,fia,1,pit_lane_rules,gpt4o,95,1.0,Correctly states the rule and its application.,"People think the pit lane is a free-for-all to gain places, but unsafe releases and dangerous overtakes there are penalized."
+fia_027,fia,1,vsc,gpt4o,86,1.0,Fully aligned with the regulation cited.,"Drivers think VSC ends instantly when they see the message, but they must stay on delta until the official end signal."
+fia_028,fia,1,drs,gpt4o,82,1.0,Matches the ground truth precisely.,"People assume every track has exactly one DRS zone, but many have two or three."
+fia_029,fia,1,blue_flags,gpt4o,95,1.0,Matches the ground truth precisely.,"People think blue flags only apply during the race for lapping, but they are also used in qualifying for approaching fast cars."
+fia_030,fia,1,points_scoring,gpt4o,94,1.0,Correctly states the rule and its application.,"People assume full points if two laps are completed, but a sliding scale now governs reduced-distance races."
+fia_031,fia,1,parc_ferme,gpt4o,84,1.0,Fully aligned with the regulation cited.,"People think nothing can be touched under parc fermé, but tyre changes and several other operations are explicitly allowed."
+fia_032,fia,1,race_start,gpt4o,93,0.0,States a common misconception rather than the actual rule.,"People think drivers can jockey for position on the formation lap, but overtaking is only allowed to regain a lost place."
+fia_033,fia,1,safety_car,gpt4o,93,0.0,Confidently wrong on the core procedure.,"People think racing resumes immediately when the safety car leaves, but the leader sets the pace until the control line."
+fia_034,fia,1,vsc,gpt4o,87,1.0,Correctly states the rule and its application.,"People assume positions can still change under VSC since there's no physical car, but overtaking is banned."
+fia_035,fia,1,drs,gpt4o,87,1.0,Correctly states the rule and its application.,"People think DRS can be used defensively whenever someone is behind, but it depends only on the gap to the car ahead."
+fia_036,fia,1,safety_car,gpt4o,87,1.0,Matches the ground truth precisely.,"People think blue flags wave lapped cars past under the safety car, but the safety car rules govern unlapping instead."
+fia_037,fia,1,points_scoring,gpt4o,93,1.0,Matches the ground truth precisely.,"People think constructors use a different or halved scale, but both championships use the same per-position points."
+fia_038,fia,1,track_limits,gpt4o,93,1.0,Accurate and complete; captures the essential point.,"People think a small excursion is tolerated, but a lap with all four wheels beyond the white line is deleted."
+fia_039,fia,1,pit_lane_rules,gpt4o,79,0.5,Partially correct; misstates one condition of the rule.,"People think the limit only applies during the race, but it is enforced in every on-track session."
+fia_040,fia,1,safety_car,gpt4o,89,1.0,Matches the ground truth precisely.,"People think a single signal suffices, but it is signalled simultaneously by waved yellows, SC boards, and the timing message."
+fia_041,fia,2,technical_regulations,gpt4o,50,0.0,Contradicts the governing regulation.,"People think any flexing is automatically illegal, but parts are legal as long as deflection under the defined test load stays within the limit."
+fia_042,fia,2,technical_regulations,gpt4o,42,0.5,Right general direction but omits a key qualifying detail.,"Teams assume passing the published test means full legality, but the FIA can impose tougher tests and still judge a part non-compliant."
+fia_043,fia,2,drs,gpt4o,78,0.5,Partially correct; misstates one condition of the rule.,"Drivers think DRS returns immediately when green flags fly after a safety car, but it is delayed two laps after the restart."
+fia_044,fia,2,parc_ferme,gpt4o,75,1.0,Correctly states the rule and its application.,"People assume parc fermé timing is identical to a standard weekend, but on Sprint weekends it begins at Sprint Qualifying."
+fia_045,fia,2,sprint_weekend_procedure,gpt4o,62,0.0,Contradicts the governing regulation.,"People think the car is locked from Friday to Sunday on a Sprint weekend, but 2024 allows setup changes between the Sprint and main qualifying."
+fia_046,fia,2,sprint_weekend_procedure,gpt4o,76,0.0,Confidently wrong on the core procedure.,"People think Sprint points mirror the full race scale or only the top three score, but the top eight score with 8 for the win."
+fia_047,fia,2,cost_cap_rules,gpt4o,46,0.0,Misidentifies the applicable article and outcome.,"People assume crash damage is exempt because it is not the team's fault, but it counts against the cost cap."
+fia_048,fia,2,cost_cap_rules,gpt4o,51,0.0,Confidently wrong on the core procedure.,"People think the cost cap covers absolutely all spending including driver salaries, but driver pay and top personnel are excluded."
+fia_049,fia,2,cost_cap_rules,gpt4o,44,0.0,Confidently wrong on the core procedure.,"People think any breach is treated identically, but the rules separate procedural from minor and material overspend breaches."
+fia_050,fia,2,power_unit_penalties,gpt4o,68,1.0,Matches the ground truth precisely.,"People think there is one combined engine allowance, but each element type has its own separate seasonal limit."
+fia_051,fia,2,power_unit_penalties,gpt4o,73,0.5,Captures the gist but the specifics are imprecise.,"People think every extra engine part is a fixed ten places, but only the first is ten and subsequent new elements are five each."
+fia_052,fia,2,power_unit_penalties,gpt4o,72,0.0,Contradicts the governing regulation.,"People think a driver can be pushed behind the grid into negative positions, but penalties beyond 15 just mean a back-of-grid start."
+fia_053,fia,2,race_start,gpt4o,76,0.0,Misidentifies the applicable article and outcome.,"People think the race just proceeds with a gap on the grid, but the start is aborted and the race distance reduced by a lap."
+fia_054,fia,2,red_flag_restart,gpt4o,76,0.0,Confidently wrong on the core procedure.,"People think positions are taken from the exact moment of the red flag, but the order is from the last fully completed lap."
+fia_055,fia,2,red_flag_restart,gpt4o,67,0.0,States a common misconception rather than the actual rule.,"People think the car is frozen during a red flag, but teams can change tyres and perform permitted work, giving a free stop."
+fia_056,fia,2,red_flag_restart,gpt4o,67,1.0,Accurate and complete; captures the essential point.,"People assume the car keeps its grid slot, but a car in the pits at the red flag must restart from the pit lane."
+fia_057,fia,2,driver_change,gpt4o,81,0.0,States a common misconception rather than the actual rule.,"People think a substitute simply inherits the qualified grid slot, but a driver change usually means a pit lane start."
+fia_058,fia,2,driver_change,gpt4o,73,0.0,Misidentifies the applicable article and outcome.,"People think only the contracted regular drivers' points count for the constructor, but a substitute's points also count."
+fia_059,fia,2,weight_enforcement,gpt4o,80,1.0,Fully aligned with the regulation cited.,"People think weight only matters at scrutineering before the weekend, but it must be met at every weigh-in throughout the event."
+fia_060,fia,2,weight_enforcement,gpt4o,72,0.0,Contradicts the governing regulation.,"People think the minimum weight is the car alone, but it includes the driver, with a separate driver-and-seat minimum."
+fia_061,fia,2,technical_regulations,gpt4o,57,1.0,Matches the ground truth precisely.,"People think running the tank nearly dry is fine, but failing to provide the one-litre sample leads to disqualification."
+fia_062,fia,2,steward_decisions,gpt4o,39,0.0,Contradicts the governing regulation.,"People think the chequered flag locks the result, but stewards can apply post-race penalties before results are final."
+fia_063,fia,2,steward_decisions,gpt4o,49,0.0,States a common misconception rather than the actual rule.,"People think a team can simply appeal because they disagree, but a review requires significant new and previously unavailable evidence."
+fia_064,fia,2,steward_decisions,gpt4o,41,0.5,Right general direction but omits a key qualifying detail.,"People think the black-and-orange flag is a punishment, but it is a safety instruction to repair a dangerous component."
+fia_065,fia,2,pit_lane_rules,gpt4o,76,0.0,Misidentifies the applicable article and outcome.,"People think only a detached wheel counts, but releasing into another car's path is equally an unsafe release."
+fia_066,fia,2,technical_regulations,gpt4o,54,1.0,Matches the ground truth precisely.,"People think the plank is just for protection, but it is a ride-height enforcement device whose excessive wear causes disqualification."
+fia_067,fia,2,power_unit_penalties,gpt4o,65,1.0,Accurate and complete; captures the essential point.,"People think a penalized engine carries a penalty every time it's used, but the penalty applies only once when it's introduced."
+fia_068,fia,2,cost_cap_rules,gpt4o,43,0.0,Contradicts the governing regulation.,"People think a cost cap breach is only a fine, but material breaches can carry points deductions and testing restrictions."
+fia_069,fia,2,sprint_weekend_procedure,gpt4o,67,1.0,Fully aligned with the regulation cited.,"People assume the fastest-lap point applies to all races, but it is exclusive to the Grand Prix, not the Sprint."
+fia_070,fia,2,red_flag_restart,gpt4o,78,0.0,States a common misconception rather than the actual rule.,"People think any car can rejoin after a red flag, but a car must reach the grid in time and meet eligibility to restart."
+fia_071,fia,2,weight_enforcement,gpt4o,79,0.0,Confidently wrong on the core procedure.,"People think a small underweight gets a minor penalty, but it normally means full exclusion from the session results."
+fia_072,fia,2,technical_regulations,gpt4o,49,0.0,Contradicts the governing regulation.,"People think clever flexing or moving aero is allowed if it passes tests, but movable aerodynamic devices other than DRS are banned."
+fia_073,fia,2,driver_change,gpt4o,70,0.0,States a common misconception rather than the actual rule.,"People think a reserve can step in on short notice regardless of licence, but a valid Super Licence is mandatory."
+fia_074,fia,2,steward_decisions,gpt4o,45,0.0,States a common misconception rather than the actual rule.,"People think retiring escapes a penalty, but an unserved sanction can carry over to the next race."
+fia_075,fia,2,cost_cap_rules,gpt4o,30,0.0,Contradicts the governing regulation.,"People think all teams get equal wind tunnel time, but allocations scale inversely with championship position."
+fia_076,fia,2,sprint_weekend_procedure,gpt4o,57,1.0,Accurate and complete; captures the essential point.,"People think the Sprint finishing order sets the Grand Prix grid, but a separate qualifying determines it in 2024."
+fia_077,fia,2,power_unit_penalties,gpt4o,63,1.0,Matches the ground truth precisely.,"People think PU penalties hit both the Sprint and the race, but they are applied to the Grand Prix grid."
+fia_078,fia,2,technical_regulations,gpt4o,59,0.0,States a common misconception rather than the actual rule.,"People think the ADR is optional telemetry, but it is a mandatory safety device required for the car to run."
+fia_079,fia,2,vsc,gpt4o,66,1.0,Fully aligned with the regulation cited.,"People think a VSC and safety car are mutually exclusive, but a VSC can be escalated to a full safety car as needed."
+fia_080,fia,2,steward_decisions,gpt4o,43,1.0,Fully aligned with the regulation cited.,"People think every penalty can be appealed, but in-race driving penalties are explicitly non-appealable."
+fia_081,fia,3,safety_car,gpt4o,64,0.5,Right general direction but omits a key qualifying detail.,"People believe only the cars directly between the leader and the next contender unlap, but the literal rule refers to any/all lapped cars."
+fia_082,fia,3,safety_car,gpt4o,56,0.5,"Close, but conflates two related provisions.","People think the safety car comes in the same lap the unlapping message is given, but the literal rule specifies the end of the following lap."
+fia_083,fia,3,safety_car,gpt4o,53,0.0,States a common misconception rather than the actual rule.,"People think the rule clearly mandated a fixed outcome, but the literal wording's ambiguity over discretion is exactly what caused the dispute."
+fia_084,fia,3,track_limits,gpt4o,67,0.0,Confidently wrong on the core procedure.,"People think each race track-limits breach just deletes a lap like in qualifying, but in the race it escalates to flags and time penalties."
+fia_085,fia,3,track_limits,gpt4o,64,0.0,States a common misconception rather than the actual rule.,"People think touching the kerb or going slightly wide counts, but limits are exceeded only when all four wheels are beyond the white line."
+fia_086,fia,3,steward_decisions,gpt4o,23,0.0,Contradicts the governing regulation.,"People think stewards can freely revisit any call after a session, but discretionary judgements need a formal review with new evidence."
+fia_087,fia,3,steward_decisions,gpt4o,42,0.0,Misidentifies the applicable article and outcome.,"People think stewards can amend a final result whenever new opinions arise, but only formal review or appeal can change a declared-final result."
+fia_088,fia,3,vsc,gpt4o,59,0.5,"Close, but conflates two related provisions.","People think lapped cars can catch up and unlap under VSC like under the safety car, but overtaking is banned so no unlapping occurs."
+fia_089,fia,3,steward_decisions,gpt4o,37,0.0,Confidently wrong on the core procedure.,"People conflate the two, but a drive-through has no stop while a stop-and-go requires a stationary timed penalty with no servicing."
+fia_090,fia,3,steward_decisions,gpt4o,31,0.0,Contradicts the governing regulation.,"People think a team can change tyres during the served-seconds, but no work is allowed until the penalty time has fully elapsed."
+fia_091,fia,3,red_flag_restart,gpt4o,54,1.0,Correctly states the rule and its application.,"People assume every red-flag restart is a standing start from the grid, but it can be a rolling restart behind the safety car."
+fia_092,fia,3,track_limits,gpt4o,63,0.0,Contradicts the governing regulation.,"People think stewards can apply track limits more leniently to leaders, but enforcement must be consistent across all cars."
+fia_093,fia,3,drs,gpt4o,71,0.0,Contradicts the governing regulation.,"People think DRS is live the instant the VSC message clears, but the race director re-enables it after racing has properly resumed."
+fia_094,fia,3,steward_decisions,gpt4o,51,0.0,Confidently wrong on the core procedure.,"People think an early touch is a minor error, but it invalidates the served penalty and triggers a harsher sanction."
+fia_095,fia,3,safety_car,gpt4o,51,1.0,Correctly states the rule and its application.,"People think the safety car can be pulled in as soon as the leader is clear of backmarkers, but the literal rule requires waiting until the end of the following lap."
+fia_096,fia,3,track_limits,gpt4o,55,0.0,Confidently wrong on the core procedure.,"People think track limits only matter for lap times, but gaining a lasting advantage off-track must be given back regardless."
+fia_097,fia,3,steward_decisions,gpt4o,27,0.0,Confidently wrong on the core procedure.,"People think the formation lap is penalty-free practice time, but unsafe conduct on it is penalizable."
+fia_098,fia,3,vsc,gpt4o,60,0.0,Contradicts the governing regulation.,"People think a car emerging from a pit stop is exempt from the VSC delta, but it must respect the delta once back on track."
+fia_099,fia,3,steward_decisions,gpt4o,33,0.0,States a common misconception rather than the actual rule.,"People think every time penalty must be served in the pits, but late-race penalties are simply added to the finishing time."
+fia_100,fia,3,red_flag_restart,gpt4o,64,1.0,Accurate and complete; captures the essential point.,"People think a red flag wipes the slate clean on pending penalties, but unserved penalties carry through the restart."
+fide_001,fide,1,basic_moves,claude_sonnet,84,1.0,Correctly states the rule and its application.,That a bishop can also slide one square sideways or jump over pieces.
+fide_002,fide,1,basic_moves,claude_sonnet,81,1.0,Fully aligned with the regulation cited.,That a knight is blocked if pieces stand between its start and destination squares.
+fide_003,fide,1,basic_moves,claude_sonnet,93,1.0,Correctly states the rule and its application.,That the king can move two squares like other long-range pieces in open positions.
+fide_004,fide,1,basic_moves,claude_sonnet,84,0.5,"Close, but conflates two related provisions.",That a rook may move diagonally to reach nearby squares.
+fide_005,fide,1,basic_moves,claude_sonnet,90,1.0,Accurate and complete; captures the essential point.,That a queen can also move like a knight in an L-shape.
+fide_006,fide,1,basic_moves,claude_sonnet,91,1.0,Accurate and complete; captures the essential point.,"That a pawn can always move two squares forward, not just on its first move."
+fide_007,fide,1,basic_moves,claude_sonnet,85,1.0,Matches the ground truth precisely.,That a pawn captures the piece directly in front of it.
+fide_008,fide,1,basic_moves,claude_sonnet,91,1.0,Correctly states the rule and its application.,"That a pawn can only become a queen, or that you can only promote to a piece already captured."
+fide_009,fide,1,check_checkmate,claude_sonnet,92,0.5,Right general direction but omits a key qualifying detail.,That a king must be attacked by two or more pieces to be considered in check.
+fide_010,fide,1,check_checkmate,claude_sonnet,85,1.0,Accurate and complete; captures the essential point.,That you can ignore a check for one move or castle out of it.
+fide_011,fide,1,check_checkmate,claude_sonnet,85,1.0,Matches the ground truth precisely.,That the king must actually be captured to end the game.
+fide_012,fide,1,check_checkmate,claude_sonnet,90,1.0,Accurate and complete; captures the essential point.,That you may expose your king to check as long as you can recapture next move.
+fide_013,fide,1,check_checkmate,claude_sonnet,92,1.0,Matches the ground truth precisely.,That announcing 'check' is mandatory in official play.
+fide_014,fide,1,stalemate_draws,claude_sonnet,74,0.5,Right general direction but omits a key qualifying detail.,"That stalemate is a win for the side delivering it, or a loss for the stalemated player."
+fide_015,fide,1,stalemate_draws,claude_sonnet,83,1.0,Fully aligned with the regulation cited.,That a draw offer can be withdrawn after it has already been accepted.
+fide_016,fide,1,stalemate_draws,claude_sonnet,87,0.5,Captures the gist but the specifics are imprecise.,That the players must keep playing until stalemate or time runs out even with no mating material.
+fide_017,fide,1,stalemate_draws,claude_sonnet,88,0.0,Contradicts the governing regulation.,That the rule counts 50 moves by one player rather than 50 by each.
+fide_018,fide,1,stalemate_draws,claude_sonnet,83,1.0,Matches the ground truth precisely.,"That only three identical moves in a row, rather than three identical positions, trigger the rule."
+fide_019,fide,1,piece_values,claude_sonnet,76,0.0,Confidently wrong on the core procedure.,That the queen is worth exactly the sum of all minor pieces or has a fixed legal value.
+fide_020,fide,1,piece_values,claude_sonnet,96,1.0,Accurate and complete; captures the essential point.,That a rook is worth the same as a bishop or knight.
+fide_021,fide,1,piece_values,claude_sonnet,91,1.0,Fully aligned with the regulation cited.,That a bishop is worth substantially more than a knight in all positions.
+fide_022,fide,1,piece_values,claude_sonnet,93,1.0,Correctly states the rule and its application.,That all pawns are always equal in practical value regardless of position.
+fide_023,fide,1,tournament_basics,claude_sonnet,89,0.5,Partially correct; misstates one condition of the rule.,That the player who wins a coin toss may choose to move first regardless of color.
+fide_024,fide,1,tournament_basics,claude_sonnet,84,1.0,Accurate and complete; captures the essential point.,That the bottom-right corner should be a dark square.
+fide_025,fide,1,tournament_basics,claude_sonnet,81,1.0,Matches the ground truth precisely.,That the queen starts on the e-file beside the king on both sides.
+fide_026,fide,1,tournament_basics,claude_sonnet,86,1.0,Fully aligned with the regulation cited.,That each side starts with a different count or includes extra queens.
+fide_027,fide,1,tournament_basics,claude_sonnet,92,1.0,Matches the ground truth precisely.,That a checkmate win is worth more points than a win on time or resignation.
+fide_028,fide,1,tournament_basics,claude_sonnet,86,0.5,Captures the gist but the specifics are imprecise.,That a draw by stalemate scores differently from a draw by agreement.
+fide_029,fide,1,tournament_basics,claude_sonnet,83,1.0,Matches the ground truth precisely.,That resignation must be confirmed by the arbiter before it takes effect.
+fide_030,fide,1,tournament_basics,claude_sonnet,88,1.0,Correctly states the rule and its application.,That accidentally knocking over your own king automatically forfeits the game.
+fide_031,fide,1,check_checkmate,claude_sonnet,82,1.0,Accurate and complete; captures the essential point.,That you may develop a piece elsewhere and answer the check on the following move.
+fide_032,fide,1,basic_moves,claude_sonnet,88,1.0,Fully aligned with the regulation cited.,That a defending piece can sit on the same square as the piece it protects.
+fide_033,fide,1,basic_moves,claude_sonnet,97,1.0,Accurate and complete; captures the essential point.,That the captured piece stays beside the board and can re-enter play later.
+fide_034,fide,1,stalemate_draws,claude_sonnet,89,1.0,Matches the ground truth precisely.,That simply offering a draw ends the game even without acceptance.
+fide_035,fide,1,tournament_basics,claude_sonnet,90,1.0,Correctly states the rule and its application.,That the king and queen positions are mirrored so both kings sit on their own color.
+fide_036,fide,1,check_checkmate,claude_sonnet,88,0.5,"Close, but conflates two related provisions.",That a king can check the other king when they are next to each other.
+fide_037,fide,1,basic_moves,claude_sonnet,88,1.0,Accurate and complete; captures the essential point.,That a pawn can retreat to defend or reposition.
+fide_038,fide,1,stalemate_draws,claude_sonnet,93,0.5,Partially correct; misstates one condition of the rule.,That a bishop can corner and checkmate a lone king like a rook can.
+fide_039,fide,1,stalemate_draws,claude_sonnet,77,1.0,Accurate and complete; captures the essential point.,That a knight can mate a lone king with proper technique.
+fide_040,fide,1,check_checkmate,claude_sonnet,92,1.0,Matches the ground truth precisely.,"That a queen alone without king support can mate, or that the ending is a draw."
+fide_041,fide,2,en_passant,claude_sonnet,56,1.0,Correctly states the rule and its application.,That en passant can be played at any later time after the two-square advance.
+fide_042,fide,2,en_passant,claude_sonnet,68,1.0,Correctly states the rule and its application.,That the capturing pawn lands on a4 where the enemy pawn actually stands.
+fide_043,fide,2,en_passant,claude_sonnet,68,0.0,Misidentifies the applicable article and outcome.,That en passant rights persist as long as the two pawns remain adjacent.
+fide_044,fide,3,en_passant,claude_sonnet,55,1.0,Fully aligned with the regulation cited.,"That if the two-square advance and adjacency conditions are satisfied, the en passant capture must always be legal."
+fide_045,fide,2,castling_rules,claude_sonnet,75,1.0,Accurate and complete; captures the essential point.,That castling is a valid way to move the king out of check.
+fide_046,fide,2,castling_rules,claude_sonnet,58,1.0,Correctly states the rule and its application.,"That only the king's final square needs to be safe, not the square it crosses."
+fide_047,fide,2,castling_rules,claude_sonnet,73,1.0,Matches the ground truth precisely.,That castling exempts the king from the rule against moving into check.
+fide_048,fide,2,castling_rules,claude_sonnet,65,0.5,"Close, but conflates two related provisions.",That castling queenside is illegal whenever the b1/b8 square is attacked.
+fide_049,fide,3,castling_rules,claude_sonnet,64,0.0,Contradicts the governing regulation.,That a king which was ever in check at any point in the game permanently loses the right to castle.
+fide_050,fide,2,castling_rules,claude_sonnet,72,0.5,Partially correct; misstates one condition of the rule.,That you can castle by jumping the king over an intervening knight or bishop.
+fide_051,fide,2,touch_move,claude_sonnet,74,1.0,Accurate and complete; captures the essential point.,That you may touch a piece to test ideas and then freely move a different one.
+fide_052,fide,2,touch_move,claude_sonnet,77,0.5,Partially correct; misstates one condition of the rule.,That touching an enemy piece carries no obligation at all.
+fide_053,fide,2,touch_move,claude_sonnet,61,0.5,Captures the gist but the specifics are imprecise.,That you can adjust a piece silently and announce 'I adjust' only if challenged.
+fide_054,fide,2,touch_move,claude_sonnet,66,0.5,Partially correct; misstates one condition of the rule.,That touching a pinned piece forfeits the game or forces an illegal move.
+fide_055,fide,2,touch_move,claude_sonnet,73,1.0,Correctly states the rule and its application.,"That a move can be taken back as long as you have not pressed the clock, even after releasing the piece."
+fide_056,fide,2,clock_handling,claude_sonnet,58,1.0,Fully aligned with the regulation cited.,That a player may move with one hand and press the clock with the other for speed.
+fide_057,fide,2,clock_handling,claude_sonnet,57,1.0,Fully aligned with the regulation cited.,That the opponent must tell the player to press their clock or it does not count.
+fide_058,fide,3,clock_handling,claude_sonnet,37,0.0,Misidentifies the applicable article and outcome.,That a move is invalid or incomplete if the moved piece is left tipped over rather than standing upright on its square.
+fide_059,fide,2,clock_handling,claude_sonnet,72,0.0,Misidentifies the applicable article and outcome.,That running out of time is always an automatic loss regardless of the opponent's material.
+fide_060,fide,2,clock_handling,claude_sonnet,71,0.0,Confidently wrong on the core procedure.,"That losing on time is always a loss, even against an opponent who has only a king."
+fide_061,fide,2,scoresheet_obligations,claude_sonnet,74,1.0,Accurate and complete; captures the essential point.,"That a player only needs to record their own moves, not the opponent's."
+fide_062,fide,2,scoresheet_obligations,claude_sonnet,62,1.0,Accurate and complete; captures the essential point.,That score-keeping is always mandatory even in severe time pressure.
+fide_063,fide,2,scoresheet_obligations,claude_sonnet,61,1.0,Accurate and complete; captures the essential point.,That each player owns and may keep their personal scoresheet.
+fide_064,fide,2,scoresheet_obligations,claude_sonnet,71,0.5,Captures the gist but the specifics are imprecise.,That a verbal claim alone suffices regardless of whether the moves were recorded.
+fide_065,fide,2,threefold_repetition,claude_sonnet,62,0.5,Captures the gist but the specifics are imprecise.,That you can play the repeating move first and then claim the draw afterward.
+fide_066,fide,2,threefold_repetition,claude_sonnet,73,1.0,Fully aligned with the regulation cited.,"That identical piece placement alone makes positions count as repetitions, regardless of side to move or castling rights."
+fide_067,fide,2,threefold_repetition,claude_sonnet,73,1.0,Correctly states the rule and its application.,That an incorrect repetition claim carries no penalty and you can simply retract it.
+fide_068,fide,2,threefold_repetition,claude_sonnet,65,0.0,Contradicts the governing regulation.,That the same position must repeat three times back-to-back to claim a draw.
+fide_069,fide,2,fifty_move_rule,claude_sonnet,67,0.5,Captures the gist but the specifics are imprecise.,That you can complete the 50th move first and then claim the draw.
+fide_070,fide,2,fifty_move_rule,claude_sonnet,70,1.0,Matches the ground truth precisely.,"That only captures reset the count, while quiet pawn moves do not."
+fide_071,fide,2,fifty_move_rule,claude_sonnet,67,0.0,Confidently wrong on the core procedure.,That the game is always automatically drawn exactly at 50 moves without any claim.
+fide_072,fide,3,insufficient_material,claude_sonnet,63,0.0,Misidentifies the applicable article and outcome.,"That because two knights cannot force mate, a flag fall against them is automatically scored as a draw."
+fide_073,fide,3,insufficient_material,claude_sonnet,62,1.0,Correctly states the rule and its application.,"That whenever neither side can FORCE mate, a flag fall is automatically a draw, ignoring that extra enemy material can make a helpmate possible."
+fide_074,fide,2,insufficient_material,claude_sonnet,75,1.0,Matches the ground truth precisely.,That the players must keep playing until a flag falls or a draw is agreed.
+fide_075,fide,2,insufficient_material,claude_sonnet,69,0.0,Contradicts the governing regulation.,"That a rook, like a single bishop or knight, cannot force checkmate alone with its king."
+fide_076,fide,3,illegal_position_procedure,claude_sonnet,37,0.5,"Close, but conflates two related provisions.",That any illegal position discovered mid-game forces the entire game to be cancelled and replayed from the start.
+fide_077,fide,2,illegal_position_procedure,claude_sonnet,48,0.0,Misidentifies the applicable article and outcome.,That you can just correct the pieces mid-game and keep playing from where you are.
+fide_078,fide,2,illegal_position_procedure,claude_sonnet,51,0.5,Right general direction but omits a key qualifying detail.,That a wrongly oriented board always voids the game and forces a restart.
+fide_079,fide,2,illegal_position_procedure,claude_sonnet,45,0.0,States a common misconception rather than the actual rule.,That a wrong-color assignment always voids the game no matter how many moves have been played.
+fide_080,fide,3,arbiter_edge_cases,claude_sonnet,37,0.0,Misidentifies the applicable article and outcome.,That touching or moving the rook first during castling is automatically a penalized illegal move giving the opponent two minutes.
+fide_081,fide,2,arbiter_edge_cases,claude_sonnet,56,1.0,Fully aligned with the regulation cited.,That the loss occurs on the very first illegal move rather than the second.
+fide_082,fide,2,arbiter_edge_cases,claude_sonnet,59,0.0,Confidently wrong on the core procedure.,That the pawn automatically becomes a queen if left on the last rank.
+fide_083,fide,3,arbiter_edge_cases,claude_sonnet,44,0.0,Misidentifies the applicable article and outcome.,"That any time your own king falls over, even by accident, the game is automatically lost as a resignation."
+fide_084,fide,2,arbiter_edge_cases,claude_sonnet,46,1.0,Matches the ground truth precisely.,That having a silent phone in your pocket is acceptable as long as it does not ring.
+fide_085,fide,2,en_passant,claude_sonnet,73,0.5,"Close, but conflates two related provisions.",That any passing pawn or piece can be taken en passant.
+fide_086,fide,3,clock_handling,claude_sonnet,55,1.0,Matches the ground truth precisely.,That you can still claim a win for an opponent's illegal move even after you have already replied with your own move.
+fide_087,fide,2,arbiter_edge_cases,claude_sonnet,47,0.5,"Close, but conflates two related provisions.",That an out-of-turn draw offer is automatically void and cannot be accepted.
+fide_088,fide,2,scoresheet_obligations,claude_sonnet,65,1.0,Fully aligned with the regulation cited.,That you may write your intended move down before playing it to help calculation.
+fide_089,fide,2,illegal_position_procedure,claude_sonnet,53,0.0,Confidently wrong on the core procedure.,That after correcting an illegal move the player is completely free of any touch-move obligation.
+fide_090,fide,3,clock_handling,claude_sonnet,42,0.5,Partially correct; misstates one condition of the rule.,That a player with a clearly winning position is awarded the win when both flags fall together in the last period.
+fide_091,fide,3,arbiter_edge_cases,claude_sonnet,25,0.0,Misidentifies the applicable article and outcome.,That a king may capture any adjacent enemy piece since it is right next to it.
+fide_092,fide,3,castling_rules,claude_sonnet,56,0.0,States a common misconception rather than the actual rule.,That castling rights are restored when the rook comes back to its starting square.
+fide_093,fide,3,arbiter_edge_cases,claude_sonnet,51,0.5,Partially correct; misstates one condition of the rule.,That the player who still has a winning position wins despite both flags being down.
+fide_094,fide,3,illegal_position_procedure,claude_sonnet,28,0.0,Confidently wrong on the core procedure.,That an illegal move found after the game ends retroactively invalidates the result.
+fide_095,fide,3,en_passant,claude_sonnet,58,0.5,Right general direction but omits a key qualifying detail.,That the en passant right is merely postponed and can be taken a move or two later.
+fide_096,fide,3,stalemate_draws,claude_sonnet,59,1.0,Matches the ground truth precisely.,That having an overwhelming material advantage converts a stalemate into a win.
+fide_097,fide,3,arbiter_edge_cases,claude_sonnet,37,0.0,Misidentifies the applicable article and outcome.,That a flag fall always beats a checkmate delivered around the same moment.
+fide_098,fide,3,insufficient_material,claude_sonnet,52,0.5,"Close, but conflates two related provisions.",That any theoretical helpmate possibility automatically makes a flag fall a loss even with a single knight.
+fide_099,fide,3,illegal_position_procedure,claude_sonnet,48,0.0,States a common misconception rather than the actual rule.,That failing to claim immediately means the illegal move stands permanently with no remedy.
+fide_100,fide,3,arbiter_edge_cases,claude_sonnet,32,0.0,Misidentifies the applicable article and outcome.,That the moment you touch or place a queen on the promotion square you are bound to promote to a queen.
+fia_001,fia,1,qualifying_format,claude_sonnet,99,1.0,Fully aligned with the regulation cited.,"People assume the slowest six are cut to leave a round number, but with a 20-car grid it is exactly five eliminated per round."
+fia_002,fia,1,qualifying_format,claude_sonnet,86,0.0,Contradicts the governing regulation.,"Some think Q3 includes all surviving cars from Q1, but it is strictly the ten fastest from Q2."
+fia_003,fia,1,pit_lane_rules,claude_sonnet,79,1.0,Accurate and complete; captures the essential point.,"Many believe the limit is always 60 km/h because some circuits use it, but the default standard is 80 km/h."
+fia_004,fia,1,pit_lane_rules,claude_sonnet,85,1.0,Accurate and complete; captures the essential point.,"People assume it is always a drive-through, but in the race a standard time penalty is the typical sanction, with fines used in practice."
+fia_005,fia,1,race_start,claude_sonnet,87,1.0,Matches the ground truth precisely.,"Some think a green light signals the start, but it is the extinguishing of the red lights that starts the race."
+fia_006,fia,1,race_start,claude_sonnet,70,0.0,Contradicts the governing regulation.,"Many think any twitch is penalized, but the car must actually move out of position before the lights go out to trigger a jump start."
+fia_007,fia,1,safety_car,claude_sonnet,76,0.5,Right general direction but omits a key qualifying detail.,"People assume drivers can race up to catch the pack, but overtaking is banned the moment the safety car is deployed."
+fia_008,fia,1,safety_car,claude_sonnet,82,0.5,"Close, but conflates two related provisions.",People think a green light tells drivers to pass; in fact it is the extinguishing of the safety car's lights that signals it is returning to the pits.
+fia_009,fia,1,vsc,claude_sonnet,90,1.0,Correctly states the rule and its application.,"Drivers think they just need to be slower overall, but they must stay positive to the VSC delta in every mini-sector, not just on average."
+fia_010,fia,1,vsc,claude_sonnet,91,1.0,Matches the ground truth precisely.,"Some believe the pit lane is closed during a VSC like at the start of a safety car period, but pitting is allowed under VSC."
+fia_011,fia,1,drs,claude_sonnet,91,1.0,Correctly states the rule and its application.,"People often think it is a two-second gap, but the threshold is one second at the detection point."
+fia_012,fia,1,drs,claude_sonnet,88,1.0,Correctly states the rule and its application.,"Drivers assume DRS is available from lap one, but it is disabled for the first two laps after a start or restart."
+fia_013,fia,1,drs,claude_sonnet,71,1.0,Matches the ground truth precisely.,"Some think DRS is always available once the one-second gap is met, but the race director can disable it in the wet."
+fia_014,fia,1,blue_flags,claude_sonnet,88,1.0,Fully aligned with the regulation cited.,"Some think a blue flag tells the faster car to back off, but it instructs the slower lapped car to yield."
+fia_015,fia,1,blue_flags,claude_sonnet,86,1.0,Matches the ground truth precisely.,"People think blue flags are merely advisory, but ignoring them is a penalizable offence."
+fia_016,fia,1,points_scoring,claude_sonnet,89,1.0,Correctly states the rule and its application.,"Some still think first place is worth 10 points from the older system, but it has been 25 since 2010."
+fia_017,fia,1,points_scoring,claude_sonnet,86,0.5,Captures the gist but the specifics are imprecise.,"People sometimes think the top eight or six score, reflecting older systems, but it has been the top ten since 2010."
+fia_018,fia,1,points_scoring,claude_sonnet,86,1.0,Accurate and complete; captures the essential point.,"People think anyone can win the fastest-lap point, but the driver must finish in the top ten to receive it."
+fia_019,fia,1,points_scoring,claude_sonnet,85,1.0,Fully aligned with the regulation cited.,"Some assume a smaller gap like 20 points, but second is 18, a deliberate seven-point gap from the win."
+fia_020,fia,1,parc_ferme,claude_sonnet,86,0.5,"Close, but conflates two related provisions.","People think parc fermé only applies after the race, but it actually begins at the start of qualifying."
+fia_021,fia,1,parc_ferme,claude_sonnet,97,1.0,Fully aligned with the regulation cited.,"Teams are thought to be able to tweak wings overnight, but aero setup changes are forbidden under parc fermé."
+fia_022,fia,1,parc_ferme,claude_sonnet,77,0.0,Contradicts the governing regulation.,"People assume a grid drop, but the standard consequence for breaking parc fermé is a pit lane start."
+fia_023,fia,1,safety_car,claude_sonnet,80,1.0,Matches the ground truth precisely.,"People assume the pit lane is always open under safety car, but it can be temporarily closed at deployment for safety."
+fia_024,fia,1,race_start,claude_sonnet,88,1.0,Accurate and complete; captures the essential point.,"People think the race simply continues around a stalled car, but the start is aborted and the car removed for safety."
+fia_025,fia,1,qualifying_format,claude_sonnet,84,1.0,Accurate and complete; captures the essential point.,"Many still believe the top ten must start on their Q2 tyres, but that rule was abolished."
+fia_026,fia,1,pit_lane_rules,claude_sonnet,94,0.0,Contradicts the governing regulation.,"People think the pit lane is a free-for-all to gain places, but unsafe releases and dangerous overtakes there are penalized."
+fia_027,fia,1,vsc,claude_sonnet,91,0.5,"Close, but conflates two related provisions.","Drivers think VSC ends instantly when they see the message, but they must stay on delta until the official end signal."
+fia_028,fia,1,drs,claude_sonnet,84,1.0,Fully aligned with the regulation cited.,"People assume every track has exactly one DRS zone, but many have two or three."
+fia_029,fia,1,blue_flags,claude_sonnet,95,1.0,Correctly states the rule and its application.,"People think blue flags only apply during the race for lapping, but they are also used in qualifying for approaching fast cars."
+fia_030,fia,1,points_scoring,claude_sonnet,83,0.0,Confidently wrong on the core procedure.,"People assume full points if two laps are completed, but a sliding scale now governs reduced-distance races."
+fia_031,fia,1,parc_ferme,claude_sonnet,85,1.0,Matches the ground truth precisely.,"People think nothing can be touched under parc fermé, but tyre changes and several other operations are explicitly allowed."
+fia_032,fia,1,race_start,claude_sonnet,76,1.0,Correctly states the rule and its application.,"People think drivers can jockey for position on the formation lap, but overtaking is only allowed to regain a lost place."
+fia_033,fia,1,safety_car,claude_sonnet,85,1.0,Matches the ground truth precisely.,"People think racing resumes immediately when the safety car leaves, but the leader sets the pace until the control line."
+fia_034,fia,1,vsc,claude_sonnet,80,1.0,Accurate and complete; captures the essential point.,"People assume positions can still change under VSC since there's no physical car, but overtaking is banned."
+fia_035,fia,1,drs,claude_sonnet,99,0.0,States a common misconception rather than the actual rule.,"People think DRS can be used defensively whenever someone is behind, but it depends only on the gap to the car ahead."
+fia_036,fia,1,safety_car,claude_sonnet,95,1.0,Correctly states the rule and its application.,"People think blue flags wave lapped cars past under the safety car, but the safety car rules govern unlapping instead."
+fia_037,fia,1,points_scoring,claude_sonnet,85,0.0,Contradicts the governing regulation.,"People think constructors use a different or halved scale, but both championships use the same per-position points."
+fia_038,fia,1,track_limits,claude_sonnet,91,0.5,"Close, but conflates two related provisions.","People think a small excursion is tolerated, but a lap with all four wheels beyond the white line is deleted."
+fia_039,fia,1,pit_lane_rules,claude_sonnet,89,1.0,Accurate and complete; captures the essential point.,"People think the limit only applies during the race, but it is enforced in every on-track session."
+fia_040,fia,1,safety_car,claude_sonnet,94,1.0,Correctly states the rule and its application.,"People think a single signal suffices, but it is signalled simultaneously by waved yellows, SC boards, and the timing message."
+fia_041,fia,2,technical_regulations,claude_sonnet,54,0.5,"Close, but conflates two related provisions.","People think any flexing is automatically illegal, but parts are legal as long as deflection under the defined test load stays within the limit."
+fia_042,fia,2,technical_regulations,claude_sonnet,58,1.0,Accurate and complete; captures the essential point.,"Teams assume passing the published test means full legality, but the FIA can impose tougher tests and still judge a part non-compliant."
+fia_043,fia,2,drs,claude_sonnet,61,0.0,Confidently wrong on the core procedure.,"Drivers think DRS returns immediately when green flags fly after a safety car, but it is delayed two laps after the restart."
+fia_044,fia,2,parc_ferme,claude_sonnet,74,0.5,Right general direction but omits a key qualifying detail.,"People assume parc fermé timing is identical to a standard weekend, but on Sprint weekends it begins at Sprint Qualifying."
+fia_045,fia,2,sprint_weekend_procedure,claude_sonnet,51,0.0,Misidentifies the applicable article and outcome.,"People think the car is locked from Friday to Sunday on a Sprint weekend, but 2024 allows setup changes between the Sprint and main qualifying."
+fia_046,fia,2,sprint_weekend_procedure,claude_sonnet,54,0.0,Contradicts the governing regulation.,"People think Sprint points mirror the full race scale or only the top three score, but the top eight score with 8 for the win."
+fia_047,fia,2,cost_cap_rules,claude_sonnet,33,0.0,Misidentifies the applicable article and outcome.,"People assume crash damage is exempt because it is not the team's fault, but it counts against the cost cap."
+fia_048,fia,2,cost_cap_rules,claude_sonnet,44,0.0,Confidently wrong on the core procedure.,"People think the cost cap covers absolutely all spending including driver salaries, but driver pay and top personnel are excluded."
+fia_049,fia,2,cost_cap_rules,claude_sonnet,41,0.5,Captures the gist but the specifics are imprecise.,"People think any breach is treated identically, but the rules separate procedural from minor and material overspend breaches."
+fia_050,fia,2,power_unit_penalties,claude_sonnet,69,1.0,Fully aligned with the regulation cited.,"People think there is one combined engine allowance, but each element type has its own separate seasonal limit."
+fia_051,fia,2,power_unit_penalties,claude_sonnet,63,0.0,Misidentifies the applicable article and outcome.,"People think every extra engine part is a fixed ten places, but only the first is ten and subsequent new elements are five each."
+fia_052,fia,2,power_unit_penalties,claude_sonnet,70,1.0,Correctly states the rule and its application.,"People think a driver can be pushed behind the grid into negative positions, but penalties beyond 15 just mean a back-of-grid start."
+fia_053,fia,2,race_start,claude_sonnet,72,1.0,Fully aligned with the regulation cited.,"People think the race just proceeds with a gap on the grid, but the start is aborted and the race distance reduced by a lap."
+fia_054,fia,2,red_flag_restart,claude_sonnet,65,0.0,States a common misconception rather than the actual rule.,"People think positions are taken from the exact moment of the red flag, but the order is from the last fully completed lap."
+fia_055,fia,2,red_flag_restart,claude_sonnet,74,0.0,States a common misconception rather than the actual rule.,"People think the car is frozen during a red flag, but teams can change tyres and perform permitted work, giving a free stop."
+fia_056,fia,2,red_flag_restart,claude_sonnet,68,1.0,Accurate and complete; captures the essential point.,"People assume the car keeps its grid slot, but a car in the pits at the red flag must restart from the pit lane."
+fia_057,fia,2,driver_change,claude_sonnet,68,0.5,"Close, but conflates two related provisions.","People think a substitute simply inherits the qualified grid slot, but a driver change usually means a pit lane start."
+fia_058,fia,2,driver_change,claude_sonnet,67,0.0,Contradicts the governing regulation.,"People think only the contracted regular drivers' points count for the constructor, but a substitute's points also count."
+fia_059,fia,2,weight_enforcement,claude_sonnet,65,0.5,Partially correct; misstates one condition of the rule.,"People think weight only matters at scrutineering before the weekend, but it must be met at every weigh-in throughout the event."
+fia_060,fia,2,weight_enforcement,claude_sonnet,68,0.5,Right general direction but omits a key qualifying detail.,"People think the minimum weight is the car alone, but it includes the driver, with a separate driver-and-seat minimum."
+fia_061,fia,2,technical_regulations,claude_sonnet,50,0.5,"Close, but conflates two related provisions.","People think running the tank nearly dry is fine, but failing to provide the one-litre sample leads to disqualification."
+fia_062,fia,2,steward_decisions,claude_sonnet,59,0.0,States a common misconception rather than the actual rule.,"People think the chequered flag locks the result, but stewards can apply post-race penalties before results are final."
+fia_063,fia,2,steward_decisions,claude_sonnet,55,0.0,Misidentifies the applicable article and outcome.,"People think a team can simply appeal because they disagree, but a review requires significant new and previously unavailable evidence."
+fia_064,fia,2,steward_decisions,claude_sonnet,52,0.0,Misidentifies the applicable article and outcome.,"People think the black-and-orange flag is a punishment, but it is a safety instruction to repair a dangerous component."
+fia_065,fia,2,pit_lane_rules,claude_sonnet,66,0.0,Confidently wrong on the core procedure.,"People think only a detached wheel counts, but releasing into another car's path is equally an unsafe release."
+fia_066,fia,2,technical_regulations,claude_sonnet,55,1.0,Fully aligned with the regulation cited.,"People think the plank is just for protection, but it is a ride-height enforcement device whose excessive wear causes disqualification."
+fia_067,fia,2,power_unit_penalties,claude_sonnet,63,0.0,Contradicts the governing regulation.,"People think a penalized engine carries a penalty every time it's used, but the penalty applies only once when it's introduced."
+fia_068,fia,2,cost_cap_rules,claude_sonnet,45,0.0,Misidentifies the applicable article and outcome.,"People think a cost cap breach is only a fine, but material breaches can carry points deductions and testing restrictions."
+fia_069,fia,2,sprint_weekend_procedure,claude_sonnet,50,0.0,Contradicts the governing regulation.,"People assume the fastest-lap point applies to all races, but it is exclusive to the Grand Prix, not the Sprint."
+fia_070,fia,2,red_flag_restart,claude_sonnet,68,1.0,Fully aligned with the regulation cited.,"People think any car can rejoin after a red flag, but a car must reach the grid in time and meet eligibility to restart."
+fia_071,fia,2,weight_enforcement,claude_sonnet,79,1.0,Fully aligned with the regulation cited.,"People think a small underweight gets a minor penalty, but it normally means full exclusion from the session results."
+fia_072,fia,2,technical_regulations,claude_sonnet,50,0.0,Confidently wrong on the core procedure.,"People think clever flexing or moving aero is allowed if it passes tests, but movable aerodynamic devices other than DRS are banned."
+fia_073,fia,2,driver_change,claude_sonnet,78,1.0,Correctly states the rule and its application.,"People think a reserve can step in on short notice regardless of licence, but a valid Super Licence is mandatory."
+fia_074,fia,2,steward_decisions,claude_sonnet,41,0.0,Misidentifies the applicable article and outcome.,"People think retiring escapes a penalty, but an unserved sanction can carry over to the next race."
+fia_075,fia,2,cost_cap_rules,claude_sonnet,49,0.0,States a common misconception rather than the actual rule.,"People think all teams get equal wind tunnel time, but allocations scale inversely with championship position."
+fia_076,fia,2,sprint_weekend_procedure,claude_sonnet,46,0.0,States a common misconception rather than the actual rule.,"People think the Sprint finishing order sets the Grand Prix grid, but a separate qualifying determines it in 2024."
+fia_077,fia,2,power_unit_penalties,claude_sonnet,75,0.0,Contradicts the governing regulation.,"People think PU penalties hit both the Sprint and the race, but they are applied to the Grand Prix grid."
+fia_078,fia,2,technical_regulations,claude_sonnet,49,0.0,Misidentifies the applicable article and outcome.,"People think the ADR is optional telemetry, but it is a mandatory safety device required for the car to run."
+fia_079,fia,2,vsc,claude_sonnet,74,0.0,Confidently wrong on the core procedure.,"People think a VSC and safety car are mutually exclusive, but a VSC can be escalated to a full safety car as needed."
+fia_080,fia,2,steward_decisions,claude_sonnet,47,0.0,Misidentifies the applicable article and outcome.,"People think every penalty can be appealed, but in-race driving penalties are explicitly non-appealable."
+fia_081,fia,3,safety_car,claude_sonnet,51,0.0,States a common misconception rather than the actual rule.,"People believe only the cars directly between the leader and the next contender unlap, but the literal rule refers to any/all lapped cars."
+fia_082,fia,3,safety_car,claude_sonnet,56,0.0,Confidently wrong on the core procedure.,"People think the safety car comes in the same lap the unlapping message is given, but the literal rule specifies the end of the following lap."
+fia_083,fia,3,safety_car,claude_sonnet,62,0.5,Captures the gist but the specifics are imprecise.,"People think the rule clearly mandated a fixed outcome, but the literal wording's ambiguity over discretion is exactly what caused the dispute."
+fia_084,fia,3,track_limits,claude_sonnet,43,0.5,"Close, but conflates two related provisions.","People think each race track-limits breach just deletes a lap like in qualifying, but in the race it escalates to flags and time penalties."
+fia_085,fia,3,track_limits,claude_sonnet,46,0.0,Confidently wrong on the core procedure.,"People think touching the kerb or going slightly wide counts, but limits are exceeded only when all four wheels are beyond the white line."
+fia_086,fia,3,steward_decisions,claude_sonnet,32,0.0,States a common misconception rather than the actual rule.,"People think stewards can freely revisit any call after a session, but discretionary judgements need a formal review with new evidence."
+fia_087,fia,3,steward_decisions,claude_sonnet,33,0.0,Confidently wrong on the core procedure.,"People think stewards can amend a final result whenever new opinions arise, but only formal review or appeal can change a declared-final result."
+fia_088,fia,3,vsc,claude_sonnet,59,0.0,Confidently wrong on the core procedure.,"People think lapped cars can catch up and unlap under VSC like under the safety car, but overtaking is banned so no unlapping occurs."
+fia_089,fia,3,steward_decisions,claude_sonnet,35,0.0,States a common misconception rather than the actual rule.,"People conflate the two, but a drive-through has no stop while a stop-and-go requires a stationary timed penalty with no servicing."
+fia_090,fia,3,steward_decisions,claude_sonnet,17,0.0,Confidently wrong on the core procedure.,"People think a team can change tyres during the served-seconds, but no work is allowed until the penalty time has fully elapsed."
+fia_091,fia,3,red_flag_restart,claude_sonnet,59,1.0,Correctly states the rule and its application.,"People assume every red-flag restart is a standing start from the grid, but it can be a rolling restart behind the safety car."
+fia_092,fia,3,track_limits,claude_sonnet,61,1.0,Fully aligned with the regulation cited.,"People think stewards can apply track limits more leniently to leaders, but enforcement must be consistent across all cars."
+fia_093,fia,3,drs,claude_sonnet,54,0.5,Captures the gist but the specifics are imprecise.,"People think DRS is live the instant the VSC message clears, but the race director re-enables it after racing has properly resumed."
+fia_094,fia,3,steward_decisions,claude_sonnet,29,0.0,Misidentifies the applicable article and outcome.,"People think an early touch is a minor error, but it invalidates the served penalty and triggers a harsher sanction."
+fia_095,fia,3,safety_car,claude_sonnet,50,1.0,Accurate and complete; captures the essential point.,"People think the safety car can be pulled in as soon as the leader is clear of backmarkers, but the literal rule requires waiting until the end of the following lap."
+fia_096,fia,3,track_limits,claude_sonnet,58,0.5,Partially correct; misstates one condition of the rule.,"People think track limits only matter for lap times, but gaining a lasting advantage off-track must be given back regardless."
+fia_097,fia,3,steward_decisions,claude_sonnet,28,0.5,"Close, but conflates two related provisions.","People think the formation lap is penalty-free practice time, but unsafe conduct on it is penalizable."
+fia_098,fia,3,vsc,claude_sonnet,58,0.5,Captures the gist but the specifics are imprecise.,"People think a car emerging from a pit stop is exempt from the VSC delta, but it must respect the delta once back on track."
+fia_099,fia,3,steward_decisions,claude_sonnet,30,0.0,Confidently wrong on the core procedure.,"People think every time penalty must be served in the pits, but late-race penalties are simply added to the finishing time."
+fia_100,fia,3,red_flag_restart,claude_sonnet,60,1.0,Fully aligned with the regulation cited.,"People think a red flag wipes the slate clean on pending penalties, but unserved penalties carry through the restart."
+fide_001,fide,1,basic_moves,gemini,88,0.5,Partially correct; misstates one condition of the rule.,That a bishop can also slide one square sideways or jump over pieces.
+fide_002,fide,1,basic_moves,gemini,87,0.5,"Close, but conflates two related provisions.",That a knight is blocked if pieces stand between its start and destination squares.
+fide_003,fide,1,basic_moves,gemini,85,0.0,Misidentifies the applicable article and outcome.,That the king can move two squares like other long-range pieces in open positions.
+fide_004,fide,1,basic_moves,gemini,93,0.5,"Close, but conflates two related provisions.",That a rook may move diagonally to reach nearby squares.
+fide_005,fide,1,basic_moves,gemini,97,1.0,Accurate and complete; captures the essential point.,That a queen can also move like a knight in an L-shape.
+fide_006,fide,1,basic_moves,gemini,99,1.0,Fully aligned with the regulation cited.,"That a pawn can always move two squares forward, not just on its first move."
+fide_007,fide,1,basic_moves,gemini,72,1.0,Fully aligned with the regulation cited.,That a pawn captures the piece directly in front of it.
+fide_008,fide,1,basic_moves,gemini,91,0.5,"Close, but conflates two related provisions.","That a pawn can only become a queen, or that you can only promote to a piece already captured."
+fide_009,fide,1,check_checkmate,gemini,98,1.0,Fully aligned with the regulation cited.,That a king must be attacked by two or more pieces to be considered in check.
+fide_010,fide,1,check_checkmate,gemini,99,0.5,Partially correct; misstates one condition of the rule.,That you can ignore a check for one move or castle out of it.
+fide_011,fide,1,check_checkmate,gemini,91,0.5,"Close, but conflates two related provisions.",That the king must actually be captured to end the game.
+fide_012,fide,1,check_checkmate,gemini,81,1.0,Matches the ground truth precisely.,That you may expose your king to check as long as you can recapture next move.
+fide_013,fide,1,check_checkmate,gemini,96,1.0,Correctly states the rule and its application.,That announcing 'check' is mandatory in official play.
+fide_014,fide,1,stalemate_draws,gemini,94,1.0,Correctly states the rule and its application.,"That stalemate is a win for the side delivering it, or a loss for the stalemated player."
+fide_015,fide,1,stalemate_draws,gemini,94,1.0,Correctly states the rule and its application.,That a draw offer can be withdrawn after it has already been accepted.
+fide_016,fide,1,stalemate_draws,gemini,86,1.0,Fully aligned with the regulation cited.,That the players must keep playing until stalemate or time runs out even with no mating material.
+fide_017,fide,1,stalemate_draws,gemini,79,0.0,Misidentifies the applicable article and outcome.,That the rule counts 50 moves by one player rather than 50 by each.
+fide_018,fide,1,stalemate_draws,gemini,95,1.0,Correctly states the rule and its application.,"That only three identical moves in a row, rather than three identical positions, trigger the rule."
+fide_019,fide,1,piece_values,gemini,88,0.0,Contradicts the governing regulation.,That the queen is worth exactly the sum of all minor pieces or has a fixed legal value.
+fide_020,fide,1,piece_values,gemini,94,0.0,Contradicts the governing regulation.,That a rook is worth the same as a bishop or knight.
+fide_021,fide,1,piece_values,gemini,82,1.0,Matches the ground truth precisely.,That a bishop is worth substantially more than a knight in all positions.
+fide_022,fide,1,piece_values,gemini,97,0.5,Partially correct; misstates one condition of the rule.,That all pawns are always equal in practical value regardless of position.
+fide_023,fide,1,tournament_basics,gemini,87,1.0,Fully aligned with the regulation cited.,That the player who wins a coin toss may choose to move first regardless of color.
+fide_024,fide,1,tournament_basics,gemini,89,1.0,Fully aligned with the regulation cited.,That the bottom-right corner should be a dark square.
+fide_025,fide,1,tournament_basics,gemini,95,0.0,Contradicts the governing regulation.,That the queen starts on the e-file beside the king on both sides.
+fide_026,fide,1,tournament_basics,gemini,85,1.0,Fully aligned with the regulation cited.,That each side starts with a different count or includes extra queens.
+fide_027,fide,1,tournament_basics,gemini,95,0.5,Partially correct; misstates one condition of the rule.,That a checkmate win is worth more points than a win on time or resignation.
+fide_028,fide,1,tournament_basics,gemini,97,1.0,Fully aligned with the regulation cited.,That a draw by stalemate scores differently from a draw by agreement.
+fide_029,fide,1,tournament_basics,gemini,88,1.0,Fully aligned with the regulation cited.,That resignation must be confirmed by the arbiter before it takes effect.
+fide_030,fide,1,tournament_basics,gemini,81,1.0,Correctly states the rule and its application.,That accidentally knocking over your own king automatically forfeits the game.
+fide_031,fide,1,check_checkmate,gemini,90,1.0,Fully aligned with the regulation cited.,That you may develop a piece elsewhere and answer the check on the following move.
+fide_032,fide,1,basic_moves,gemini,88,0.5,Right general direction but omits a key qualifying detail.,That a defending piece can sit on the same square as the piece it protects.
+fide_033,fide,1,basic_moves,gemini,79,1.0,Fully aligned with the regulation cited.,That the captured piece stays beside the board and can re-enter play later.
+fide_034,fide,1,stalemate_draws,gemini,89,1.0,Correctly states the rule and its application.,That simply offering a draw ends the game even without acceptance.
+fide_035,fide,1,tournament_basics,gemini,83,1.0,Matches the ground truth precisely.,That the king and queen positions are mirrored so both kings sit on their own color.
+fide_036,fide,1,check_checkmate,gemini,91,1.0,Accurate and complete; captures the essential point.,That a king can check the other king when they are next to each other.
+fide_037,fide,1,basic_moves,gemini,99,1.0,Matches the ground truth precisely.,That a pawn can retreat to defend or reposition.
+fide_038,fide,1,stalemate_draws,gemini,99,1.0,Accurate and complete; captures the essential point.,That a bishop can corner and checkmate a lone king like a rook can.
+fide_039,fide,1,stalemate_draws,gemini,88,0.5,Captures the gist but the specifics are imprecise.,That a knight can mate a lone king with proper technique.
+fide_040,fide,1,check_checkmate,gemini,94,1.0,Fully aligned with the regulation cited.,"That a queen alone without king support can mate, or that the ending is a draw."
+fide_041,fide,2,en_passant,gemini,89,0.5,Right general direction but omits a key qualifying detail.,That en passant can be played at any later time after the two-square advance.
+fide_042,fide,2,en_passant,gemini,82,1.0,Fully aligned with the regulation cited.,That the capturing pawn lands on a4 where the enemy pawn actually stands.
+fide_043,fide,2,en_passant,gemini,87,0.0,Misidentifies the applicable article and outcome.,That en passant rights persist as long as the two pawns remain adjacent.
+fide_044,fide,3,en_passant,gemini,58,0.5,"Close, but conflates two related provisions.","That if the two-square advance and adjacency conditions are satisfied, the en passant capture must always be legal."
+fide_045,fide,2,castling_rules,gemini,89,0.5,Captures the gist but the specifics are imprecise.,That castling is a valid way to move the king out of check.
+fide_046,fide,2,castling_rules,gemini,87,0.0,Misidentifies the applicable article and outcome.,"That only the king's final square needs to be safe, not the square it crosses."
+fide_047,fide,2,castling_rules,gemini,77,1.0,Fully aligned with the regulation cited.,That castling exempts the king from the rule against moving into check.
+fide_048,fide,2,castling_rules,gemini,83,0.5,Captures the gist but the specifics are imprecise.,That castling queenside is illegal whenever the b1/b8 square is attacked.
+fide_049,fide,3,castling_rules,gemini,63,1.0,Accurate and complete; captures the essential point.,That a king which was ever in check at any point in the game permanently loses the right to castle.
+fide_050,fide,2,castling_rules,gemini,76,1.0,Fully aligned with the regulation cited.,That you can castle by jumping the king over an intervening knight or bishop.
+fide_051,fide,2,touch_move,gemini,92,0.0,States a common misconception rather than the actual rule.,That you may touch a piece to test ideas and then freely move a different one.
+fide_052,fide,2,touch_move,gemini,83,0.0,States a common misconception rather than the actual rule.,That touching an enemy piece carries no obligation at all.
+fide_053,fide,2,touch_move,gemini,78,0.5,"Close, but conflates two related provisions.",That you can adjust a piece silently and announce 'I adjust' only if challenged.
+fide_054,fide,2,touch_move,gemini,86,1.0,Correctly states the rule and its application.,That touching a pinned piece forfeits the game or forces an illegal move.
+fide_055,fide,2,touch_move,gemini,84,0.0,Contradicts the governing regulation.,"That a move can be taken back as long as you have not pressed the clock, even after releasing the piece."
+fide_056,fide,2,clock_handling,gemini,67,0.0,Confidently wrong on the core procedure.,That a player may move with one hand and press the clock with the other for speed.
+fide_057,fide,2,clock_handling,gemini,69,0.5,"Close, but conflates two related provisions.",That the opponent must tell the player to press their clock or it does not count.
+fide_058,fide,3,clock_handling,gemini,48,0.0,Misidentifies the applicable article and outcome.,That a move is invalid or incomplete if the moved piece is left tipped over rather than standing upright on its square.
+fide_059,fide,2,clock_handling,gemini,68,0.0,Confidently wrong on the core procedure.,That running out of time is always an automatic loss regardless of the opponent's material.
+fide_060,fide,2,clock_handling,gemini,77,1.0,Fully aligned with the regulation cited.,"That losing on time is always a loss, even against an opponent who has only a king."
+fide_061,fide,2,scoresheet_obligations,gemini,82,1.0,Correctly states the rule and its application.,"That a player only needs to record their own moves, not the opponent's."
+fide_062,fide,2,scoresheet_obligations,gemini,79,0.0,States a common misconception rather than the actual rule.,That score-keeping is always mandatory even in severe time pressure.
+fide_063,fide,2,scoresheet_obligations,gemini,85,0.0,Misidentifies the applicable article and outcome.,That each player owns and may keep their personal scoresheet.
+fide_064,fide,2,scoresheet_obligations,gemini,88,1.0,Accurate and complete; captures the essential point.,That a verbal claim alone suffices regardless of whether the moves were recorded.
+fide_065,fide,2,threefold_repetition,gemini,85,1.0,Matches the ground truth precisely.,That you can play the repeating move first and then claim the draw afterward.
+fide_066,fide,2,threefold_repetition,gemini,91,0.0,States a common misconception rather than the actual rule.,"That identical piece placement alone makes positions count as repetitions, regardless of side to move or castling rights."
+fide_067,fide,2,threefold_repetition,gemini,76,0.0,States a common misconception rather than the actual rule.,That an incorrect repetition claim carries no penalty and you can simply retract it.
+fide_068,fide,2,threefold_repetition,gemini,82,1.0,Correctly states the rule and its application.,That the same position must repeat three times back-to-back to claim a draw.
+fide_069,fide,2,fifty_move_rule,gemini,91,0.0,Misidentifies the applicable article and outcome.,That you can complete the 50th move first and then claim the draw.
+fide_070,fide,2,fifty_move_rule,gemini,77,1.0,Fully aligned with the regulation cited.,"That only captures reset the count, while quiet pawn moves do not."
+fide_071,fide,2,fifty_move_rule,gemini,80,1.0,Accurate and complete; captures the essential point.,That the game is always automatically drawn exactly at 50 moves without any claim.
+fide_072,fide,3,insufficient_material,gemini,60,0.0,States a common misconception rather than the actual rule.,"That because two knights cannot force mate, a flag fall against them is automatically scored as a draw."
+fide_073,fide,3,insufficient_material,gemini,63,0.0,States a common misconception rather than the actual rule.,"That whenever neither side can FORCE mate, a flag fall is automatically a draw, ignoring that extra enemy material can make a helpmate possible."
+fide_074,fide,2,insufficient_material,gemini,84,1.0,Matches the ground truth precisely.,That the players must keep playing until a flag falls or a draw is agreed.
+fide_075,fide,2,insufficient_material,gemini,87,0.0,Misidentifies the applicable article and outcome.,"That a rook, like a single bishop or knight, cannot force checkmate alone with its king."
+fide_076,fide,3,illegal_position_procedure,gemini,40,0.0,States a common misconception rather than the actual rule.,That any illegal position discovered mid-game forces the entire game to be cancelled and replayed from the start.
+fide_077,fide,2,illegal_position_procedure,gemini,71,0.0,States a common misconception rather than the actual rule.,That you can just correct the pieces mid-game and keep playing from where you are.
+fide_078,fide,2,illegal_position_procedure,gemini,67,1.0,Matches the ground truth precisely.,That a wrongly oriented board always voids the game and forces a restart.
+fide_079,fide,2,illegal_position_procedure,gemini,60,1.0,Correctly states the rule and its application.,That a wrong-color assignment always voids the game no matter how many moves have been played.
+fide_080,fide,3,arbiter_edge_cases,gemini,42,0.0,Contradicts the governing regulation.,That touching or moving the rook first during castling is automatically a penalized illegal move giving the opponent two minutes.
+fide_081,fide,2,arbiter_edge_cases,gemini,56,0.0,Confidently wrong on the core procedure.,That the loss occurs on the very first illegal move rather than the second.
+fide_082,fide,2,arbiter_edge_cases,gemini,53,1.0,Fully aligned with the regulation cited.,That the pawn automatically becomes a queen if left on the last rank.
+fide_083,fide,3,arbiter_edge_cases,gemini,39,0.0,States a common misconception rather than the actual rule.,"That any time your own king falls over, even by accident, the game is automatically lost as a resignation."
+fide_084,fide,2,arbiter_edge_cases,gemini,61,0.0,Misidentifies the applicable article and outcome.,That having a silent phone in your pocket is acceptable as long as it does not ring.
+fide_085,fide,2,en_passant,gemini,81,0.0,Contradicts the governing regulation.,That any passing pawn or piece can be taken en passant.
+fide_086,fide,3,clock_handling,gemini,52,0.0,Confidently wrong on the core procedure.,That you can still claim a win for an opponent's illegal move even after you have already replied with your own move.
+fide_087,fide,2,arbiter_edge_cases,gemini,50,0.5,Captures the gist but the specifics are imprecise.,That an out-of-turn draw offer is automatically void and cannot be accepted.
+fide_088,fide,2,scoresheet_obligations,gemini,90,1.0,Matches the ground truth precisely.,That you may write your intended move down before playing it to help calculation.
+fide_089,fide,2,illegal_position_procedure,gemini,55,0.0,States a common misconception rather than the actual rule.,That after correcting an illegal move the player is completely free of any touch-move obligation.
+fide_090,fide,3,clock_handling,gemini,54,1.0,Correctly states the rule and its application.,That a player with a clearly winning position is awarded the win when both flags fall together in the last period.
+fide_091,fide,3,arbiter_edge_cases,gemini,33,0.0,Confidently wrong on the core procedure.,That a king may capture any adjacent enemy piece since it is right next to it.
+fide_092,fide,3,castling_rules,gemini,59,1.0,Matches the ground truth precisely.,That castling rights are restored when the rook comes back to its starting square.
+fide_093,fide,3,arbiter_edge_cases,gemini,41,0.0,States a common misconception rather than the actual rule.,That the player who still has a winning position wins despite both flags being down.
+fide_094,fide,3,illegal_position_procedure,gemini,33,0.0,Confidently wrong on the core procedure.,That an illegal move found after the game ends retroactively invalidates the result.
+fide_095,fide,3,en_passant,gemini,64,0.0,Misidentifies the applicable article and outcome.,That the en passant right is merely postponed and can be taken a move or two later.
+fide_096,fide,3,stalemate_draws,gemini,54,1.0,Matches the ground truth precisely.,That having an overwhelming material advantage converts a stalemate into a win.
+fide_097,fide,3,arbiter_edge_cases,gemini,39,0.5,Right general direction but omits a key qualifying detail.,That a flag fall always beats a checkmate delivered around the same moment.
+fide_098,fide,3,insufficient_material,gemini,63,0.0,Contradicts the governing regulation.,That any theoretical helpmate possibility automatically makes a flag fall a loss even with a single knight.
+fide_099,fide,3,illegal_position_procedure,gemini,33,0.0,Contradicts the governing regulation.,That failing to claim immediately means the illegal move stands permanently with no remedy.
+fide_100,fide,3,arbiter_edge_cases,gemini,52,0.0,States a common misconception rather than the actual rule.,That the moment you touch or place a queen on the promotion square you are bound to promote to a queen.
+fia_001,fia,1,qualifying_format,gemini,85,1.0,Matches the ground truth precisely.,"People assume the slowest six are cut to leave a round number, but with a 20-car grid it is exactly five eliminated per round."
+fia_002,fia,1,qualifying_format,gemini,87,1.0,Fully aligned with the regulation cited.,"Some think Q3 includes all surviving cars from Q1, but it is strictly the ten fastest from Q2."
+fia_003,fia,1,pit_lane_rules,gemini,71,0.0,Contradicts the governing regulation.,"Many believe the limit is always 60 km/h because some circuits use it, but the default standard is 80 km/h."
+fia_004,fia,1,pit_lane_rules,gemini,85,0.5,"Close, but conflates two related provisions.","People assume it is always a drive-through, but in the race a standard time penalty is the typical sanction, with fines used in practice."
+fia_005,fia,1,race_start,gemini,88,0.0,Misidentifies the applicable article and outcome.,"Some think a green light signals the start, but it is the extinguishing of the red lights that starts the race."
+fia_006,fia,1,race_start,gemini,84,1.0,Matches the ground truth precisely.,"Many think any twitch is penalized, but the car must actually move out of position before the lights go out to trigger a jump start."
+fia_007,fia,1,safety_car,gemini,85,1.0,Fully aligned with the regulation cited.,"People assume drivers can race up to catch the pack, but overtaking is banned the moment the safety car is deployed."
+fia_008,fia,1,safety_car,gemini,84,1.0,Matches the ground truth precisely.,People think a green light tells drivers to pass; in fact it is the extinguishing of the safety car's lights that signals it is returning to the pits.
+fia_009,fia,1,vsc,gemini,86,1.0,Accurate and complete; captures the essential point.,"Drivers think they just need to be slower overall, but they must stay positive to the VSC delta in every mini-sector, not just on average."
+fia_010,fia,1,vsc,gemini,76,1.0,Correctly states the rule and its application.,"Some believe the pit lane is closed during a VSC like at the start of a safety car period, but pitting is allowed under VSC."
+fia_011,fia,1,drs,gemini,99,1.0,Correctly states the rule and its application.,"People often think it is a two-second gap, but the threshold is one second at the detection point."
+fia_012,fia,1,drs,gemini,85,0.0,Contradicts the governing regulation.,"Drivers assume DRS is available from lap one, but it is disabled for the first two laps after a start or restart."
+fia_013,fia,1,drs,gemini,79,1.0,Matches the ground truth precisely.,"Some think DRS is always available once the one-second gap is met, but the race director can disable it in the wet."
+fia_014,fia,1,blue_flags,gemini,82,1.0,Accurate and complete; captures the essential point.,"Some think a blue flag tells the faster car to back off, but it instructs the slower lapped car to yield."
+fia_015,fia,1,blue_flags,gemini,83,1.0,Matches the ground truth precisely.,"People think blue flags are merely advisory, but ignoring them is a penalizable offence."
+fia_016,fia,1,points_scoring,gemini,94,0.0,States a common misconception rather than the actual rule.,"Some still think first place is worth 10 points from the older system, but it has been 25 since 2010."
+fia_017,fia,1,points_scoring,gemini,83,1.0,Matches the ground truth precisely.,"People sometimes think the top eight or six score, reflecting older systems, but it has been the top ten since 2010."
+fia_018,fia,1,points_scoring,gemini,84,1.0,Accurate and complete; captures the essential point.,"People think anyone can win the fastest-lap point, but the driver must finish in the top ten to receive it."
+fia_019,fia,1,points_scoring,gemini,80,1.0,Correctly states the rule and its application.,"Some assume a smaller gap like 20 points, but second is 18, a deliberate seven-point gap from the win."
+fia_020,fia,1,parc_ferme,gemini,87,1.0,Correctly states the rule and its application.,"People think parc fermé only applies after the race, but it actually begins at the start of qualifying."
+fia_021,fia,1,parc_ferme,gemini,81,0.0,Confidently wrong on the core procedure.,"Teams are thought to be able to tweak wings overnight, but aero setup changes are forbidden under parc fermé."
+fia_022,fia,1,parc_ferme,gemini,91,1.0,Correctly states the rule and its application.,"People assume a grid drop, but the standard consequence for breaking parc fermé is a pit lane start."
+fia_023,fia,1,safety_car,gemini,88,0.5,Right general direction but omits a key qualifying detail.,"People assume the pit lane is always open under safety car, but it can be temporarily closed at deployment for safety."
+fia_024,fia,1,race_start,gemini,90,1.0,Accurate and complete; captures the essential point.,"People think the race simply continues around a stalled car, but the start is aborted and the car removed for safety."
+fia_025,fia,1,qualifying_format,gemini,86,0.0,Confidently wrong on the core procedure.,"Many still believe the top ten must start on their Q2 tyres, but that rule was abolished."
+fia_026,fia,1,pit_lane_rules,gemini,79,0.5,Captures the gist but the specifics are imprecise.,"People think the pit lane is a free-for-all to gain places, but unsafe releases and dangerous overtakes there are penalized."
+fia_027,fia,1,vsc,gemini,85,1.0,Matches the ground truth precisely.,"Drivers think VSC ends instantly when they see the message, but they must stay on delta until the official end signal."
+fia_028,fia,1,drs,gemini,94,1.0,Correctly states the rule and its application.,"People assume every track has exactly one DRS zone, but many have two or three."
+fia_029,fia,1,blue_flags,gemini,91,0.5,Partially correct; misstates one condition of the rule.,"People think blue flags only apply during the race for lapping, but they are also used in qualifying for approaching fast cars."
+fia_030,fia,1,points_scoring,gemini,75,1.0,Accurate and complete; captures the essential point.,"People assume full points if two laps are completed, but a sliding scale now governs reduced-distance races."
+fia_031,fia,1,parc_ferme,gemini,84,1.0,Matches the ground truth precisely.,"People think nothing can be touched under parc fermé, but tyre changes and several other operations are explicitly allowed."
+fia_032,fia,1,race_start,gemini,85,0.0,Contradicts the governing regulation.,"People think drivers can jockey for position on the formation lap, but overtaking is only allowed to regain a lost place."
+fia_033,fia,1,safety_car,gemini,90,1.0,Accurate and complete; captures the essential point.,"People think racing resumes immediately when the safety car leaves, but the leader sets the pace until the control line."
+fia_034,fia,1,vsc,gemini,78,1.0,Accurate and complete; captures the essential point.,"People assume positions can still change under VSC since there's no physical car, but overtaking is banned."
+fia_035,fia,1,drs,gemini,93,0.0,Misidentifies the applicable article and outcome.,"People think DRS can be used defensively whenever someone is behind, but it depends only on the gap to the car ahead."
+fia_036,fia,1,safety_car,gemini,99,0.5,Right general direction but omits a key qualifying detail.,"People think blue flags wave lapped cars past under the safety car, but the safety car rules govern unlapping instead."
+fia_037,fia,1,points_scoring,gemini,87,0.5,"Close, but conflates two related provisions.","People think constructors use a different or halved scale, but both championships use the same per-position points."
+fia_038,fia,1,track_limits,gemini,97,1.0,Fully aligned with the regulation cited.,"People think a small excursion is tolerated, but a lap with all four wheels beyond the white line is deleted."
+fia_039,fia,1,pit_lane_rules,gemini,80,0.0,Confidently wrong on the core procedure.,"People think the limit only applies during the race, but it is enforced in every on-track session."
+fia_040,fia,1,safety_car,gemini,94,1.0,Accurate and complete; captures the essential point.,"People think a single signal suffices, but it is signalled simultaneously by waved yellows, SC boards, and the timing message."
+fia_041,fia,2,technical_regulations,gemini,58,1.0,Correctly states the rule and its application.,"People think any flexing is automatically illegal, but parts are legal as long as deflection under the defined test load stays within the limit."
+fia_042,fia,2,technical_regulations,gemini,52,0.0,Confidently wrong on the core procedure.,"Teams assume passing the published test means full legality, but the FIA can impose tougher tests and still judge a part non-compliant."
+fia_043,fia,2,drs,gemini,78,1.0,Matches the ground truth precisely.,"Drivers think DRS returns immediately when green flags fly after a safety car, but it is delayed two laps after the restart."
+fia_044,fia,2,parc_ferme,gemini,77,1.0,Fully aligned with the regulation cited.,"People assume parc fermé timing is identical to a standard weekend, but on Sprint weekends it begins at Sprint Qualifying."
+fia_045,fia,2,sprint_weekend_procedure,gemini,66,0.0,Contradicts the governing regulation.,"People think the car is locked from Friday to Sunday on a Sprint weekend, but 2024 allows setup changes between the Sprint and main qualifying."
+fia_046,fia,2,sprint_weekend_procedure,gemini,65,0.0,Contradicts the governing regulation.,"People think Sprint points mirror the full race scale or only the top three score, but the top eight score with 8 for the win."
+fia_047,fia,2,cost_cap_rules,gemini,57,0.0,Contradicts the governing regulation.,"People assume crash damage is exempt because it is not the team's fault, but it counts against the cost cap."
+fia_048,fia,2,cost_cap_rules,gemini,53,0.0,Misidentifies the applicable article and outcome.,"People think the cost cap covers absolutely all spending including driver salaries, but driver pay and top personnel are excluded."
+fia_049,fia,2,cost_cap_rules,gemini,43,0.0,Contradicts the governing regulation.,"People think any breach is treated identically, but the rules separate procedural from minor and material overspend breaches."
+fia_050,fia,2,power_unit_penalties,gemini,86,0.5,Captures the gist but the specifics are imprecise.,"People think there is one combined engine allowance, but each element type has its own separate seasonal limit."
+fia_051,fia,2,power_unit_penalties,gemini,73,1.0,Correctly states the rule and its application.,"People think every extra engine part is a fixed ten places, but only the first is ten and subsequent new elements are five each."
+fia_052,fia,2,power_unit_penalties,gemini,79,1.0,Fully aligned with the regulation cited.,"People think a driver can be pushed behind the grid into negative positions, but penalties beyond 15 just mean a back-of-grid start."
+fia_053,fia,2,race_start,gemini,79,0.0,Contradicts the governing regulation.,"People think the race just proceeds with a gap on the grid, but the start is aborted and the race distance reduced by a lap."
+fia_054,fia,2,red_flag_restart,gemini,71,1.0,Fully aligned with the regulation cited.,"People think positions are taken from the exact moment of the red flag, but the order is from the last fully completed lap."
+fia_055,fia,2,red_flag_restart,gemini,86,1.0,Correctly states the rule and its application.,"People think the car is frozen during a red flag, but teams can change tyres and perform permitted work, giving a free stop."
+fia_056,fia,2,red_flag_restart,gemini,76,1.0,Fully aligned with the regulation cited.,"People assume the car keeps its grid slot, but a car in the pits at the red flag must restart from the pit lane."
+fia_057,fia,2,driver_change,gemini,76,1.0,Correctly states the rule and its application.,"People think a substitute simply inherits the qualified grid slot, but a driver change usually means a pit lane start."
+fia_058,fia,2,driver_change,gemini,77,1.0,Matches the ground truth precisely.,"People think only the contracted regular drivers' points count for the constructor, but a substitute's points also count."
+fia_059,fia,2,weight_enforcement,gemini,86,0.5,Partially correct; misstates one condition of the rule.,"People think weight only matters at scrutineering before the weekend, but it must be met at every weigh-in throughout the event."
+fia_060,fia,2,weight_enforcement,gemini,75,0.0,Misidentifies the applicable article and outcome.,"People think the minimum weight is the car alone, but it includes the driver, with a separate driver-and-seat minimum."
+fia_061,fia,2,technical_regulations,gemini,63,0.5,"Close, but conflates two related provisions.","People think running the tank nearly dry is fine, but failing to provide the one-litre sample leads to disqualification."
+fia_062,fia,2,steward_decisions,gemini,60,0.0,Contradicts the governing regulation.,"People think the chequered flag locks the result, but stewards can apply post-race penalties before results are final."
+fia_063,fia,2,steward_decisions,gemini,58,0.0,Confidently wrong on the core procedure.,"People think a team can simply appeal because they disagree, but a review requires significant new and previously unavailable evidence."
+fia_064,fia,2,steward_decisions,gemini,55,1.0,Correctly states the rule and its application.,"People think the black-and-orange flag is a punishment, but it is a safety instruction to repair a dangerous component."
+fia_065,fia,2,pit_lane_rules,gemini,85,1.0,Accurate and complete; captures the essential point.,"People think only a detached wheel counts, but releasing into another car's path is equally an unsafe release."
+fia_066,fia,2,technical_regulations,gemini,65,0.0,States a common misconception rather than the actual rule.,"People think the plank is just for protection, but it is a ride-height enforcement device whose excessive wear causes disqualification."
+fia_067,fia,2,power_unit_penalties,gemini,78,0.0,Contradicts the governing regulation.,"People think a penalized engine carries a penalty every time it's used, but the penalty applies only once when it's introduced."
+fia_068,fia,2,cost_cap_rules,gemini,57,0.0,Confidently wrong on the core procedure.,"People think a cost cap breach is only a fine, but material breaches can carry points deductions and testing restrictions."
+fia_069,fia,2,sprint_weekend_procedure,gemini,62,0.0,Misidentifies the applicable article and outcome.,"People assume the fastest-lap point applies to all races, but it is exclusive to the Grand Prix, not the Sprint."
+fia_070,fia,2,red_flag_restart,gemini,80,0.0,Contradicts the governing regulation.,"People think any car can rejoin after a red flag, but a car must reach the grid in time and meet eligibility to restart."
+fia_071,fia,2,weight_enforcement,gemini,80,0.0,Misidentifies the applicable article and outcome.,"People think a small underweight gets a minor penalty, but it normally means full exclusion from the session results."
+fia_072,fia,2,technical_regulations,gemini,57,0.5,Right general direction but omits a key qualifying detail.,"People think clever flexing or moving aero is allowed if it passes tests, but movable aerodynamic devices other than DRS are banned."
+fia_073,fia,2,driver_change,gemini,82,0.0,Misidentifies the applicable article and outcome.,"People think a reserve can step in on short notice regardless of licence, but a valid Super Licence is mandatory."
+fia_074,fia,2,steward_decisions,gemini,46,0.0,Confidently wrong on the core procedure.,"People think retiring escapes a penalty, but an unserved sanction can carry over to the next race."
+fia_075,fia,2,cost_cap_rules,gemini,56,0.0,Misidentifies the applicable article and outcome.,"People think all teams get equal wind tunnel time, but allocations scale inversely with championship position."
+fia_076,fia,2,sprint_weekend_procedure,gemini,72,0.5,Right general direction but omits a key qualifying detail.,"People think the Sprint finishing order sets the Grand Prix grid, but a separate qualifying determines it in 2024."
+fia_077,fia,2,power_unit_penalties,gemini,88,1.0,Accurate and complete; captures the essential point.,"People think PU penalties hit both the Sprint and the race, but they are applied to the Grand Prix grid."
+fia_078,fia,2,technical_regulations,gemini,59,0.0,Misidentifies the applicable article and outcome.,"People think the ADR is optional telemetry, but it is a mandatory safety device required for the car to run."
+fia_079,fia,2,vsc,gemini,73,0.0,Confidently wrong on the core procedure.,"People think a VSC and safety car are mutually exclusive, but a VSC can be escalated to a full safety car as needed."
+fia_080,fia,2,steward_decisions,gemini,54,0.0,Contradicts the governing regulation.,"People think every penalty can be appealed, but in-race driving penalties are explicitly non-appealable."
+fia_081,fia,3,safety_car,gemini,68,0.0,Misidentifies the applicable article and outcome.,"People believe only the cars directly between the leader and the next contender unlap, but the literal rule refers to any/all lapped cars."
+fia_082,fia,3,safety_car,gemini,63,0.0,Contradicts the governing regulation.,"People think the safety car comes in the same lap the unlapping message is given, but the literal rule specifies the end of the following lap."
+fia_083,fia,3,safety_car,gemini,59,0.0,Contradicts the governing regulation.,"People think the rule clearly mandated a fixed outcome, but the literal wording's ambiguity over discretion is exactly what caused the dispute."
+fia_084,fia,3,track_limits,gemini,53,1.0,Correctly states the rule and its application.,"People think each race track-limits breach just deletes a lap like in qualifying, but in the race it escalates to flags and time penalties."
+fia_085,fia,3,track_limits,gemini,58,1.0,Accurate and complete; captures the essential point.,"People think touching the kerb or going slightly wide counts, but limits are exceeded only when all four wheels are beyond the white line."
+fia_086,fia,3,steward_decisions,gemini,48,0.0,Confidently wrong on the core procedure.,"People think stewards can freely revisit any call after a session, but discretionary judgements need a formal review with new evidence."
+fia_087,fia,3,steward_decisions,gemini,43,0.0,Confidently wrong on the core procedure.,"People think stewards can amend a final result whenever new opinions arise, but only formal review or appeal can change a declared-final result."
+fia_088,fia,3,vsc,gemini,60,0.0,Contradicts the governing regulation.,"People think lapped cars can catch up and unlap under VSC like under the safety car, but overtaking is banned so no unlapping occurs."
+fia_089,fia,3,steward_decisions,gemini,39,0.5,Captures the gist but the specifics are imprecise.,"People conflate the two, but a drive-through has no stop while a stop-and-go requires a stationary timed penalty with no servicing."
+fia_090,fia,3,steward_decisions,gemini,47,0.0,States a common misconception rather than the actual rule.,"People think a team can change tyres during the served-seconds, but no work is allowed until the penalty time has fully elapsed."
+fia_091,fia,3,red_flag_restart,gemini,61,0.0,Misidentifies the applicable article and outcome.,"People assume every red-flag restart is a standing start from the grid, but it can be a rolling restart behind the safety car."
+fia_092,fia,3,track_limits,gemini,57,0.0,Confidently wrong on the core procedure.,"People think stewards can apply track limits more leniently to leaders, but enforcement must be consistent across all cars."
+fia_093,fia,3,drs,gemini,43,0.0,Misidentifies the applicable article and outcome.,"People think DRS is live the instant the VSC message clears, but the race director re-enables it after racing has properly resumed."
+fia_094,fia,3,steward_decisions,gemini,40,0.0,Misidentifies the applicable article and outcome.,"People think an early touch is a minor error, but it invalidates the served penalty and triggers a harsher sanction."
+fia_095,fia,3,safety_car,gemini,58,0.0,States a common misconception rather than the actual rule.,"People think the safety car can be pulled in as soon as the leader is clear of backmarkers, but the literal rule requires waiting until the end of the following lap."
+fia_096,fia,3,track_limits,gemini,59,1.0,Fully aligned with the regulation cited.,"People think track limits only matter for lap times, but gaining a lasting advantage off-track must be given back regardless."
+fia_097,fia,3,steward_decisions,gemini,41,0.5,Partially correct; misstates one condition of the rule.,"People think the formation lap is penalty-free practice time, but unsafe conduct on it is penalizable."
+fia_098,fia,3,vsc,gemini,57,0.0,States a common misconception rather than the actual rule.,"People think a car emerging from a pit stop is exempt from the VSC delta, but it must respect the delta once back on track."
+fia_099,fia,3,steward_decisions,gemini,39,0.0,Contradicts the governing regulation.,"People think every time penalty must be served in the pits, but late-race penalties are simply added to the finishing time."
+fia_100,fia,3,red_flag_restart,gemini,61,0.0,States a common misconception rather than the actual rule.,"People think a red flag wipes the slate clean on pending penalties, but unserved penalties carry through the restart."
+fide_001,fide,1,basic_moves,llama3,87,0.5,"Close, but conflates two related provisions.",That a bishop can also slide one square sideways or jump over pieces.
+fide_002,fide,1,basic_moves,llama3,93,1.0,Correctly states the rule and its application.,That a knight is blocked if pieces stand between its start and destination squares.
+fide_003,fide,1,basic_moves,llama3,93,1.0,Fully aligned with the regulation cited.,That the king can move two squares like other long-range pieces in open positions.
+fide_004,fide,1,basic_moves,llama3,99,0.0,States a common misconception rather than the actual rule.,That a rook may move diagonally to reach nearby squares.
+fide_005,fide,1,basic_moves,llama3,89,0.5,Partially correct; misstates one condition of the rule.,That a queen can also move like a knight in an L-shape.
+fide_006,fide,1,basic_moves,llama3,90,1.0,Fully aligned with the regulation cited.,"That a pawn can always move two squares forward, not just on its first move."
+fide_007,fide,1,basic_moves,llama3,93,1.0,Correctly states the rule and its application.,That a pawn captures the piece directly in front of it.
+fide_008,fide,1,basic_moves,llama3,96,1.0,Matches the ground truth precisely.,"That a pawn can only become a queen, or that you can only promote to a piece already captured."
+fide_009,fide,1,check_checkmate,llama3,94,0.5,"Close, but conflates two related provisions.",That a king must be attacked by two or more pieces to be considered in check.
+fide_010,fide,1,check_checkmate,llama3,98,0.5,Partially correct; misstates one condition of the rule.,That you can ignore a check for one move or castle out of it.
+fide_011,fide,1,check_checkmate,llama3,90,1.0,Matches the ground truth precisely.,That the king must actually be captured to end the game.
+fide_012,fide,1,check_checkmate,llama3,79,0.5,Right general direction but omits a key qualifying detail.,That you may expose your king to check as long as you can recapture next move.
+fide_013,fide,1,check_checkmate,llama3,97,1.0,Matches the ground truth precisely.,That announcing 'check' is mandatory in official play.
+fide_014,fide,1,stalemate_draws,llama3,89,1.0,Fully aligned with the regulation cited.,"That stalemate is a win for the side delivering it, or a loss for the stalemated player."
+fide_015,fide,1,stalemate_draws,llama3,91,0.0,Contradicts the governing regulation.,That a draw offer can be withdrawn after it has already been accepted.
+fide_016,fide,1,stalemate_draws,llama3,96,1.0,Accurate and complete; captures the essential point.,That the players must keep playing until stalemate or time runs out even with no mating material.
+fide_017,fide,1,stalemate_draws,llama3,89,0.5,Partially correct; misstates one condition of the rule.,That the rule counts 50 moves by one player rather than 50 by each.
+fide_018,fide,1,stalemate_draws,llama3,85,1.0,Matches the ground truth precisely.,"That only three identical moves in a row, rather than three identical positions, trigger the rule."
+fide_019,fide,1,piece_values,llama3,91,1.0,Correctly states the rule and its application.,That the queen is worth exactly the sum of all minor pieces or has a fixed legal value.
+fide_020,fide,1,piece_values,llama3,92,1.0,Matches the ground truth precisely.,That a rook is worth the same as a bishop or knight.
+fide_021,fide,1,piece_values,llama3,90,0.5,"Close, but conflates two related provisions.",That a bishop is worth substantially more than a knight in all positions.
+fide_022,fide,1,piece_values,llama3,94,1.0,Accurate and complete; captures the essential point.,That all pawns are always equal in practical value regardless of position.
+fide_023,fide,1,tournament_basics,llama3,96,0.0,Misidentifies the applicable article and outcome.,That the player who wins a coin toss may choose to move first regardless of color.
+fide_024,fide,1,tournament_basics,llama3,86,1.0,Matches the ground truth precisely.,That the bottom-right corner should be a dark square.
+fide_025,fide,1,tournament_basics,llama3,89,1.0,Correctly states the rule and its application.,That the queen starts on the e-file beside the king on both sides.
+fide_026,fide,1,tournament_basics,llama3,96,1.0,Correctly states the rule and its application.,That each side starts with a different count or includes extra queens.
+fide_027,fide,1,tournament_basics,llama3,99,0.5,"Close, but conflates two related provisions.",That a checkmate win is worth more points than a win on time or resignation.
+fide_028,fide,1,tournament_basics,llama3,84,0.0,Misidentifies the applicable article and outcome.,That a draw by stalemate scores differently from a draw by agreement.
+fide_029,fide,1,tournament_basics,llama3,96,1.0,Accurate and complete; captures the essential point.,That resignation must be confirmed by the arbiter before it takes effect.
+fide_030,fide,1,tournament_basics,llama3,92,1.0,Fully aligned with the regulation cited.,That accidentally knocking over your own king automatically forfeits the game.
+fide_031,fide,1,check_checkmate,llama3,93,1.0,Correctly states the rule and its application.,That you may develop a piece elsewhere and answer the check on the following move.
+fide_032,fide,1,basic_moves,llama3,88,1.0,Accurate and complete; captures the essential point.,That a defending piece can sit on the same square as the piece it protects.
+fide_033,fide,1,basic_moves,llama3,86,1.0,Matches the ground truth precisely.,That the captured piece stays beside the board and can re-enter play later.
+fide_034,fide,1,stalemate_draws,llama3,90,1.0,Matches the ground truth precisely.,That simply offering a draw ends the game even without acceptance.
+fide_035,fide,1,tournament_basics,llama3,91,0.0,Contradicts the governing regulation.,That the king and queen positions are mirrored so both kings sit on their own color.
+fide_036,fide,1,check_checkmate,llama3,99,0.5,Captures the gist but the specifics are imprecise.,That a king can check the other king when they are next to each other.
+fide_037,fide,1,basic_moves,llama3,91,0.0,Confidently wrong on the core procedure.,That a pawn can retreat to defend or reposition.
+fide_038,fide,1,stalemate_draws,llama3,99,0.0,Confidently wrong on the core procedure.,That a bishop can corner and checkmate a lone king like a rook can.
+fide_039,fide,1,stalemate_draws,llama3,86,0.0,States a common misconception rather than the actual rule.,That a knight can mate a lone king with proper technique.
+fide_040,fide,1,check_checkmate,llama3,85,1.0,Accurate and complete; captures the essential point.,"That a queen alone without king support can mate, or that the ending is a draw."
+fide_041,fide,2,en_passant,llama3,70,0.0,States a common misconception rather than the actual rule.,That en passant can be played at any later time after the two-square advance.
+fide_042,fide,2,en_passant,llama3,76,1.0,Matches the ground truth precisely.,That the capturing pawn lands on a4 where the enemy pawn actually stands.
+fide_043,fide,2,en_passant,llama3,74,0.5,Captures the gist but the specifics are imprecise.,That en passant rights persist as long as the two pawns remain adjacent.
+fide_044,fide,3,en_passant,llama3,55,0.0,States a common misconception rather than the actual rule.,"That if the two-square advance and adjacency conditions are satisfied, the en passant capture must always be legal."
+fide_045,fide,2,castling_rules,llama3,79,1.0,Accurate and complete; captures the essential point.,That castling is a valid way to move the king out of check.
+fide_046,fide,2,castling_rules,llama3,76,1.0,Accurate and complete; captures the essential point.,"That only the king's final square needs to be safe, not the square it crosses."
+fide_047,fide,2,castling_rules,llama3,78,0.0,Confidently wrong on the core procedure.,That castling exempts the king from the rule against moving into check.
+fide_048,fide,2,castling_rules,llama3,90,0.5,"Close, but conflates two related provisions.",That castling queenside is illegal whenever the b1/b8 square is attacked.
+fide_049,fide,3,castling_rules,llama3,59,0.0,Contradicts the governing regulation.,That a king which was ever in check at any point in the game permanently loses the right to castle.
+fide_050,fide,2,castling_rules,llama3,75,1.0,Correctly states the rule and its application.,That you can castle by jumping the king over an intervening knight or bishop.
+fide_051,fide,2,touch_move,llama3,85,1.0,Correctly states the rule and its application.,That you may touch a piece to test ideas and then freely move a different one.
+fide_052,fide,2,touch_move,llama3,75,1.0,Matches the ground truth precisely.,That touching an enemy piece carries no obligation at all.
+fide_053,fide,2,touch_move,llama3,66,1.0,Fully aligned with the regulation cited.,That you can adjust a piece silently and announce 'I adjust' only if challenged.
+fide_054,fide,2,touch_move,llama3,68,1.0,Matches the ground truth precisely.,That touching a pinned piece forfeits the game or forces an illegal move.
+fide_055,fide,2,touch_move,llama3,68,0.0,Confidently wrong on the core procedure.,"That a move can be taken back as long as you have not pressed the clock, even after releasing the piece."
+fide_056,fide,2,clock_handling,llama3,56,1.0,Accurate and complete; captures the essential point.,That a player may move with one hand and press the clock with the other for speed.
+fide_057,fide,2,clock_handling,llama3,70,1.0,Fully aligned with the regulation cited.,That the opponent must tell the player to press their clock or it does not count.
+fide_058,fide,3,clock_handling,llama3,55,0.0,Confidently wrong on the core procedure.,That a move is invalid or incomplete if the moved piece is left tipped over rather than standing upright on its square.
+fide_059,fide,2,clock_handling,llama3,64,1.0,Fully aligned with the regulation cited.,That running out of time is always an automatic loss regardless of the opponent's material.
+fide_060,fide,2,clock_handling,llama3,61,0.0,Misidentifies the applicable article and outcome.,"That losing on time is always a loss, even against an opponent who has only a king."
+fide_061,fide,2,scoresheet_obligations,llama3,79,1.0,Matches the ground truth precisely.,"That a player only needs to record their own moves, not the opponent's."
+fide_062,fide,2,scoresheet_obligations,llama3,70,1.0,Fully aligned with the regulation cited.,That score-keeping is always mandatory even in severe time pressure.
+fide_063,fide,2,scoresheet_obligations,llama3,90,0.0,Contradicts the governing regulation.,That each player owns and may keep their personal scoresheet.
+fide_064,fide,2,scoresheet_obligations,llama3,75,0.0,Contradicts the governing regulation.,That a verbal claim alone suffices regardless of whether the moves were recorded.
+fide_065,fide,2,threefold_repetition,llama3,69,1.0,Fully aligned with the regulation cited.,That you can play the repeating move first and then claim the draw afterward.
+fide_066,fide,2,threefold_repetition,llama3,76,0.5,Captures the gist but the specifics are imprecise.,"That identical piece placement alone makes positions count as repetitions, regardless of side to move or castling rights."
+fide_067,fide,2,threefold_repetition,llama3,70,0.0,Contradicts the governing regulation.,That an incorrect repetition claim carries no penalty and you can simply retract it.
+fide_068,fide,2,threefold_repetition,llama3,75,0.5,"Close, but conflates two related provisions.",That the same position must repeat three times back-to-back to claim a draw.
+fide_069,fide,2,fifty_move_rule,llama3,72,0.0,Contradicts the governing regulation.,That you can complete the 50th move first and then claim the draw.
+fide_070,fide,2,fifty_move_rule,llama3,74,1.0,Correctly states the rule and its application.,"That only captures reset the count, while quiet pawn moves do not."
+fide_071,fide,2,fifty_move_rule,llama3,80,1.0,Matches the ground truth precisely.,That the game is always automatically drawn exactly at 50 moves without any claim.
+fide_072,fide,3,insufficient_material,llama3,61,1.0,Matches the ground truth precisely.,"That because two knights cannot force mate, a flag fall against them is automatically scored as a draw."
+fide_073,fide,3,insufficient_material,llama3,59,0.0,Confidently wrong on the core procedure.,"That whenever neither side can FORCE mate, a flag fall is automatically a draw, ignoring that extra enemy material can make a helpmate possible."
+fide_074,fide,2,insufficient_material,llama3,81,1.0,Correctly states the rule and its application.,That the players must keep playing until a flag falls or a draw is agreed.
+fide_075,fide,2,insufficient_material,llama3,74,1.0,Accurate and complete; captures the essential point.,"That a rook, like a single bishop or knight, cannot force checkmate alone with its king."
+fide_076,fide,3,illegal_position_procedure,llama3,42,0.0,Confidently wrong on the core procedure.,That any illegal position discovered mid-game forces the entire game to be cancelled and replayed from the start.
+fide_077,fide,2,illegal_position_procedure,llama3,45,0.0,States a common misconception rather than the actual rule.,That you can just correct the pieces mid-game and keep playing from where you are.
+fide_078,fide,2,illegal_position_procedure,llama3,47,1.0,Correctly states the rule and its application.,That a wrongly oriented board always voids the game and forces a restart.
+fide_079,fide,2,illegal_position_procedure,llama3,58,0.0,Misidentifies the applicable article and outcome.,That a wrong-color assignment always voids the game no matter how many moves have been played.
+fide_080,fide,3,arbiter_edge_cases,llama3,31,0.0,States a common misconception rather than the actual rule.,That touching or moving the rook first during castling is automatically a penalized illegal move giving the opponent two minutes.
+fide_081,fide,2,arbiter_edge_cases,llama3,54,0.0,States a common misconception rather than the actual rule.,That the loss occurs on the very first illegal move rather than the second.
+fide_082,fide,2,arbiter_edge_cases,llama3,54,0.0,States a common misconception rather than the actual rule.,That the pawn automatically becomes a queen if left on the last rank.
+fide_083,fide,3,arbiter_edge_cases,llama3,32,0.5,Partially correct; misstates one condition of the rule.,"That any time your own king falls over, even by accident, the game is automatically lost as a resignation."
+fide_084,fide,2,arbiter_edge_cases,llama3,57,0.0,States a common misconception rather than the actual rule.,That having a silent phone in your pocket is acceptable as long as it does not ring.
+fide_085,fide,2,en_passant,llama3,71,0.0,Confidently wrong on the core procedure.,That any passing pawn or piece can be taken en passant.
+fide_086,fide,3,clock_handling,llama3,57,0.0,Misidentifies the applicable article and outcome.,That you can still claim a win for an opponent's illegal move even after you have already replied with your own move.
+fide_087,fide,2,arbiter_edge_cases,llama3,57,0.5,Partially correct; misstates one condition of the rule.,That an out-of-turn draw offer is automatically void and cannot be accepted.
+fide_088,fide,2,scoresheet_obligations,llama3,92,1.0,Fully aligned with the regulation cited.,That you may write your intended move down before playing it to help calculation.
+fide_089,fide,2,illegal_position_procedure,llama3,58,0.5,Partially correct; misstates one condition of the rule.,That after correcting an illegal move the player is completely free of any touch-move obligation.
+fide_090,fide,3,clock_handling,llama3,51,0.0,Confidently wrong on the core procedure.,That a player with a clearly winning position is awarded the win when both flags fall together in the last period.
+fide_091,fide,3,arbiter_edge_cases,llama3,48,0.0,States a common misconception rather than the actual rule.,That a king may capture any adjacent enemy piece since it is right next to it.
+fide_092,fide,3,castling_rules,llama3,51,1.0,Correctly states the rule and its application.,That castling rights are restored when the rook comes back to its starting square.
+fide_093,fide,3,arbiter_edge_cases,llama3,30,0.0,Contradicts the governing regulation.,That the player who still has a winning position wins despite both flags being down.
+fide_094,fide,3,illegal_position_procedure,llama3,33,0.0,States a common misconception rather than the actual rule.,That an illegal move found after the game ends retroactively invalidates the result.
+fide_095,fide,3,en_passant,llama3,63,0.0,Contradicts the governing regulation.,That the en passant right is merely postponed and can be taken a move or two later.
+fide_096,fide,3,stalemate_draws,llama3,69,0.5,Captures the gist but the specifics are imprecise.,That having an overwhelming material advantage converts a stalemate into a win.
+fide_097,fide,3,arbiter_edge_cases,llama3,43,0.0,Contradicts the governing regulation.,That a flag fall always beats a checkmate delivered around the same moment.
+fide_098,fide,3,insufficient_material,llama3,66,0.0,Misidentifies the applicable article and outcome.,That any theoretical helpmate possibility automatically makes a flag fall a loss even with a single knight.
+fide_099,fide,3,illegal_position_procedure,llama3,61,0.0,Confidently wrong on the core procedure.,That failing to claim immediately means the illegal move stands permanently with no remedy.
+fide_100,fide,3,arbiter_edge_cases,llama3,33,0.0,States a common misconception rather than the actual rule.,That the moment you touch or place a queen on the promotion square you are bound to promote to a queen.
+fia_001,fia,1,qualifying_format,llama3,90,1.0,Fully aligned with the regulation cited.,"People assume the slowest six are cut to leave a round number, but with a 20-car grid it is exactly five eliminated per round."
+fia_002,fia,1,qualifying_format,llama3,79,0.5,Partially correct; misstates one condition of the rule.,"Some think Q3 includes all surviving cars from Q1, but it is strictly the ten fastest from Q2."
+fia_003,fia,1,pit_lane_rules,llama3,99,0.0,States a common misconception rather than the actual rule.,"Many believe the limit is always 60 km/h because some circuits use it, but the default standard is 80 km/h."
+fia_004,fia,1,pit_lane_rules,llama3,79,1.0,Fully aligned with the regulation cited.,"People assume it is always a drive-through, but in the race a standard time penalty is the typical sanction, with fines used in practice."
+fia_005,fia,1,race_start,llama3,75,0.5,"Close, but conflates two related provisions.","Some think a green light signals the start, but it is the extinguishing of the red lights that starts the race."
+fia_006,fia,1,race_start,llama3,86,1.0,Matches the ground truth precisely.,"Many think any twitch is penalized, but the car must actually move out of position before the lights go out to trigger a jump start."
+fia_007,fia,1,safety_car,llama3,90,0.0,Contradicts the governing regulation.,"People assume drivers can race up to catch the pack, but overtaking is banned the moment the safety car is deployed."
+fia_008,fia,1,safety_car,llama3,78,0.0,Contradicts the governing regulation.,People think a green light tells drivers to pass; in fact it is the extinguishing of the safety car's lights that signals it is returning to the pits.
+fia_009,fia,1,vsc,llama3,78,0.0,States a common misconception rather than the actual rule.,"Drivers think they just need to be slower overall, but they must stay positive to the VSC delta in every mini-sector, not just on average."
+fia_010,fia,1,vsc,llama3,86,1.0,Correctly states the rule and its application.,"Some believe the pit lane is closed during a VSC like at the start of a safety car period, but pitting is allowed under VSC."
+fia_011,fia,1,drs,llama3,82,0.5,Right general direction but omits a key qualifying detail.,"People often think it is a two-second gap, but the threshold is one second at the detection point."
+fia_012,fia,1,drs,llama3,87,1.0,Correctly states the rule and its application.,"Drivers assume DRS is available from lap one, but it is disabled for the first two laps after a start or restart."
+fia_013,fia,1,drs,llama3,95,0.5,Right general direction but omits a key qualifying detail.,"Some think DRS is always available once the one-second gap is met, but the race director can disable it in the wet."
+fia_014,fia,1,blue_flags,llama3,85,0.5,Captures the gist but the specifics are imprecise.,"Some think a blue flag tells the faster car to back off, but it instructs the slower lapped car to yield."
+fia_015,fia,1,blue_flags,llama3,89,0.0,Confidently wrong on the core procedure.,"People think blue flags are merely advisory, but ignoring them is a penalizable offence."
+fia_016,fia,1,points_scoring,llama3,83,1.0,Fully aligned with the regulation cited.,"Some still think first place is worth 10 points from the older system, but it has been 25 since 2010."
+fia_017,fia,1,points_scoring,llama3,87,0.0,Misidentifies the applicable article and outcome.,"People sometimes think the top eight or six score, reflecting older systems, but it has been the top ten since 2010."
+fia_018,fia,1,points_scoring,llama3,83,0.0,Contradicts the governing regulation.,"People think anyone can win the fastest-lap point, but the driver must finish in the top ten to receive it."
+fia_019,fia,1,points_scoring,llama3,87,0.5,Partially correct; misstates one condition of the rule.,"Some assume a smaller gap like 20 points, but second is 18, a deliberate seven-point gap from the win."
+fia_020,fia,1,parc_ferme,llama3,85,1.0,Matches the ground truth precisely.,"People think parc fermé only applies after the race, but it actually begins at the start of qualifying."
+fia_021,fia,1,parc_ferme,llama3,86,1.0,Accurate and complete; captures the essential point.,"Teams are thought to be able to tweak wings overnight, but aero setup changes are forbidden under parc fermé."
+fia_022,fia,1,parc_ferme,llama3,82,0.0,States a common misconception rather than the actual rule.,"People assume a grid drop, but the standard consequence for breaking parc fermé is a pit lane start."
+fia_023,fia,1,safety_car,llama3,80,1.0,Fully aligned with the regulation cited.,"People assume the pit lane is always open under safety car, but it can be temporarily closed at deployment for safety."
+fia_024,fia,1,race_start,llama3,81,0.0,Misidentifies the applicable article and outcome.,"People think the race simply continues around a stalled car, but the start is aborted and the car removed for safety."
+fia_025,fia,1,qualifying_format,llama3,88,0.0,Contradicts the governing regulation.,"Many still believe the top ten must start on their Q2 tyres, but that rule was abolished."
+fia_026,fia,1,pit_lane_rules,llama3,96,0.0,Contradicts the governing regulation.,"People think the pit lane is a free-for-all to gain places, but unsafe releases and dangerous overtakes there are penalized."
+fia_027,fia,1,vsc,llama3,90,1.0,Correctly states the rule and its application.,"Drivers think VSC ends instantly when they see the message, but they must stay on delta until the official end signal."
+fia_028,fia,1,drs,llama3,79,1.0,Matches the ground truth precisely.,"People assume every track has exactly one DRS zone, but many have two or three."
+fia_029,fia,1,blue_flags,llama3,84,1.0,Correctly states the rule and its application.,"People think blue flags only apply during the race for lapping, but they are also used in qualifying for approaching fast cars."
+fia_030,fia,1,points_scoring,llama3,83,1.0,Matches the ground truth precisely.,"People assume full points if two laps are completed, but a sliding scale now governs reduced-distance races."
+fia_031,fia,1,parc_ferme,llama3,88,0.5,Captures the gist but the specifics are imprecise.,"People think nothing can be touched under parc fermé, but tyre changes and several other operations are explicitly allowed."
+fia_032,fia,1,race_start,llama3,81,1.0,Correctly states the rule and its application.,"People think drivers can jockey for position on the formation lap, but overtaking is only allowed to regain a lost place."
+fia_033,fia,1,safety_car,llama3,74,1.0,Matches the ground truth precisely.,"People think racing resumes immediately when the safety car leaves, but the leader sets the pace until the control line."
+fia_034,fia,1,vsc,llama3,88,1.0,Matches the ground truth precisely.,"People assume positions can still change under VSC since there's no physical car, but overtaking is banned."
+fia_035,fia,1,drs,llama3,82,0.5,Partially correct; misstates one condition of the rule.,"People think DRS can be used defensively whenever someone is behind, but it depends only on the gap to the car ahead."
+fia_036,fia,1,safety_car,llama3,88,1.0,Accurate and complete; captures the essential point.,"People think blue flags wave lapped cars past under the safety car, but the safety car rules govern unlapping instead."
+fia_037,fia,1,points_scoring,llama3,84,1.0,Correctly states the rule and its application.,"People think constructors use a different or halved scale, but both championships use the same per-position points."
+fia_038,fia,1,track_limits,llama3,87,1.0,Fully aligned with the regulation cited.,"People think a small excursion is tolerated, but a lap with all four wheels beyond the white line is deleted."
+fia_039,fia,1,pit_lane_rules,llama3,81,1.0,Fully aligned with the regulation cited.,"People think the limit only applies during the race, but it is enforced in every on-track session."
+fia_040,fia,1,safety_car,llama3,78,1.0,Matches the ground truth precisely.,"People think a single signal suffices, but it is signalled simultaneously by waved yellows, SC boards, and the timing message."
+fia_041,fia,2,technical_regulations,llama3,57,0.0,Contradicts the governing regulation.,"People think any flexing is automatically illegal, but parts are legal as long as deflection under the defined test load stays within the limit."
+fia_042,fia,2,technical_regulations,llama3,48,1.0,Accurate and complete; captures the essential point.,"Teams assume passing the published test means full legality, but the FIA can impose tougher tests and still judge a part non-compliant."
+fia_043,fia,2,drs,llama3,61,0.0,Misidentifies the applicable article and outcome.,"Drivers think DRS returns immediately when green flags fly after a safety car, but it is delayed two laps after the restart."
+fia_044,fia,2,parc_ferme,llama3,64,0.0,States a common misconception rather than the actual rule.,"People assume parc fermé timing is identical to a standard weekend, but on Sprint weekends it begins at Sprint Qualifying."
+fia_045,fia,2,sprint_weekend_procedure,llama3,59,0.0,Confidently wrong on the core procedure.,"People think the car is locked from Friday to Sunday on a Sprint weekend, but 2024 allows setup changes between the Sprint and main qualifying."
+fia_046,fia,2,sprint_weekend_procedure,llama3,61,0.0,States a common misconception rather than the actual rule.,"People think Sprint points mirror the full race scale or only the top three score, but the top eight score with 8 for the win."
+fia_047,fia,2,cost_cap_rules,llama3,52,0.5,Right general direction but omits a key qualifying detail.,"People assume crash damage is exempt because it is not the team's fault, but it counts against the cost cap."
+fia_048,fia,2,cost_cap_rules,llama3,38,0.0,Confidently wrong on the core procedure.,"People think the cost cap covers absolutely all spending including driver salaries, but driver pay and top personnel are excluded."
+fia_049,fia,2,cost_cap_rules,llama3,48,0.0,Misidentifies the applicable article and outcome.,"People think any breach is treated identically, but the rules separate procedural from minor and material overspend breaches."
+fia_050,fia,2,power_unit_penalties,llama3,66,1.0,Correctly states the rule and its application.,"People think there is one combined engine allowance, but each element type has its own separate seasonal limit."
+fia_051,fia,2,power_unit_penalties,llama3,70,1.0,Accurate and complete; captures the essential point.,"People think every extra engine part is a fixed ten places, but only the first is ten and subsequent new elements are five each."
+fia_052,fia,2,power_unit_penalties,llama3,64,0.0,Contradicts the governing regulation.,"People think a driver can be pushed behind the grid into negative positions, but penalties beyond 15 just mean a back-of-grid start."
+fia_053,fia,2,race_start,llama3,70,1.0,Accurate and complete; captures the essential point.,"People think the race just proceeds with a gap on the grid, but the start is aborted and the race distance reduced by a lap."
+fia_054,fia,2,red_flag_restart,llama3,65,1.0,Matches the ground truth precisely.,"People think positions are taken from the exact moment of the red flag, but the order is from the last fully completed lap."
+fia_055,fia,2,red_flag_restart,llama3,70,1.0,Matches the ground truth precisely.,"People think the car is frozen during a red flag, but teams can change tyres and perform permitted work, giving a free stop."
+fia_056,fia,2,red_flag_restart,llama3,74,1.0,Matches the ground truth precisely.,"People assume the car keeps its grid slot, but a car in the pits at the red flag must restart from the pit lane."
+fia_057,fia,2,driver_change,llama3,75,0.0,Misidentifies the applicable article and outcome.,"People think a substitute simply inherits the qualified grid slot, but a driver change usually means a pit lane start."
+fia_058,fia,2,driver_change,llama3,72,0.0,Contradicts the governing regulation.,"People think only the contracted regular drivers' points count for the constructor, but a substitute's points also count."
+fia_059,fia,2,weight_enforcement,llama3,69,0.5,Partially correct; misstates one condition of the rule.,"People think weight only matters at scrutineering before the weekend, but it must be met at every weigh-in throughout the event."
+fia_060,fia,2,weight_enforcement,llama3,68,0.0,Misidentifies the applicable article and outcome.,"People think the minimum weight is the car alone, but it includes the driver, with a separate driver-and-seat minimum."
+fia_061,fia,2,technical_regulations,llama3,51,0.0,States a common misconception rather than the actual rule.,"People think running the tank nearly dry is fine, but failing to provide the one-litre sample leads to disqualification."
+fia_062,fia,2,steward_decisions,llama3,48,0.0,Contradicts the governing regulation.,"People think the chequered flag locks the result, but stewards can apply post-race penalties before results are final."
+fia_063,fia,2,steward_decisions,llama3,48,0.0,States a common misconception rather than the actual rule.,"People think a team can simply appeal because they disagree, but a review requires significant new and previously unavailable evidence."
+fia_064,fia,2,steward_decisions,llama3,41,0.5,Right general direction but omits a key qualifying detail.,"People think the black-and-orange flag is a punishment, but it is a safety instruction to repair a dangerous component."
+fia_065,fia,2,pit_lane_rules,llama3,84,1.0,Correctly states the rule and its application.,"People think only a detached wheel counts, but releasing into another car's path is equally an unsafe release."
+fia_066,fia,2,technical_regulations,llama3,57,0.5,"Close, but conflates two related provisions.","People think the plank is just for protection, but it is a ride-height enforcement device whose excessive wear causes disqualification."
+fia_067,fia,2,power_unit_penalties,llama3,64,0.0,Misidentifies the applicable article and outcome.,"People think a penalized engine carries a penalty every time it's used, but the penalty applies only once when it's introduced."
+fia_068,fia,2,cost_cap_rules,llama3,40,0.0,States a common misconception rather than the actual rule.,"People think a cost cap breach is only a fine, but material breaches can carry points deductions and testing restrictions."
+fia_069,fia,2,sprint_weekend_procedure,llama3,58,0.0,Confidently wrong on the core procedure.,"People assume the fastest-lap point applies to all races, but it is exclusive to the Grand Prix, not the Sprint."
+fia_070,fia,2,red_flag_restart,llama3,72,1.0,Fully aligned with the regulation cited.,"People think any car can rejoin after a red flag, but a car must reach the grid in time and meet eligibility to restart."
+fia_071,fia,2,weight_enforcement,llama3,73,0.0,Confidently wrong on the core procedure.,"People think a small underweight gets a minor penalty, but it normally means full exclusion from the session results."
+fia_072,fia,2,technical_regulations,llama3,54,0.0,Contradicts the governing regulation.,"People think clever flexing or moving aero is allowed if it passes tests, but movable aerodynamic devices other than DRS are banned."
+fia_073,fia,2,driver_change,llama3,67,0.5,Captures the gist but the specifics are imprecise.,"People think a reserve can step in on short notice regardless of licence, but a valid Super Licence is mandatory."
+fia_074,fia,2,steward_decisions,llama3,44,0.0,Confidently wrong on the core procedure.,"People think retiring escapes a penalty, but an unserved sanction can carry over to the next race."
+fia_075,fia,2,cost_cap_rules,llama3,38,0.0,States a common misconception rather than the actual rule.,"People think all teams get equal wind tunnel time, but allocations scale inversely with championship position."
+fia_076,fia,2,sprint_weekend_procedure,llama3,60,0.0,Contradicts the governing regulation.,"People think the Sprint finishing order sets the Grand Prix grid, but a separate qualifying determines it in 2024."
+fia_077,fia,2,power_unit_penalties,llama3,71,1.0,Fully aligned with the regulation cited.,"People think PU penalties hit both the Sprint and the race, but they are applied to the Grand Prix grid."
+fia_078,fia,2,technical_regulations,llama3,48,0.5,Captures the gist but the specifics are imprecise.,"People think the ADR is optional telemetry, but it is a mandatory safety device required for the car to run."
+fia_079,fia,2,vsc,llama3,64,0.0,Contradicts the governing regulation.,"People think a VSC and safety car are mutually exclusive, but a VSC can be escalated to a full safety car as needed."
+fia_080,fia,2,steward_decisions,llama3,42,0.5,Right general direction but omits a key qualifying detail.,"People think every penalty can be appealed, but in-race driving penalties are explicitly non-appealable."
+fia_081,fia,3,safety_car,llama3,53,0.0,Misidentifies the applicable article and outcome.,"People believe only the cars directly between the leader and the next contender unlap, but the literal rule refers to any/all lapped cars."
+fia_082,fia,3,safety_car,llama3,59,0.0,Misidentifies the applicable article and outcome.,"People think the safety car comes in the same lap the unlapping message is given, but the literal rule specifies the end of the following lap."
+fia_083,fia,3,safety_car,llama3,55,0.5,"Close, but conflates two related provisions.","People think the rule clearly mandated a fixed outcome, but the literal wording's ambiguity over discretion is exactly what caused the dispute."
+fia_084,fia,3,track_limits,llama3,48,0.0,Misidentifies the applicable article and outcome.,"People think each race track-limits breach just deletes a lap like in qualifying, but in the race it escalates to flags and time penalties."
+fia_085,fia,3,track_limits,llama3,63,0.5,"Close, but conflates two related provisions.","People think touching the kerb or going slightly wide counts, but limits are exceeded only when all four wheels are beyond the white line."
+fia_086,fia,3,steward_decisions,llama3,50,0.0,Contradicts the governing regulation.,"People think stewards can freely revisit any call after a session, but discretionary judgements need a formal review with new evidence."
+fia_087,fia,3,steward_decisions,llama3,42,0.0,States a common misconception rather than the actual rule.,"People think stewards can amend a final result whenever new opinions arise, but only formal review or appeal can change a declared-final result."
+fia_088,fia,3,vsc,llama3,60,0.0,Confidently wrong on the core procedure.,"People think lapped cars can catch up and unlap under VSC like under the safety car, but overtaking is banned so no unlapping occurs."
+fia_089,fia,3,steward_decisions,llama3,52,0.0,Misidentifies the applicable article and outcome.,"People conflate the two, but a drive-through has no stop while a stop-and-go requires a stationary timed penalty with no servicing."
+fia_090,fia,3,steward_decisions,llama3,53,0.0,Contradicts the governing regulation.,"People think a team can change tyres during the served-seconds, but no work is allowed until the penalty time has fully elapsed."
+fia_091,fia,3,red_flag_restart,llama3,50,0.5,"Close, but conflates two related provisions.","People assume every red-flag restart is a standing start from the grid, but it can be a rolling restart behind the safety car."
+fia_092,fia,3,track_limits,llama3,45,1.0,Fully aligned with the regulation cited.,"People think stewards can apply track limits more leniently to leaders, but enforcement must be consistent across all cars."
+fia_093,fia,3,drs,llama3,59,0.0,Confidently wrong on the core procedure.,"People think DRS is live the instant the VSC message clears, but the race director re-enables it after racing has properly resumed."
+fia_094,fia,3,steward_decisions,llama3,46,0.0,Confidently wrong on the core procedure.,"People think an early touch is a minor error, but it invalidates the served penalty and triggers a harsher sanction."
+fia_095,fia,3,safety_car,llama3,67,1.0,Fully aligned with the regulation cited.,"People think the safety car can be pulled in as soon as the leader is clear of backmarkers, but the literal rule requires waiting until the end of the following lap."
+fia_096,fia,3,track_limits,llama3,60,0.5,Right general direction but omits a key qualifying detail.,"People think track limits only matter for lap times, but gaining a lasting advantage off-track must be given back regardless."
+fia_097,fia,3,steward_decisions,llama3,44,0.0,Confidently wrong on the core procedure.,"People think the formation lap is penalty-free practice time, but unsafe conduct on it is penalizable."
+fia_098,fia,3,vsc,llama3,55,0.0,States a common misconception rather than the actual rule.,"People think a car emerging from a pit stop is exempt from the VSC delta, but it must respect the delta once back on track."
+fia_099,fia,3,steward_decisions,llama3,47,0.0,States a common misconception rather than the actual rule.,"People think every time penalty must be served in the pits, but late-race penalties are simply added to the finishing time."
+fia_100,fia,3,red_flag_restart,llama3,55,0.0,Confidently wrong on the core procedure.,"People think a red flag wipes the slate clean on pending penalties, but unserved penalties carry through the restart."
+fide_001,fide,1,basic_moves,mistral,69,1.0,Accurate and complete; captures the essential point.,That a bishop can also slide one square sideways or jump over pieces.
+fide_002,fide,1,basic_moves,mistral,76,1.0,Matches the ground truth precisely.,That a knight is blocked if pieces stand between its start and destination squares.
+fide_003,fide,1,basic_moves,mistral,81,1.0,Matches the ground truth precisely.,That the king can move two squares like other long-range pieces in open positions.
+fide_004,fide,1,basic_moves,mistral,71,1.0,Correctly states the rule and its application.,That a rook may move diagonally to reach nearby squares.
+fide_005,fide,1,basic_moves,mistral,70,1.0,Fully aligned with the regulation cited.,That a queen can also move like a knight in an L-shape.
+fide_006,fide,1,basic_moves,mistral,81,0.5,Captures the gist but the specifics are imprecise.,"That a pawn can always move two squares forward, not just on its first move."
+fide_007,fide,1,basic_moves,mistral,77,1.0,Matches the ground truth precisely.,That a pawn captures the piece directly in front of it.
+fide_008,fide,1,basic_moves,mistral,81,1.0,Accurate and complete; captures the essential point.,"That a pawn can only become a queen, or that you can only promote to a piece already captured."
+fide_009,fide,1,check_checkmate,mistral,79,1.0,Accurate and complete; captures the essential point.,That a king must be attacked by two or more pieces to be considered in check.
+fide_010,fide,1,check_checkmate,mistral,74,1.0,Fully aligned with the regulation cited.,That you can ignore a check for one move or castle out of it.
+fide_011,fide,1,check_checkmate,mistral,79,1.0,Correctly states the rule and its application.,That the king must actually be captured to end the game.
+fide_012,fide,1,check_checkmate,mistral,85,1.0,Fully aligned with the regulation cited.,That you may expose your king to check as long as you can recapture next move.
+fide_013,fide,1,check_checkmate,mistral,81,1.0,Correctly states the rule and its application.,That announcing 'check' is mandatory in official play.
+fide_014,fide,1,stalemate_draws,mistral,73,1.0,Correctly states the rule and its application.,"That stalemate is a win for the side delivering it, or a loss for the stalemated player."
+fide_015,fide,1,stalemate_draws,mistral,66,1.0,Matches the ground truth precisely.,That a draw offer can be withdrawn after it has already been accepted.
+fide_016,fide,1,stalemate_draws,mistral,80,1.0,Accurate and complete; captures the essential point.,That the players must keep playing until stalemate or time runs out even with no mating material.
+fide_017,fide,1,stalemate_draws,mistral,72,0.0,Misidentifies the applicable article and outcome.,That the rule counts 50 moves by one player rather than 50 by each.
+fide_018,fide,1,stalemate_draws,mistral,72,1.0,Accurate and complete; captures the essential point.,"That only three identical moves in a row, rather than three identical positions, trigger the rule."
+fide_019,fide,1,piece_values,mistral,79,1.0,Fully aligned with the regulation cited.,That the queen is worth exactly the sum of all minor pieces or has a fixed legal value.
+fide_020,fide,1,piece_values,mistral,77,1.0,Fully aligned with the regulation cited.,That a rook is worth the same as a bishop or knight.
+fide_021,fide,1,piece_values,mistral,89,1.0,Correctly states the rule and its application.,That a bishop is worth substantially more than a knight in all positions.
+fide_022,fide,1,piece_values,mistral,83,1.0,Fully aligned with the regulation cited.,That all pawns are always equal in practical value regardless of position.
+fide_023,fide,1,tournament_basics,mistral,88,1.0,Accurate and complete; captures the essential point.,That the player who wins a coin toss may choose to move first regardless of color.
+fide_024,fide,1,tournament_basics,mistral,86,0.5,Right general direction but omits a key qualifying detail.,That the bottom-right corner should be a dark square.
+fide_025,fide,1,tournament_basics,mistral,81,1.0,Matches the ground truth precisely.,That the queen starts on the e-file beside the king on both sides.
+fide_026,fide,1,tournament_basics,mistral,72,1.0,Accurate and complete; captures the essential point.,That each side starts with a different count or includes extra queens.
+fide_027,fide,1,tournament_basics,mistral,71,1.0,Accurate and complete; captures the essential point.,That a checkmate win is worth more points than a win on time or resignation.
+fide_028,fide,1,tournament_basics,mistral,83,1.0,Matches the ground truth precisely.,That a draw by stalemate scores differently from a draw by agreement.
+fide_029,fide,1,tournament_basics,mistral,82,1.0,Matches the ground truth precisely.,That resignation must be confirmed by the arbiter before it takes effect.
+fide_030,fide,1,tournament_basics,mistral,85,1.0,Accurate and complete; captures the essential point.,That accidentally knocking over your own king automatically forfeits the game.
+fide_031,fide,1,check_checkmate,mistral,85,1.0,Fully aligned with the regulation cited.,That you may develop a piece elsewhere and answer the check on the following move.
+fide_032,fide,1,basic_moves,mistral,77,1.0,Fully aligned with the regulation cited.,That a defending piece can sit on the same square as the piece it protects.
+fide_033,fide,1,basic_moves,mistral,70,0.5,Captures the gist but the specifics are imprecise.,That the captured piece stays beside the board and can re-enter play later.
+fide_034,fide,1,stalemate_draws,mistral,83,1.0,Fully aligned with the regulation cited.,That simply offering a draw ends the game even without acceptance.
+fide_035,fide,1,tournament_basics,mistral,76,1.0,Matches the ground truth precisely.,That the king and queen positions are mirrored so both kings sit on their own color.
+fide_036,fide,1,check_checkmate,mistral,69,1.0,Matches the ground truth precisely.,That a king can check the other king when they are next to each other.
+fide_037,fide,1,basic_moves,mistral,76,1.0,Fully aligned with the regulation cited.,That a pawn can retreat to defend or reposition.
+fide_038,fide,1,stalemate_draws,mistral,83,0.0,States a common misconception rather than the actual rule.,That a bishop can corner and checkmate a lone king like a rook can.
+fide_039,fide,1,stalemate_draws,mistral,69,0.0,Misidentifies the applicable article and outcome.,That a knight can mate a lone king with proper technique.
+fide_040,fide,1,check_checkmate,mistral,78,1.0,Matches the ground truth precisely.,"That a queen alone without king support can mate, or that the ending is a draw."
+fide_041,fide,2,en_passant,mistral,79,1.0,Accurate and complete; captures the essential point.,That en passant can be played at any later time after the two-square advance.
+fide_042,fide,2,en_passant,mistral,70,1.0,Correctly states the rule and its application.,That the capturing pawn lands on a4 where the enemy pawn actually stands.
+fide_043,fide,2,en_passant,mistral,66,0.0,Confidently wrong on the core procedure.,That en passant rights persist as long as the two pawns remain adjacent.
+fide_044,fide,3,en_passant,mistral,67,0.0,Misidentifies the applicable article and outcome.,"That if the two-square advance and adjacency conditions are satisfied, the en passant capture must always be legal."
+fide_045,fide,2,castling_rules,mistral,85,1.0,Matches the ground truth precisely.,That castling is a valid way to move the king out of check.
+fide_046,fide,2,castling_rules,mistral,72,1.0,Matches the ground truth precisely.,"That only the king's final square needs to be safe, not the square it crosses."
+fide_047,fide,2,castling_rules,mistral,90,0.0,States a common misconception rather than the actual rule.,That castling exempts the king from the rule against moving into check.
+fide_048,fide,2,castling_rules,mistral,74,1.0,Accurate and complete; captures the essential point.,That castling queenside is illegal whenever the b1/b8 square is attacked.
+fide_049,fide,3,castling_rules,mistral,74,0.0,Contradicts the governing regulation.,That a king which was ever in check at any point in the game permanently loses the right to castle.
+fide_050,fide,2,castling_rules,mistral,72,0.0,Confidently wrong on the core procedure.,That you can castle by jumping the king over an intervening knight or bishop.
+fide_051,fide,2,touch_move,mistral,78,1.0,Matches the ground truth precisely.,That you may touch a piece to test ideas and then freely move a different one.
+fide_052,fide,2,touch_move,mistral,75,0.5,Partially correct; misstates one condition of the rule.,That touching an enemy piece carries no obligation at all.
+fide_053,fide,2,touch_move,mistral,78,1.0,Correctly states the rule and its application.,That you can adjust a piece silently and announce 'I adjust' only if challenged.
+fide_054,fide,2,touch_move,mistral,80,1.0,Matches the ground truth precisely.,That touching a pinned piece forfeits the game or forces an illegal move.
+fide_055,fide,2,touch_move,mistral,75,1.0,Correctly states the rule and its application.,"That a move can be taken back as long as you have not pressed the clock, even after releasing the piece."
+fide_056,fide,2,clock_handling,mistral,70,1.0,Fully aligned with the regulation cited.,That a player may move with one hand and press the clock with the other for speed.
+fide_057,fide,2,clock_handling,mistral,66,0.0,Misidentifies the applicable article and outcome.,That the opponent must tell the player to press their clock or it does not count.
+fide_058,fide,3,clock_handling,mistral,64,0.0,States a common misconception rather than the actual rule.,That a move is invalid or incomplete if the moved piece is left tipped over rather than standing upright on its square.
+fide_059,fide,2,clock_handling,mistral,61,0.0,Contradicts the governing regulation.,That running out of time is always an automatic loss regardless of the opponent's material.
+fide_060,fide,2,clock_handling,mistral,69,0.0,Confidently wrong on the core procedure.,"That losing on time is always a loss, even against an opponent who has only a king."
+fide_061,fide,2,scoresheet_obligations,mistral,76,1.0,Accurate and complete; captures the essential point.,"That a player only needs to record their own moves, not the opponent's."
+fide_062,fide,2,scoresheet_obligations,mistral,87,1.0,Accurate and complete; captures the essential point.,That score-keeping is always mandatory even in severe time pressure.
+fide_063,fide,2,scoresheet_obligations,mistral,83,0.5,Partially correct; misstates one condition of the rule.,That each player owns and may keep their personal scoresheet.
+fide_064,fide,2,scoresheet_obligations,mistral,71,0.5,Captures the gist but the specifics are imprecise.,That a verbal claim alone suffices regardless of whether the moves were recorded.
+fide_065,fide,2,threefold_repetition,mistral,76,0.0,Confidently wrong on the core procedure.,That you can play the repeating move first and then claim the draw afterward.
+fide_066,fide,2,threefold_repetition,mistral,77,1.0,Fully aligned with the regulation cited.,"That identical piece placement alone makes positions count as repetitions, regardless of side to move or castling rights."
+fide_067,fide,2,threefold_repetition,mistral,73,0.5,Captures the gist but the specifics are imprecise.,That an incorrect repetition claim carries no penalty and you can simply retract it.
+fide_068,fide,2,threefold_repetition,mistral,69,1.0,Fully aligned with the regulation cited.,That the same position must repeat three times back-to-back to claim a draw.
+fide_069,fide,2,fifty_move_rule,mistral,77,0.5,Right general direction but omits a key qualifying detail.,That you can complete the 50th move first and then claim the draw.
+fide_070,fide,2,fifty_move_rule,mistral,72,1.0,Fully aligned with the regulation cited.,"That only captures reset the count, while quiet pawn moves do not."
+fide_071,fide,2,fifty_move_rule,mistral,65,0.0,Misidentifies the applicable article and outcome.,That the game is always automatically drawn exactly at 50 moves without any claim.
+fide_072,fide,3,insufficient_material,mistral,72,0.0,States a common misconception rather than the actual rule.,"That because two knights cannot force mate, a flag fall against them is automatically scored as a draw."
+fide_073,fide,3,insufficient_material,mistral,84,0.5,Captures the gist but the specifics are imprecise.,"That whenever neither side can FORCE mate, a flag fall is automatically a draw, ignoring that extra enemy material can make a helpmate possible."
+fide_074,fide,2,insufficient_material,mistral,82,0.5,Right general direction but omits a key qualifying detail.,That the players must keep playing until a flag falls or a draw is agreed.
+fide_075,fide,2,insufficient_material,mistral,78,0.0,States a common misconception rather than the actual rule.,"That a rook, like a single bishop or knight, cannot force checkmate alone with its king."
+fide_076,fide,3,illegal_position_procedure,mistral,57,0.0,States a common misconception rather than the actual rule.,That any illegal position discovered mid-game forces the entire game to be cancelled and replayed from the start.
+fide_077,fide,2,illegal_position_procedure,mistral,59,0.0,Confidently wrong on the core procedure.,That you can just correct the pieces mid-game and keep playing from where you are.
+fide_078,fide,2,illegal_position_procedure,mistral,62,0.0,States a common misconception rather than the actual rule.,That a wrongly oriented board always voids the game and forces a restart.
+fide_079,fide,2,illegal_position_procedure,mistral,45,0.0,States a common misconception rather than the actual rule.,That a wrong-color assignment always voids the game no matter how many moves have been played.
+fide_080,fide,3,arbiter_edge_cases,mistral,58,0.5,Right general direction but omits a key qualifying detail.,That touching or moving the rook first during castling is automatically a penalized illegal move giving the opponent two minutes.
+fide_081,fide,2,arbiter_edge_cases,mistral,48,1.0,Fully aligned with the regulation cited.,That the loss occurs on the very first illegal move rather than the second.
+fide_082,fide,2,arbiter_edge_cases,mistral,49,1.0,Accurate and complete; captures the essential point.,That the pawn automatically becomes a queen if left on the last rank.
+fide_083,fide,3,arbiter_edge_cases,mistral,50,0.0,Contradicts the governing regulation.,"That any time your own king falls over, even by accident, the game is automatically lost as a resignation."
+fide_084,fide,2,arbiter_edge_cases,mistral,51,0.0,Misidentifies the applicable article and outcome.,That having a silent phone in your pocket is acceptable as long as it does not ring.
+fide_085,fide,2,en_passant,mistral,76,0.0,States a common misconception rather than the actual rule.,That any passing pawn or piece can be taken en passant.
+fide_086,fide,3,clock_handling,mistral,59,0.0,States a common misconception rather than the actual rule.,That you can still claim a win for an opponent's illegal move even after you have already replied with your own move.
+fide_087,fide,2,arbiter_edge_cases,mistral,59,1.0,Accurate and complete; captures the essential point.,That an out-of-turn draw offer is automatically void and cannot be accepted.
+fide_088,fide,2,scoresheet_obligations,mistral,84,0.0,Confidently wrong on the core procedure.,That you may write your intended move down before playing it to help calculation.
+fide_089,fide,2,illegal_position_procedure,mistral,61,1.0,Correctly states the rule and its application.,That after correcting an illegal move the player is completely free of any touch-move obligation.
+fide_090,fide,3,clock_handling,mistral,71,0.0,Contradicts the governing regulation.,That a player with a clearly winning position is awarded the win when both flags fall together in the last period.
+fide_091,fide,3,arbiter_edge_cases,mistral,50,0.0,Confidently wrong on the core procedure.,That a king may capture any adjacent enemy piece since it is right next to it.
+fide_092,fide,3,castling_rules,mistral,68,0.0,States a common misconception rather than the actual rule.,That castling rights are restored when the rook comes back to its starting square.
+fide_093,fide,3,arbiter_edge_cases,mistral,46,0.0,Confidently wrong on the core procedure.,That the player who still has a winning position wins despite both flags being down.
+fide_094,fide,3,illegal_position_procedure,mistral,53,0.0,Contradicts the governing regulation.,That an illegal move found after the game ends retroactively invalidates the result.
+fide_095,fide,3,en_passant,mistral,69,0.0,Misidentifies the applicable article and outcome.,That the en passant right is merely postponed and can be taken a move or two later.
+fide_096,fide,3,stalemate_draws,mistral,68,0.0,Confidently wrong on the core procedure.,That having an overwhelming material advantage converts a stalemate into a win.
+fide_097,fide,3,arbiter_edge_cases,mistral,39,0.0,Confidently wrong on the core procedure.,That a flag fall always beats a checkmate delivered around the same moment.
+fide_098,fide,3,insufficient_material,mistral,79,0.5,Captures the gist but the specifics are imprecise.,That any theoretical helpmate possibility automatically makes a flag fall a loss even with a single knight.
+fide_099,fide,3,illegal_position_procedure,mistral,54,0.0,Confidently wrong on the core procedure.,That failing to claim immediately means the illegal move stands permanently with no remedy.
+fide_100,fide,3,arbiter_edge_cases,mistral,47,1.0,Accurate and complete; captures the essential point.,That the moment you touch or place a queen on the promotion square you are bound to promote to a queen.
+fia_001,fia,1,qualifying_format,mistral,78,0.0,Contradicts the governing regulation.,"People assume the slowest six are cut to leave a round number, but with a 20-car grid it is exactly five eliminated per round."
+fia_002,fia,1,qualifying_format,mistral,72,0.0,Contradicts the governing regulation.,"Some think Q3 includes all surviving cars from Q1, but it is strictly the ten fastest from Q2."
+fia_003,fia,1,pit_lane_rules,mistral,63,1.0,Fully aligned with the regulation cited.,"Many believe the limit is always 60 km/h because some circuits use it, but the default standard is 80 km/h."
+fia_004,fia,1,pit_lane_rules,mistral,88,0.0,Misidentifies the applicable article and outcome.,"People assume it is always a drive-through, but in the race a standard time penalty is the typical sanction, with fines used in practice."
+fia_005,fia,1,race_start,mistral,65,1.0,Correctly states the rule and its application.,"Some think a green light signals the start, but it is the extinguishing of the red lights that starts the race."
+fia_006,fia,1,race_start,mistral,70,1.0,Matches the ground truth precisely.,"Many think any twitch is penalized, but the car must actually move out of position before the lights go out to trigger a jump start."
+fia_007,fia,1,safety_car,mistral,73,1.0,Accurate and complete; captures the essential point.,"People assume drivers can race up to catch the pack, but overtaking is banned the moment the safety car is deployed."
+fia_008,fia,1,safety_car,mistral,73,0.5,"Close, but conflates two related provisions.",People think a green light tells drivers to pass; in fact it is the extinguishing of the safety car's lights that signals it is returning to the pits.
+fia_009,fia,1,vsc,mistral,82,0.5,Right general direction but omits a key qualifying detail.,"Drivers think they just need to be slower overall, but they must stay positive to the VSC delta in every mini-sector, not just on average."
+fia_010,fia,1,vsc,mistral,65,1.0,Matches the ground truth precisely.,"Some believe the pit lane is closed during a VSC like at the start of a safety car period, but pitting is allowed under VSC."
+fia_011,fia,1,drs,mistral,72,1.0,Matches the ground truth precisely.,"People often think it is a two-second gap, but the threshold is one second at the detection point."
+fia_012,fia,1,drs,mistral,74,1.0,Correctly states the rule and its application.,"Drivers assume DRS is available from lap one, but it is disabled for the first two laps after a start or restart."
+fia_013,fia,1,drs,mistral,64,0.0,Confidently wrong on the core procedure.,"Some think DRS is always available once the one-second gap is met, but the race director can disable it in the wet."
+fia_014,fia,1,blue_flags,mistral,66,1.0,Accurate and complete; captures the essential point.,"Some think a blue flag tells the faster car to back off, but it instructs the slower lapped car to yield."
+fia_015,fia,1,blue_flags,mistral,90,1.0,Correctly states the rule and its application.,"People think blue flags are merely advisory, but ignoring them is a penalizable offence."
+fia_016,fia,1,points_scoring,mistral,66,1.0,Correctly states the rule and its application.,"Some still think first place is worth 10 points from the older system, but it has been 25 since 2010."
+fia_017,fia,1,points_scoring,mistral,64,0.0,States a common misconception rather than the actual rule.,"People sometimes think the top eight or six score, reflecting older systems, but it has been the top ten since 2010."
+fia_018,fia,1,points_scoring,mistral,60,1.0,Fully aligned with the regulation cited.,"People think anyone can win the fastest-lap point, but the driver must finish in the top ten to receive it."
+fia_019,fia,1,points_scoring,mistral,71,1.0,Accurate and complete; captures the essential point.,"Some assume a smaller gap like 20 points, but second is 18, a deliberate seven-point gap from the win."
+fia_020,fia,1,parc_ferme,mistral,68,1.0,Correctly states the rule and its application.,"People think parc fermé only applies after the race, but it actually begins at the start of qualifying."
+fia_021,fia,1,parc_ferme,mistral,64,1.0,Matches the ground truth precisely.,"Teams are thought to be able to tweak wings overnight, but aero setup changes are forbidden under parc fermé."
+fia_022,fia,1,parc_ferme,mistral,71,1.0,Fully aligned with the regulation cited.,"People assume a grid drop, but the standard consequence for breaking parc fermé is a pit lane start."
+fia_023,fia,1,safety_car,mistral,72,1.0,Matches the ground truth precisely.,"People assume the pit lane is always open under safety car, but it can be temporarily closed at deployment for safety."
+fia_024,fia,1,race_start,mistral,70,0.0,States a common misconception rather than the actual rule.,"People think the race simply continues around a stalled car, but the start is aborted and the car removed for safety."
+fia_025,fia,1,qualifying_format,mistral,76,0.0,Misidentifies the applicable article and outcome.,"Many still believe the top ten must start on their Q2 tyres, but that rule was abolished."
+fia_026,fia,1,pit_lane_rules,mistral,74,1.0,Matches the ground truth precisely.,"People think the pit lane is a free-for-all to gain places, but unsafe releases and dangerous overtakes there are penalized."
+fia_027,fia,1,vsc,mistral,77,0.0,Confidently wrong on the core procedure.,"Drivers think VSC ends instantly when they see the message, but they must stay on delta until the official end signal."
+fia_028,fia,1,drs,mistral,78,1.0,Accurate and complete; captures the essential point.,"People assume every track has exactly one DRS zone, but many have two or three."
+fia_029,fia,1,blue_flags,mistral,74,0.5,"Close, but conflates two related provisions.","People think blue flags only apply during the race for lapping, but they are also used in qualifying for approaching fast cars."
+fia_030,fia,1,points_scoring,mistral,62,0.0,Misidentifies the applicable article and outcome.,"People assume full points if two laps are completed, but a sliding scale now governs reduced-distance races."
+fia_031,fia,1,parc_ferme,mistral,67,0.5,Partially correct; misstates one condition of the rule.,"People think nothing can be touched under parc fermé, but tyre changes and several other operations are explicitly allowed."
+fia_032,fia,1,race_start,mistral,61,0.0,Confidently wrong on the core procedure.,"People think drivers can jockey for position on the formation lap, but overtaking is only allowed to regain a lost place."
+fia_033,fia,1,safety_car,mistral,72,1.0,Matches the ground truth precisely.,"People think racing resumes immediately when the safety car leaves, but the leader sets the pace until the control line."
+fia_034,fia,1,vsc,mistral,78,0.5,Right general direction but omits a key qualifying detail.,"People assume positions can still change under VSC since there's no physical car, but overtaking is banned."
+fia_035,fia,1,drs,mistral,76,1.0,Accurate and complete; captures the essential point.,"People think DRS can be used defensively whenever someone is behind, but it depends only on the gap to the car ahead."
+fia_036,fia,1,safety_car,mistral,57,0.5,Captures the gist but the specifics are imprecise.,"People think blue flags wave lapped cars past under the safety car, but the safety car rules govern unlapping instead."
+fia_037,fia,1,points_scoring,mistral,74,1.0,Matches the ground truth precisely.,"People think constructors use a different or halved scale, but both championships use the same per-position points."
+fia_038,fia,1,track_limits,mistral,74,1.0,Accurate and complete; captures the essential point.,"People think a small excursion is tolerated, but a lap with all four wheels beyond the white line is deleted."
+fia_039,fia,1,pit_lane_rules,mistral,77,1.0,Fully aligned with the regulation cited.,"People think the limit only applies during the race, but it is enforced in every on-track session."
+fia_040,fia,1,safety_car,mistral,70,1.0,Matches the ground truth precisely.,"People think a single signal suffices, but it is signalled simultaneously by waved yellows, SC boards, and the timing message."
+fia_041,fia,2,technical_regulations,mistral,52,0.0,Confidently wrong on the core procedure.,"People think any flexing is automatically illegal, but parts are legal as long as deflection under the defined test load stays within the limit."
+fia_042,fia,2,technical_regulations,mistral,57,0.0,Confidently wrong on the core procedure.,"Teams assume passing the published test means full legality, but the FIA can impose tougher tests and still judge a part non-compliant."
+fia_043,fia,2,drs,mistral,64,1.0,Accurate and complete; captures the essential point.,"Drivers think DRS returns immediately when green flags fly after a safety car, but it is delayed two laps after the restart."
+fia_044,fia,2,parc_ferme,mistral,59,0.0,Confidently wrong on the core procedure.,"People assume parc fermé timing is identical to a standard weekend, but on Sprint weekends it begins at Sprint Qualifying."
+fia_045,fia,2,sprint_weekend_procedure,mistral,55,1.0,Matches the ground truth precisely.,"People think the car is locked from Friday to Sunday on a Sprint weekend, but 2024 allows setup changes between the Sprint and main qualifying."
+fia_046,fia,2,sprint_weekend_procedure,mistral,57,0.0,Contradicts the governing regulation.,"People think Sprint points mirror the full race scale or only the top three score, but the top eight score with 8 for the win."
+fia_047,fia,2,cost_cap_rules,mistral,50,0.5,"Close, but conflates two related provisions.","People assume crash damage is exempt because it is not the team's fault, but it counts against the cost cap."
+fia_048,fia,2,cost_cap_rules,mistral,48,0.0,Misidentifies the applicable article and outcome.,"People think the cost cap covers absolutely all spending including driver salaries, but driver pay and top personnel are excluded."
+fia_049,fia,2,cost_cap_rules,mistral,52,0.5,Captures the gist but the specifics are imprecise.,"People think any breach is treated identically, but the rules separate procedural from minor and material overspend breaches."
+fia_050,fia,2,power_unit_penalties,mistral,69,1.0,Accurate and complete; captures the essential point.,"People think there is one combined engine allowance, but each element type has its own separate seasonal limit."
+fia_051,fia,2,power_unit_penalties,mistral,65,0.0,Contradicts the governing regulation.,"People think every extra engine part is a fixed ten places, but only the first is ten and subsequent new elements are five each."
+fia_052,fia,2,power_unit_penalties,mistral,67,1.0,Fully aligned with the regulation cited.,"People think a driver can be pushed behind the grid into negative positions, but penalties beyond 15 just mean a back-of-grid start."
+fia_053,fia,2,race_start,mistral,67,0.0,Confidently wrong on the core procedure.,"People think the race just proceeds with a gap on the grid, but the start is aborted and the race distance reduced by a lap."
+fia_054,fia,2,red_flag_restart,mistral,77,1.0,Correctly states the rule and its application.,"People think positions are taken from the exact moment of the red flag, but the order is from the last fully completed lap."
+fia_055,fia,2,red_flag_restart,mistral,62,0.0,Contradicts the governing regulation.,"People think the car is frozen during a red flag, but teams can change tyres and perform permitted work, giving a free stop."
+fia_056,fia,2,red_flag_restart,mistral,74,0.5,Captures the gist but the specifics are imprecise.,"People assume the car keeps its grid slot, but a car in the pits at the red flag must restart from the pit lane."
+fia_057,fia,2,driver_change,mistral,71,0.5,Right general direction but omits a key qualifying detail.,"People think a substitute simply inherits the qualified grid slot, but a driver change usually means a pit lane start."
+fia_058,fia,2,driver_change,mistral,76,0.5,Partially correct; misstates one condition of the rule.,"People think only the contracted regular drivers' points count for the constructor, but a substitute's points also count."
+fia_059,fia,2,weight_enforcement,mistral,79,1.0,Correctly states the rule and its application.,"People think weight only matters at scrutineering before the weekend, but it must be met at every weigh-in throughout the event."
+fia_060,fia,2,weight_enforcement,mistral,66,0.0,States a common misconception rather than the actual rule.,"People think the minimum weight is the car alone, but it includes the driver, with a separate driver-and-seat minimum."
+fia_061,fia,2,technical_regulations,mistral,46,0.0,States a common misconception rather than the actual rule.,"People think running the tank nearly dry is fine, but failing to provide the one-litre sample leads to disqualification."
+fia_062,fia,2,steward_decisions,mistral,38,0.0,States a common misconception rather than the actual rule.,"People think the chequered flag locks the result, but stewards can apply post-race penalties before results are final."
+fia_063,fia,2,steward_decisions,mistral,50,0.0,States a common misconception rather than the actual rule.,"People think a team can simply appeal because they disagree, but a review requires significant new and previously unavailable evidence."
+fia_064,fia,2,steward_decisions,mistral,46,0.0,States a common misconception rather than the actual rule.,"People think the black-and-orange flag is a punishment, but it is a safety instruction to repair a dangerous component."
+fia_065,fia,2,pit_lane_rules,mistral,76,0.0,Contradicts the governing regulation.,"People think only a detached wheel counts, but releasing into another car's path is equally an unsafe release."
+fia_066,fia,2,technical_regulations,mistral,53,0.0,Confidently wrong on the core procedure.,"People think the plank is just for protection, but it is a ride-height enforcement device whose excessive wear causes disqualification."
+fia_067,fia,2,power_unit_penalties,mistral,71,1.0,Matches the ground truth precisely.,"People think a penalized engine carries a penalty every time it's used, but the penalty applies only once when it's introduced."
+fia_068,fia,2,cost_cap_rules,mistral,41,0.0,Confidently wrong on the core procedure.,"People think a cost cap breach is only a fine, but material breaches can carry points deductions and testing restrictions."
+fia_069,fia,2,sprint_weekend_procedure,mistral,56,0.0,States a common misconception rather than the actual rule.,"People assume the fastest-lap point applies to all races, but it is exclusive to the Grand Prix, not the Sprint."
+fia_070,fia,2,red_flag_restart,mistral,61,1.0,Correctly states the rule and its application.,"People think any car can rejoin after a red flag, but a car must reach the grid in time and meet eligibility to restart."
+fia_071,fia,2,weight_enforcement,mistral,69,1.0,Correctly states the rule and its application.,"People think a small underweight gets a minor penalty, but it normally means full exclusion from the session results."
+fia_072,fia,2,technical_regulations,mistral,44,0.0,States a common misconception rather than the actual rule.,"People think clever flexing or moving aero is allowed if it passes tests, but movable aerodynamic devices other than DRS are banned."
+fia_073,fia,2,driver_change,mistral,71,0.0,Confidently wrong on the core procedure.,"People think a reserve can step in on short notice regardless of licence, but a valid Super Licence is mandatory."
+fia_074,fia,2,steward_decisions,mistral,40,0.5,Captures the gist but the specifics are imprecise.,"People think retiring escapes a penalty, but an unserved sanction can carry over to the next race."
+fia_075,fia,2,cost_cap_rules,mistral,36,0.0,Contradicts the governing regulation.,"People think all teams get equal wind tunnel time, but allocations scale inversely with championship position."
+fia_076,fia,2,sprint_weekend_procedure,mistral,52,1.0,Correctly states the rule and its application.,"People think the Sprint finishing order sets the Grand Prix grid, but a separate qualifying determines it in 2024."
+fia_077,fia,2,power_unit_penalties,mistral,63,0.0,States a common misconception rather than the actual rule.,"People think PU penalties hit both the Sprint and the race, but they are applied to the Grand Prix grid."
+fia_078,fia,2,technical_regulations,mistral,52,0.0,States a common misconception rather than the actual rule.,"People think the ADR is optional telemetry, but it is a mandatory safety device required for the car to run."
+fia_079,fia,2,vsc,mistral,62,1.0,Accurate and complete; captures the essential point.,"People think a VSC and safety car are mutually exclusive, but a VSC can be escalated to a full safety car as needed."
+fia_080,fia,2,steward_decisions,mistral,36,0.0,Misidentifies the applicable article and outcome.,"People think every penalty can be appealed, but in-race driving penalties are explicitly non-appealable."
+fia_081,fia,3,safety_car,mistral,79,0.0,Misidentifies the applicable article and outcome.,"People believe only the cars directly between the leader and the next contender unlap, but the literal rule refers to any/all lapped cars."
+fia_082,fia,3,safety_car,mistral,56,0.5,Right general direction but omits a key qualifying detail.,"People think the safety car comes in the same lap the unlapping message is given, but the literal rule specifies the end of the following lap."
+fia_083,fia,3,safety_car,mistral,62,0.5,Partially correct; misstates one condition of the rule.,"People think the rule clearly mandated a fixed outcome, but the literal wording's ambiguity over discretion is exactly what caused the dispute."
+fia_084,fia,3,track_limits,mistral,64,0.0,Misidentifies the applicable article and outcome.,"People think each race track-limits breach just deletes a lap like in qualifying, but in the race it escalates to flags and time penalties."
+fia_085,fia,3,track_limits,mistral,70,0.0,Confidently wrong on the core procedure.,"People think touching the kerb or going slightly wide counts, but limits are exceeded only when all four wheels are beyond the white line."
+fia_086,fia,3,steward_decisions,mistral,42,0.0,States a common misconception rather than the actual rule.,"People think stewards can freely revisit any call after a session, but discretionary judgements need a formal review with new evidence."
+fia_087,fia,3,steward_decisions,mistral,57,0.0,Contradicts the governing regulation.,"People think stewards can amend a final result whenever new opinions arise, but only formal review or appeal can change a declared-final result."
+fia_088,fia,3,vsc,mistral,84,0.0,Confidently wrong on the core procedure.,"People think lapped cars can catch up and unlap under VSC like under the safety car, but overtaking is banned so no unlapping occurs."
+fia_089,fia,3,steward_decisions,mistral,62,0.0,Misidentifies the applicable article and outcome.,"People conflate the two, but a drive-through has no stop while a stop-and-go requires a stationary timed penalty with no servicing."
+fia_090,fia,3,steward_decisions,mistral,52,0.0,States a common misconception rather than the actual rule.,"People think a team can change tyres during the served-seconds, but no work is allowed until the penalty time has fully elapsed."
+fia_091,fia,3,red_flag_restart,mistral,57,0.5,Partially correct; misstates one condition of the rule.,"People assume every red-flag restart is a standing start from the grid, but it can be a rolling restart behind the safety car."
+fia_092,fia,3,track_limits,mistral,75,0.0,Contradicts the governing regulation.,"People think stewards can apply track limits more leniently to leaders, but enforcement must be consistent across all cars."
+fia_093,fia,3,drs,mistral,73,0.0,Confidently wrong on the core procedure.,"People think DRS is live the instant the VSC message clears, but the race director re-enables it after racing has properly resumed."
+fia_094,fia,3,steward_decisions,mistral,54,0.0,Confidently wrong on the core procedure.,"People think an early touch is a minor error, but it invalidates the served penalty and triggers a harsher sanction."
+fia_095,fia,3,safety_car,mistral,74,0.0,Contradicts the governing regulation.,"People think the safety car can be pulled in as soon as the leader is clear of backmarkers, but the literal rule requires waiting until the end of the following lap."
+fia_096,fia,3,track_limits,mistral,70,0.0,Confidently wrong on the core procedure.,"People think track limits only matter for lap times, but gaining a lasting advantage off-track must be given back regardless."
+fia_097,fia,3,steward_decisions,mistral,42,0.0,States a common misconception rather than the actual rule.,"People think the formation lap is penalty-free practice time, but unsafe conduct on it is penalizable."
+fia_098,fia,3,vsc,mistral,67,1.0,Fully aligned with the regulation cited.,"People think a car emerging from a pit stop is exempt from the VSC delta, but it must respect the delta once back on track."
+fia_099,fia,3,steward_decisions,mistral,48,0.5,Captures the gist but the specifics are imprecise.,"People think every time penalty must be served in the pits, but late-race penalties are simply added to the finishing time."
+fia_100,fia,3,red_flag_restart,mistral,67,0.0,Contradicts the governing regulation.,"People think a red flag wipes the slate clean on pending penalties, but unserved penalties carry through the restart."

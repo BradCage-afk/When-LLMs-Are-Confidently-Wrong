@@ -1,0 +1,27 @@
+# ---- Secrets (NEVER commit) --------------------------------------------
+.env
+.env.*
+!.env.example
+
+# ---- Python -------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- Node / Next.js -----------------------------------------------------
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-error.log*
+
+# ---- Local run artifacts ------------------------------------------------
+auto_score.log
+.auto_score.lock
+score_cache.mixed_backup.json
+
+# ---- OS ------------------------------------------------------------------
+.DS_Store
+Thumbs.db

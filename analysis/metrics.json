@@ -1,0 +1,1554 @@
+{
+  "models": [
+    "gpt_oss_120b",
+    "llama33_70b",
+    "llama4_scout",
+    "qwen3_32b",
+    "gpt_oss_20b"
+  ],
+  "domains": [
+    "fide",
+    "fia"
+  ],
+  "per_model_domain": {
+    "gpt_oss_120b_fide": {
+      "accuracy": 0.875,
+      "ece": 0.0851,
+      "overconfidence_score": 76.5,
+      "dangerous_zone_count": 3,
+      "calibration_curve": [
+        {
+          "bucket": "0-10",
+          "mean_confidence": 0.05,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "10-20",
+          "mean_confidence": 0.175,
+          "actual_accuracy": 0.5,
+          "count": 2
+        },
+        {
+          "bucket": "20-30",
+          "mean_confidence": 0.3,
+          "actual_accuracy": 0.0,
+          "count": 1
+        },
+        {
+          "bucket": "30-40",
+          "mean_confidence": 0.35,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "40-50",
+          "mean_confidence": 0.45,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "50-60",
+          "mean_confidence": 0.55,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "60-70",
+          "mean_confidence": 0.7,
+          "actual_accuracy": 1.0,
+          "count": 1
+        },
+        {
+          "bucket": "70-80",
+          "mean_confidence": 0.75,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "80-90",
+          "mean_confidence": 0.85,
+          "actual_accuracy": 0.0,
+          "count": 1
+        },
+        {
+          "bucket": "90-100",
+          "mean_confidence": 0.9675,
+          "actual_accuracy": 0.9,
+          "count": 95
+        }
+      ],
+      "per_tier": {
+        "1": {
+          "accuracy": 0.9125,
+          "mean_confidence": 98.17
+        },
+        "2": {
+          "accuracy": 0.875,
+          "mean_confidence": 93.08
+        },
+        "3": {
+          "accuracy": 0.8,
+          "mean_confidence": 88.05
+        }
+      },
+      "per_subtopic": {
+        "arbiter_edge_cases": {
+          "accuracy": 0.7,
+          "count": 10
+        },
+        "basic_moves": {
+          "accuracy": 0.9545,
+          "count": 11
+        },
+        "castling_rules": {
+          "accuracy": 1.0,
+          "count": 7
+        },
+        "check_checkmate": {
+          "accuracy": 0.9375,
+          "count": 8
+        },
+        "clock_handling": {
+          "accuracy": 1.0,
+          "count": 7
+        },
+        "en_passant": {
+          "accuracy": 0.8333,
+          "count": 6
+        },
+        "fifty_move_rule": {
+          "accuracy": 0.8333,
+          "count": 3
+        },
+        "illegal_position_procedure": {
+          "accuracy": 0.6429,
+          "count": 7
+        },
+        "insufficient_material": {
+          "accuracy": 1.0,
+          "count": 5
+        },
+        "piece_values": {
+          "accuracy": 1.0,
+          "count": 4
+        },
+        "scoresheet_obligations": {
+          "accuracy": 0.7,
+          "count": 5
+        },
+        "stalemate_draws": {
+          "accuracy": 0.8889,
+          "count": 9
+        },
+        "threefold_repetition": {
+          "accuracy": 0.875,
+          "count": 4
+        },
+        "touch_move": {
+          "accuracy": 1.0,
+          "count": 5
+        },
+        "tournament_basics": {
+          "accuracy": 0.8333,
+          "count": 9
+        }
+      }
+    },
+    "gpt_oss_120b_fia": {
+      "accuracy": 0.795,
+      "ece": 0.134,
+      "overconfidence_score": 92.0,
+      "dangerous_zone_count": 2,
+      "calibration_curve": [
+        {
+          "bucket": "0-10",
+          "mean_confidence": 0.05,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "10-20",
+          "mean_confidence": 0.2,
+          "actual_accuracy": 1.0,
+          "count": 1
+        },
+        {
+          "bucket": "20-30",
+          "mean_confidence": 0.3,
+          "actual_accuracy": 0.5,
+          "count": 1
+        },
+        {
+          "bucket": "30-40",
+          "mean_confidence": 0.35,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "40-50",
+          "mean_confidence": 0.45,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "50-60",
+          "mean_confidence": 0.55,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "60-70",
+          "mean_confidence": 0.65,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "70-80",
+          "mean_confidence": 0.78,
+          "actual_accuracy": 0.6667,
+          "count": 3
+        },
+        {
+          "bucket": "80-90",
+          "mean_confidence": 0.8717,
+          "actual_accuracy": 0.7083,
+          "count": 12
+        },
+        {
+          "bucket": "90-100",
+          "mean_confidence": 0.9349,
+          "actual_accuracy": 0.8133,
+          "count": 83
+        }
+      ],
+      "per_tier": {
+        "1": {
+          "accuracy": 0.75,
+          "mean_confidence": 93.53
+        },
+        "2": {
+          "accuracy": 0.8,
+          "mean_confidence": 91.88
+        },
+        "3": {
+          "accuracy": 0.875,
+          "mean_confidence": 83.7
+        }
+      },
+      "per_subtopic": {
+        "blue_flags": {
+          "accuracy": 0.8333,
+          "count": 3
+        },
+        "cost_cap_rules": {
+          "accuracy": 0.5,
+          "count": 5
+        },
+        "driver_change": {
+          "accuracy": 0.8333,
+          "count": 3
+        },
+        "drs": {
+          "accuracy": 0.8571,
+          "count": 7
+        },
+        "parc_ferme": {
+          "accuracy": 0.8,
+          "count": 5
+        },
+        "pit_lane_rules": {
+          "accuracy": 0.8,
+          "count": 5
+        },
+        "points_scoring": {
+          "accuracy": 1.0,
+          "count": 6
+        },
+        "power_unit_penalties": {
+          "accuracy": 0.9,
+          "count": 5
+        },
+        "qualifying_format": {
+          "accuracy": 0.3333,
+          "count": 3
+        },
+        "race_start": {
+          "accuracy": 0.7,
+          "count": 5
+        },
+        "red_flag_restart": {
+          "accuracy": 0.75,
+          "count": 6
+        },
+        "safety_car": {
+          "accuracy": 0.7,
+          "count": 10
+        },
+        "sprint_weekend_procedure": {
+          "accuracy": 0.75,
+          "count": 4
+        },
+        "steward_decisions": {
+          "accuracy": 0.8333,
+          "count": 12
+        },
+        "technical_regulations": {
+          "accuracy": 1.0,
+          "count": 6
+        },
+        "track_limits": {
+          "accuracy": 0.9,
+          "count": 5
+        },
+        "vsc": {
+          "accuracy": 0.8571,
+          "count": 7
+        },
+        "weight_enforcement": {
+          "accuracy": 0.6667,
+          "count": 3
+        }
+      }
+    },
+    "llama33_70b_fide": {
+      "accuracy": 0.615,
+      "ece": 0.3805,
+      "overconfidence_score": 81.67,
+      "dangerous_zone_count": 10,
+      "calibration_curve": [
+        {
+          "bucket": "0-10",
+          "mean_confidence": 0.0,
+          "actual_accuracy": 0.5,
+          "count": 4
+        },
+        {
+          "bucket": "10-20",
+          "mean_confidence": 0.15,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "20-30",
+          "mean_confidence": 0.25,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "30-40",
+          "mean_confidence": 0.35,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "40-50",
+          "mean_confidence": 0.45,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "50-60",
+          "mean_confidence": 0.55,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "60-70",
+          "mean_confidence": 0.65,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "70-80",
+          "mean_confidence": 0.8,
+          "actual_accuracy": 0.25,
+          "count": 2
+        },
+        {
+          "bucket": "80-90",
+          "mean_confidence": 0.85,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "90-100",
+          "mean_confidence": 0.9995,
+          "actual_accuracy": 0.6277,
+          "count": 94
+        }
+      ],
+      "per_tier": {
+        "1": {
+          "accuracy": 0.725,
+          "mean_confidence": 92.0
+        },
+        "2": {
+          "accuracy": 0.5875,
+          "mean_confidence": 100.0
+        },
+        "3": {
+          "accuracy": 0.45,
+          "mean_confidence": 93.75
+        }
+      },
+      "per_subtopic": {
+        "arbiter_edge_cases": {
+          "accuracy": 0.3,
+          "count": 10
+        },
+        "basic_moves": {
+          "accuracy": 0.6364,
+          "count": 11
+        },
+        "castling_rules": {
+          "accuracy": 0.5714,
+          "count": 7
+        },
+        "check_checkmate": {
+          "accuracy": 0.8125,
+          "count": 8
+        },
+        "clock_handling": {
+          "accuracy": 0.7857,
+          "count": 7
+        },
+        "en_passant": {
+          "accuracy": 0.8333,
+          "count": 6
+        },
+        "fifty_move_rule": {
+          "accuracy": 0.5,
+          "count": 3
+        },
+        "illegal_position_procedure": {
+          "accuracy": 0.3571,
+          "count": 7
+        },
+        "insufficient_material": {
+          "accuracy": 0.6,
+          "count": 5
+        },
+        "piece_values": {
+          "accuracy": 1.0,
+          "count": 4
+        },
+        "scoresheet_obligations": {
+          "accuracy": 0.6,
+          "count": 5
+        },
+        "stalemate_draws": {
+          "accuracy": 0.5556,
+          "count": 9
+        },
+        "threefold_repetition": {
+          "accuracy": 0.625,
+          "count": 4
+        },
+        "touch_move": {
+          "accuracy": 0.5,
+          "count": 5
+        },
+        "tournament_basics": {
+          "accuracy": 0.7222,
+          "count": 9
+        }
+      }
+    },
+    "llama33_70b_fia": {
+      "accuracy": 0.505,
+      "ece": 0.475,
+      "overconfidence_score": 97.65,
+      "dangerous_zone_count": 17,
+      "calibration_curve": [
+        {
+          "bucket": "0-10",
+          "mean_confidence": 0.0,
+          "actual_accuracy": 0.5,
+          "count": 1
+        },
+        {
+          "bucket": "10-20",
+          "mean_confidence": 0.15,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "20-30",
+          "mean_confidence": 0.25,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "30-40",
+          "mean_confidence": 0.35,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "40-50",
+          "mean_confidence": 0.45,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "50-60",
+          "mean_confidence": 0.55,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "60-70",
+          "mean_confidence": 0.65,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "70-80",
+          "mean_confidence": 0.8,
+          "actual_accuracy": 0.4167,
+          "count": 6
+        },
+        {
+          "bucket": "80-90",
+          "mean_confidence": 0.9,
+          "actual_accuracy": 0.6667,
+          "count": 6
+        },
+        {
+          "bucket": "90-100",
+          "mean_confidence": 0.9977,
+          "actual_accuracy": 0.5,
+          "count": 87
+        }
+      ],
+      "per_tier": {
+        "1": {
+          "accuracy": 0.5625,
+          "mean_confidence": 97.0
+        },
+        "2": {
+          "accuracy": 0.4625,
+          "mean_confidence": 96.38
+        },
+        "3": {
+          "accuracy": 0.475,
+          "mean_confidence": 98.25
+        }
+      },
+      "per_subtopic": {
+        "blue_flags": {
+          "accuracy": 0.5,
+          "count": 3
+        },
+        "cost_cap_rules": {
+          "accuracy": 0.3,
+          "count": 5
+        },
+        "driver_change": {
+          "accuracy": 0.5,
+          "count": 3
+        },
+        "drs": {
+          "accuracy": 0.5,
+          "count": 7
+        },
+        "parc_ferme": {
+          "accuracy": 0.4,
+          "count": 5
+        },
+        "pit_lane_rules": {
+          "accuracy": 0.5,
+          "count": 5
+        },
+        "points_scoring": {
+          "accuracy": 0.75,
+          "count": 6
+        },
+        "power_unit_penalties": {
+          "accuracy": 0.5,
+          "count": 5
+        },
+        "qualifying_format": {
+          "accuracy": 0.5,
+          "count": 3
+        },
+        "race_start": {
+          "accuracy": 0.6,
+          "count": 5
+        },
+        "red_flag_restart": {
+          "accuracy": 0.5,
+          "count": 6
+        },
+        "safety_car": {
+          "accuracy": 0.4,
+          "count": 10
+        },
+        "sprint_weekend_procedure": {
+          "accuracy": 0.25,
+          "count": 4
+        },
+        "steward_decisions": {
+          "accuracy": 0.5,
+          "count": 12
+        },
+        "technical_regulations": {
+          "accuracy": 0.5833,
+          "count": 6
+        },
+        "track_limits": {
+          "accuracy": 0.7,
+          "count": 5
+        },
+        "vsc": {
+          "accuracy": 0.5714,
+          "count": 7
+        },
+        "weight_enforcement": {
+          "accuracy": 0.5,
+          "count": 3
+        }
+      }
+    },
+    "llama4_scout_fide": {
+      "accuracy": 0.57,
+      "ece": 0.43,
+      "overconfidence_score": 100.0,
+      "dangerous_zone_count": 19,
+      "calibration_curve": [
+        {
+          "bucket": "0-10",
+          "mean_confidence": 0.05,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "10-20",
+          "mean_confidence": 0.15,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "20-30",
+          "mean_confidence": 0.25,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "30-40",
+          "mean_confidence": 0.35,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "40-50",
+          "mean_confidence": 0.45,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "50-60",
+          "mean_confidence": 0.55,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "60-70",
+          "mean_confidence": 0.65,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "70-80",
+          "mean_confidence": 0.75,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "80-90",
+          "mean_confidence": 0.85,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "90-100",
+          "mean_confidence": 1.0,
+          "actual_accuracy": 0.57,
+          "count": 100
+        }
+      ],
+      "per_tier": {
+        "1": {
+          "accuracy": 0.6875,
+          "mean_confidence": 100.0
+        },
+        "2": {
+          "accuracy": 0.4875,
+          "mean_confidence": 100.0
+        },
+        "3": {
+          "accuracy": 0.5,
+          "mean_confidence": 100.0
+        }
+      },
+      "per_subtopic": {
+        "arbiter_edge_cases": {
+          "accuracy": 0.35,
+          "count": 10
+        },
+        "basic_moves": {
+          "accuracy": 0.6818,
+          "count": 11
+        },
+        "castling_rules": {
+          "accuracy": 0.7143,
+          "count": 7
+        },
+        "check_checkmate": {
+          "accuracy": 0.625,
+          "count": 8
+        },
+        "clock_handling": {
+          "accuracy": 0.7143,
+          "count": 7
+        },
+        "en_passant": {
+          "accuracy": 0.75,
+          "count": 6
+        },
+        "fifty_move_rule": {
+          "accuracy": 0.1667,
+          "count": 3
+        },
+        "illegal_position_procedure": {
+          "accuracy": 0.4286,
+          "count": 7
+        },
+        "insufficient_material": {
+          "accuracy": 0.2,
+          "count": 5
+        },
+        "piece_values": {
+          "accuracy": 0.875,
+          "count": 4
+        },
+        "scoresheet_obligations": {
+          "accuracy": 0.5,
+          "count": 5
+        },
+        "stalemate_draws": {
+          "accuracy": 0.7778,
+          "count": 9
+        },
+        "threefold_repetition": {
+          "accuracy": 0.375,
+          "count": 4
+        },
+        "touch_move": {
+          "accuracy": 0.4,
+          "count": 5
+        },
+        "tournament_basics": {
+          "accuracy": 0.6111,
+          "count": 9
+        }
+      }
+    },
+    "llama4_scout_fia": {
+      "accuracy": 0.49,
+      "ece": 0.5005,
+      "overconfidence_score": 98.95,
+      "dangerous_zone_count": 19,
+      "calibration_curve": [
+        {
+          "bucket": "0-10",
+          "mean_confidence": 0.05,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "10-20",
+          "mean_confidence": 0.15,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "20-30",
+          "mean_confidence": 0.25,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "30-40",
+          "mean_confidence": 0.35,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "40-50",
+          "mean_confidence": 0.45,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "50-60",
+          "mean_confidence": 0.55,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "60-70",
+          "mean_confidence": 0.65,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "70-80",
+          "mean_confidence": 0.8,
+          "actual_accuracy": 0.25,
+          "count": 2
+        },
+        {
+          "bucket": "80-90",
+          "mean_confidence": 0.9,
+          "actual_accuracy": 0.5,
+          "count": 5
+        },
+        {
+          "bucket": "90-100",
+          "mean_confidence": 0.9995,
+          "actual_accuracy": 0.4946,
+          "count": 93
+        }
+      ],
+      "per_tier": {
+        "1": {
+          "accuracy": 0.5125,
+          "mean_confidence": 99.12
+        },
+        "2": {
+          "accuracy": 0.45,
+          "mean_confidence": 99.0
+        },
+        "3": {
+          "accuracy": 0.525,
+          "mean_confidence": 99.0
+        }
+      },
+      "per_subtopic": {
+        "blue_flags": {
+          "accuracy": 0.5,
+          "count": 3
+        },
+        "cost_cap_rules": {
+          "accuracy": 0.5,
+          "count": 5
+        },
+        "driver_change": {
+          "accuracy": 0.5,
+          "count": 3
+        },
+        "drs": {
+          "accuracy": 0.5714,
+          "count": 7
+        },
+        "parc_ferme": {
+          "accuracy": 0.4,
+          "count": 5
+        },
+        "pit_lane_rules": {
+          "accuracy": 0.4,
+          "count": 5
+        },
+        "points_scoring": {
+          "accuracy": 0.75,
+          "count": 6
+        },
+        "power_unit_penalties": {
+          "accuracy": 0.4,
+          "count": 5
+        },
+        "qualifying_format": {
+          "accuracy": 0.5,
+          "count": 3
+        },
+        "race_start": {
+          "accuracy": 0.3,
+          "count": 5
+        },
+        "red_flag_restart": {
+          "accuracy": 0.3333,
+          "count": 6
+        },
+        "safety_car": {
+          "accuracy": 0.6,
+          "count": 10
+        },
+        "sprint_weekend_procedure": {
+          "accuracy": 0.375,
+          "count": 4
+        },
+        "steward_decisions": {
+          "accuracy": 0.5417,
+          "count": 12
+        },
+        "technical_regulations": {
+          "accuracy": 0.5,
+          "count": 6
+        },
+        "track_limits": {
+          "accuracy": 0.6,
+          "count": 5
+        },
+        "vsc": {
+          "accuracy": 0.3571,
+          "count": 7
+        },
+        "weight_enforcement": {
+          "accuracy": 0.5,
+          "count": 3
+        }
+      }
+    },
+    "qwen3_32b_fide": {
+      "accuracy": 0.7865,
+      "ece": 0.1685,
+      "overconfidence_score": 95.83,
+      "dangerous_zone_count": 6,
+      "calibration_curve": [
+        {
+          "bucket": "0-10",
+          "mean_confidence": 0.05,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "10-20",
+          "mean_confidence": 0.15,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "20-30",
+          "mean_confidence": 0.25,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "30-40",
+          "mean_confidence": 0.35,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "40-50",
+          "mean_confidence": 0.45,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "50-60",
+          "mean_confidence": 0.55,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "60-70",
+          "mean_confidence": 0.65,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "70-80",
+          "mean_confidence": 0.75,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "80-90",
+          "mean_confidence": 0.9,
+          "actual_accuracy": 0.75,
+          "count": 2
+        },
+        {
+          "bucket": "90-100",
+          "mean_confidence": 0.9562,
+          "actual_accuracy": 0.7872,
+          "count": 94
+        }
+      ],
+      "per_tier": {
+        "1": {
+          "accuracy": 0.859,
+          "mean_confidence": 96.13
+        },
+        "2": {
+          "accuracy": 0.7895,
+          "mean_confidence": 94.87
+        },
+        "3": {
+          "accuracy": 0.6316,
+          "mean_confidence": 95.47
+        }
+      },
+      "per_subtopic": {
+        "arbiter_edge_cases": {
+          "accuracy": 0.6667,
+          "count": 9
+        },
+        "basic_moves": {
+          "accuracy": 0.8636,
+          "count": 11
+        },
+        "castling_rules": {
+          "accuracy": 0.9286,
+          "count": 7
+        },
+        "check_checkmate": {
+          "accuracy": 0.9375,
+          "count": 8
+        },
+        "clock_handling": {
+          "accuracy": 0.8333,
+          "count": 6
+        },
+        "en_passant": {
+          "accuracy": 0.75,
+          "count": 6
+        },
+        "fifty_move_rule": {
+          "accuracy": 0.6667,
+          "count": 3
+        },
+        "illegal_position_procedure": {
+          "accuracy": 0.5833,
+          "count": 6
+        },
+        "insufficient_material": {
+          "accuracy": 0.5,
+          "count": 5
+        },
+        "piece_values": {
+          "accuracy": 1.0,
+          "count": 4
+        },
+        "scoresheet_obligations": {
+          "accuracy": 0.9,
+          "count": 5
+        },
+        "stalemate_draws": {
+          "accuracy": 0.8333,
+          "count": 9
+        },
+        "threefold_repetition": {
+          "accuracy": 0.75,
+          "count": 4
+        },
+        "touch_move": {
+          "accuracy": 0.7,
+          "count": 5
+        },
+        "tournament_basics": {
+          "accuracy": 0.75,
+          "count": 8
+        }
+      }
+    },
+    "qwen3_32b_fia": {
+      "accuracy": 0.625,
+      "ece": 0.3035,
+      "overconfidence_score": 92.19,
+      "dangerous_zone_count": 16,
+      "calibration_curve": [
+        {
+          "bucket": "0-10",
+          "mean_confidence": 0.05,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "10-20",
+          "mean_confidence": 0.15,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "20-30",
+          "mean_confidence": 0.25,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "30-40",
+          "mean_confidence": 0.35,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "40-50",
+          "mean_confidence": 0.45,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "50-60",
+          "mean_confidence": 0.55,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "60-70",
+          "mean_confidence": 0.7,
+          "actual_accuracy": 0.5,
+          "count": 4
+        },
+        {
+          "bucket": "70-80",
+          "mean_confidence": 0.8,
+          "actual_accuracy": 0.0,
+          "count": 1
+        },
+        {
+          "bucket": "80-90",
+          "mean_confidence": 0.8882,
+          "actual_accuracy": 0.4706,
+          "count": 17
+        },
+        {
+          "bucket": "90-100",
+          "mean_confidence": 0.9506,
+          "actual_accuracy": 0.6731,
+          "count": 78
+        }
+      ],
+      "per_tier": {
+        "1": {
+          "accuracy": 0.675,
+          "mean_confidence": 93.5
+        },
+        "2": {
+          "accuracy": 0.6125,
+          "mean_confidence": 92.38
+        },
+        "3": {
+          "accuracy": 0.55,
+          "mean_confidence": 92.5
+        }
+      },
+      "per_subtopic": {
+        "blue_flags": {
+          "accuracy": 0.5,
+          "count": 3
+        },
+        "cost_cap_rules": {
+          "accuracy": 0.5,
+          "count": 5
+        },
+        "driver_change": {
+          "accuracy": 0.8333,
+          "count": 3
+        },
+        "drs": {
+          "accuracy": 0.7143,
+          "count": 7
+        },
+        "parc_ferme": {
+          "accuracy": 0.5,
+          "count": 5
+        },
+        "pit_lane_rules": {
+          "accuracy": 0.8,
+          "count": 5
+        },
+        "points_scoring": {
+          "accuracy": 0.8333,
+          "count": 6
+        },
+        "power_unit_penalties": {
+          "accuracy": 0.6,
+          "count": 5
+        },
+        "qualifying_format": {
+          "accuracy": 0.6667,
+          "count": 3
+        },
+        "race_start": {
+          "accuracy": 0.7,
+          "count": 5
+        },
+        "red_flag_restart": {
+          "accuracy": 0.5,
+          "count": 6
+        },
+        "safety_car": {
+          "accuracy": 0.5,
+          "count": 10
+        },
+        "sprint_weekend_procedure": {
+          "accuracy": 0.5,
+          "count": 4
+        },
+        "steward_decisions": {
+          "accuracy": 0.5833,
+          "count": 12
+        },
+        "technical_regulations": {
+          "accuracy": 0.75,
+          "count": 6
+        },
+        "track_limits": {
+          "accuracy": 0.8,
+          "count": 5
+        },
+        "vsc": {
+          "accuracy": 0.6429,
+          "count": 7
+        },
+        "weight_enforcement": {
+          "accuracy": 0.3333,
+          "count": 3
+        }
+      }
+    },
+    "gpt_oss_20b_fide": {
+      "accuracy": 0.7727,
+      "ece": 0.2391,
+      "overconfidence_score": 68.57,
+      "dangerous_zone_count": 5,
+      "calibration_curve": [
+        {
+          "bucket": "0-10",
+          "mean_confidence": 0.0111,
+          "actual_accuracy": 0.6667,
+          "count": 9
+        },
+        {
+          "bucket": "10-20",
+          "mean_confidence": 0.15,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "20-30",
+          "mean_confidence": 0.25,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "30-40",
+          "mean_confidence": 0.35,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "40-50",
+          "mean_confidence": 0.45,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "50-60",
+          "mean_confidence": 0.55,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "60-70",
+          "mean_confidence": 0.65,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "70-80",
+          "mean_confidence": 0.75,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "80-90",
+          "mean_confidence": 0.85,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "90-100",
+          "mean_confidence": 0.9808,
+          "actual_accuracy": 0.7833,
+          "count": 90
+        }
+      ],
+      "per_tier": {
+        "1": {
+          "accuracy": 0.8125,
+          "mean_confidence": 97.25
+        },
+        "2": {
+          "accuracy": 0.7692,
+          "mean_confidence": 84.69
+        },
+        "3": {
+          "accuracy": 0.7,
+          "mean_confidence": 82.2
+        }
+      },
+      "per_subtopic": {
+        "arbiter_edge_cases": {
+          "accuracy": 0.55,
+          "count": 10
+        },
+        "basic_moves": {
+          "accuracy": 0.7727,
+          "count": 11
+        },
+        "castling_rules": {
+          "accuracy": 1.0,
+          "count": 7
+        },
+        "check_checkmate": {
+          "accuracy": 0.75,
+          "count": 8
+        },
+        "clock_handling": {
+          "accuracy": 0.8571,
+          "count": 7
+        },
+        "en_passant": {
+          "accuracy": 0.8333,
+          "count": 6
+        },
+        "fifty_move_rule": {
+          "accuracy": 0.6667,
+          "count": 3
+        },
+        "illegal_position_procedure": {
+          "accuracy": 0.7143,
+          "count": 7
+        },
+        "insufficient_material": {
+          "accuracy": 0.5,
+          "count": 5
+        },
+        "piece_values": {
+          "accuracy": 1.0,
+          "count": 4
+        },
+        "scoresheet_obligations": {
+          "accuracy": 1.0,
+          "count": 4
+        },
+        "stalemate_draws": {
+          "accuracy": 0.9444,
+          "count": 9
+        },
+        "threefold_repetition": {
+          "accuracy": 0.75,
+          "count": 4
+        },
+        "touch_move": {
+          "accuracy": 0.6,
+          "count": 5
+        },
+        "tournament_basics": {
+          "accuracy": 0.7222,
+          "count": 9
+        }
+      }
+    },
+    "gpt_oss_20b_fia": {
+      "accuracy": 0.6031,
+      "ece": 0.3755,
+      "overconfidence_score": 89.0,
+      "dangerous_zone_count": 14,
+      "calibration_curve": [
+        {
+          "bucket": "0-10",
+          "mean_confidence": 0.01,
+          "actual_accuracy": 0.65,
+          "count": 10
+        },
+        {
+          "bucket": "10-20",
+          "mean_confidence": 0.2,
+          "actual_accuracy": 0.5,
+          "count": 1
+        },
+        {
+          "bucket": "20-30",
+          "mean_confidence": 0.3,
+          "actual_accuracy": 0.5,
+          "count": 1
+        },
+        {
+          "bucket": "30-40",
+          "mean_confidence": 0.35,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "40-50",
+          "mean_confidence": 0.45,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "50-60",
+          "mean_confidence": 0.55,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "60-70",
+          "mean_confidence": 0.65,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "70-80",
+          "mean_confidence": 0.75,
+          "actual_accuracy": 0.0,
+          "count": 0
+        },
+        {
+          "bucket": "80-90",
+          "mean_confidence": 0.895,
+          "actual_accuracy": 0.6,
+          "count": 10
+        },
+        {
+          "bucket": "90-100",
+          "mean_confidence": 0.9543,
+          "actual_accuracy": 0.6,
+          "count": 75
+        }
+      ],
+      "per_tier": {
+        "1": {
+          "accuracy": 0.6026,
+          "mean_confidence": 91.46
+        },
+        "2": {
+          "accuracy": 0.5395,
+          "mean_confidence": 84.74
+        },
+        "3": {
+          "accuracy": 0.725,
+          "mean_confidence": 66.25
+        }
+      },
+      "per_subtopic": {
+        "blue_flags": {
+          "accuracy": 0.8333,
+          "count": 3
+        },
+        "cost_cap_rules": {
+          "accuracy": 0.125,
+          "count": 4
+        },
+        "driver_change": {
+          "accuracy": 1.0,
+          "count": 2
+        },
+        "drs": {
+          "accuracy": 0.7143,
+          "count": 7
+        },
+        "parc_ferme": {
+          "accuracy": 0.5,
+          "count": 4
+        },
+        "pit_lane_rules": {
+          "accuracy": 0.5,
+          "count": 5
+        },
+        "points_scoring": {
+          "accuracy": 0.9167,
+          "count": 6
+        },
+        "power_unit_penalties": {
+          "accuracy": 0.3,
+          "count": 5
+        },
+        "qualifying_format": {
+          "accuracy": 0.5,
+          "count": 3
+        },
+        "race_start": {
+          "accuracy": 0.4,
+          "count": 5
+        },
+        "red_flag_restart": {
+          "accuracy": 0.75,
+          "count": 6
+        },
+        "safety_car": {
+          "accuracy": 0.5,
+          "count": 10
+        },
+        "sprint_weekend_procedure": {
+          "accuracy": 0.5,
+          "count": 4
+        },
+        "steward_decisions": {
+          "accuracy": 0.6667,
+          "count": 12
+        },
+        "technical_regulations": {
+          "accuracy": 0.6667,
+          "count": 6
+        },
+        "track_limits": {
+          "accuracy": 0.8,
+          "count": 5
+        },
+        "vsc": {
+          "accuracy": 0.6429,
+          "count": 7
+        },
+        "weight_enforcement": {
+          "accuracy": 0.5,
+          "count": 3
+        }
+      }
+    }
+  },
+  "calibration_gaps": {
+    "gpt_oss_120b": 0.0489,
+    "llama33_70b": 0.0945,
+    "llama4_scout": 0.0705,
+    "qwen3_32b": 0.135,
+    "gpt_oss_20b": 0.1364
+  },
+  "leaderboard": [
+    {
+      "model": "gpt_oss_120b",
+      "composite_score": 0.7213,
+      "fide_accuracy": 0.875,
+      "fia_accuracy": 0.795
+    },
+    {
+      "model": "qwen3_32b",
+      "composite_score": 0.5949,
+      "fide_accuracy": 0.7865,
+      "fia_accuracy": 0.625
+    },
+    {
+      "model": "gpt_oss_20b",
+      "composite_score": 0.5872,
+      "fide_accuracy": 0.7727,
+      "fia_accuracy": 0.6031
+    },
+    {
+      "model": "llama33_70b",
+      "composite_score": 0.4696,
+      "fide_accuracy": 0.615,
+      "fia_accuracy": 0.505
+    },
+    {
+      "model": "llama4_scout",
+      "composite_score": 0.4265,
+      "fide_accuracy": 0.57,
+      "fia_accuracy": 0.49
+    }
+  ]
+}
