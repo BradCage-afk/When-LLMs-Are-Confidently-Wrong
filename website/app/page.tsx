@@ -43,7 +43,7 @@ export default function Home() {
           style={{ animationDelay: "0.05s" }}
         >
           We gave 5 LLMs 200 questions about Chess and F1.{" "}
-          <span className="text-accent">
+          <span className="grad-accent">
             Here&apos;s how confidently wrong they were.
           </span>
         </h1>
@@ -135,7 +135,7 @@ function Stat({
 }) {
   return (
     <div>
-      <div className="text-4xl font-semibold tracking-tight text-accent sm:text-5xl">
+      <div className="grad-accent text-4xl font-semibold tracking-tight sm:text-5xl">
         <CountUp value={value} suffix={suffix} decimals={decimals} />
       </div>
       <div className="mt-2 text-xs uppercase tracking-wide text-muted">

@@ -11,7 +11,7 @@ import {
   TierFilter,
 } from "@/components/Filters";
 import ChartCard from "@/components/ChartCard";
-import CalibrationCurveChart from "@/components/charts/CalibrationCurveChart";
+import ConfidenceVsAccuracy from "@/components/charts/ConfidenceVsAccuracy";
 import OverconfidenceHeatmap from "@/components/charts/OverconfidenceHeatmap";
 import CalibrationGapChart from "@/components/charts/CalibrationGapChart";
 import DangerScatter from "@/components/charts/DangerScatter";
@@ -120,10 +120,10 @@ export default function ResultsPage() {
         <div className="space-y-6">
           <ChartCard
             index={1}
-            title="How confident vs. how correct"
-            description="Each line is a model. We plot how confident it claimed to be (left → right) against how often it was actually right (bottom → top). The grey diagonal is the honest ideal: say 80%, be right 80% of the time. Notice how every model's points pile up on the far right — they answer almost everything at 90–100% confidence, whether or not they're correct."
+            title="How sure vs. how correct"
+            description="Each row is a model. The white dot is how often it was actually right; the colored dot is how confident it claimed to be. The red bar between them is the overconfidence gap — every model sits well to the right of where it should, sounding far surer than its accuracy earns."
           >
-            <CalibrationCurveChart metrics={metrics} models={models} domains={domains} />
+            <ConfidenceVsAccuracy rows={rows} models={models} domains={domains} tiers={tiers} />
           </ChartCard>
 
           <ChartCard

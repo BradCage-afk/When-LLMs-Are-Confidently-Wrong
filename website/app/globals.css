@@ -50,14 +50,19 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background: radial-gradient(
-      55% 45% at 12% -5%,
-      rgba(182, 171, 255, 0.08),
-      transparent 70%
+      55% 50% at 8% -8%,
+      rgba(182, 171, 255, 0.18),
+      transparent 68%
     ),
     radial-gradient(
-      45% 45% at 100% 105%,
-      rgba(238, 243, 95, 0.05),
-      transparent 70%
+      50% 50% at 102% 0%,
+      rgba(0, 203, 170, 0.1),
+      transparent 65%
+    ),
+    radial-gradient(
+      50% 50% at 95% 108%,
+      rgba(238, 243, 95, 0.1),
+      transparent 68%
     );
 }
 
@@ -119,6 +124,19 @@ body::before {
   /* Inline brand emphasis inside body copy. */
   .em-violet {
     color: var(--violet);
+  }
+  /* Vivid gradient text for headline emphasis and hero stats. */
+  .grad-accent {
+    background: linear-gradient(
+      100deg,
+      #eef35f 0%,
+      #00cbaa 45%,
+      #b6abff 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
   }
 }
 
