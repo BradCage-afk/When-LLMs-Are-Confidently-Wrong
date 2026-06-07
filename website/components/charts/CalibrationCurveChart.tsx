@@ -60,13 +60,15 @@ export default function CalibrationCurveChart({
   }
 
   return (
-    <ResponsiveContainer width="100%" height={380}>
-      <LineChart margin={{ top: 10, right: 16, left: -8, bottom: 4 }}>
+    <ResponsiveContainer width="100%" height={440}>
+      <LineChart margin={{ top: 10, right: 20, left: -4, bottom: 8 }}>
         <CartesianGrid stroke={CHART_GRID} />
         <XAxis
           type="number"
           dataKey="x"
           domain={[0, 100]}
+          ticks={[0, 20, 40, 60, 80, 100]}
+          allowDuplicatedCategory={false}
           tick={{ fill: CHART_TEXT, fontSize: 12 }}
           axisLine={{ stroke: CHART_GRID }}
           tickLine={false}

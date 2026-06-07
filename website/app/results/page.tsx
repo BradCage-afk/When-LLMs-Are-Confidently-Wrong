@@ -120,56 +120,56 @@ export default function ResultsPage() {
         <div className="space-y-6">
           <ChartCard
             index={1}
-            title="Calibration curves"
-            description="Stated confidence vs. actual accuracy. The dashed diagonal is perfect calibration; points below it mean the model was more confident than correct."
+            title="How confident vs. how correct"
+            description="Each line is a model. We plot how confident it claimed to be (left → right) against how often it was actually right (bottom → top). The grey diagonal is the honest ideal: say 80%, be right 80% of the time. Notice how every model's points pile up on the far right — they answer almost everything at 90–100% confidence, whether or not they're correct."
           >
             <CalibrationCurveChart metrics={metrics} models={models} domains={domains} />
           </ChartCard>
 
           <ChartCard
             index={2}
-            title="Overconfidence heatmap"
-            description="Mean confidence minus mean accuracy (percentage points) for each model across domain and difficulty tier."
+            title="Overconfidence heatmap — sure minus correct"
+            description="For each model we take its average confidence and subtract how often it was actually right. So a model that sounds 90% sure but is only 60% correct scores +30 — it's 30 points more confident than it should be. The redder and bigger the number, the more overconfident. Columns split each domain into difficulty tiers (T1 = basic facts → T3 = traps)."
           >
             <OverconfidenceHeatmap rows={rows} models={models} domains={domains} tiers={tiers} />
           </ChartCard>
 
           <ChartCard
             index={3}
-            title="Calibration gap — FIDE vs FIA"
-            description="The headline number: how much each model's confidence exceeds its accuracy, by domain."
+            title="The confidence gap — Chess vs. F1"
+            description="The headline chart. Each bar is how far a model's confidence runs ahead of its real accuracy — think of a short bar as 'humble and honest' and a tall bar as 'confidently wrong.' Solid bars are Chess, faded bars are F1. The bars get taller on F1 for almost every model — the topic the internet has far less training data about."
           >
             <CalibrationGapChart metrics={metrics} />
           </ChartCard>
 
           <ChartCard
             index={4}
-            title="Danger-zone scatter"
-            description="Each point is one answer. High confidence (≥70%) with a wrong answer (score <0.5) lands in the red danger zone — confidently wrong."
+            title="The danger zone — confidently wrong answers"
+            description="Every dot is a single answer. The red zone holds the dangerous ones: the model was very sure (70%+ confident) and still got it wrong. A model with lots of red dots is one you can't trust to know when it doesn't know."
           >
             <DangerScatter rows={rows} models={models} domains={domains} tiers={tiers} />
           </ChartCard>
 
           <ChartCard
             index={5}
-            title="Accuracy by difficulty tier"
-            description="Accuracy across tiers 1–3, split into FIDE and FIA subplots."
+            title="Accuracy as questions get harder"
+            description="How each model's accuracy falls from easy to hard questions — Tier 1 is basic facts, Tier 3 is deliberate traps where the obvious answer is wrong. Chess and F1 are shown side by side."
           >
             <AccuracyByTierChart metrics={metrics} models={models} domains={domains} />
           </ChartCard>
 
           <ChartCard
             index={6}
-            title="Subtopic failure heatmaps"
-            description="Where each model is strong or weak within a domain, by subtopic."
+            title="Strengths and weaknesses by topic"
+            description="Zooms inside each domain to show where a model is strong or shaky. Greener cells are topics it handles well; redder cells are where it struggles."
           >
             <SubtopicHeatmap metrics={metrics} models={models} domains={domains} />
           </ChartCard>
 
           <ChartCard
             index={7}
-            title="Composite leaderboard"
-            description="Overall ranking combining accuracy and calibration into a single composite score."
+            title="Overall leaderboard"
+            description="One ranking that blends three things into a single score: how often a model is right, how honest its confidence is, and how rarely it's confidently wrong. Higher is better."
           >
             <LeaderboardChart metrics={metrics} />
           </ChartCard>

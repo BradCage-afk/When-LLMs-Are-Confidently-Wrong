@@ -92,17 +92,31 @@ export default function OverconfidenceHeatmap({
           ))}
         </tbody>
       </table>
-      <p className="mt-3 text-[11px] text-muted">
-        Cell = overconfidence in percentage points (mean confidence − mean
-        accuracy). Redder = more overconfident.
-      </p>
+      <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-[11px] text-muted">
+        <span>
+          Each number = points <span className="text-white">more confident
+          than correct</span> (e.g. 30 = sounded 30 pts surer than it really
+          was).
+        </span>
+        <span className="flex items-center gap-2">
+          <span className="text-cloud">honest</span>
+          <span
+            className="inline-block h-3 w-28 rounded-sm"
+            style={{
+              background:
+                "linear-gradient(90deg, rgba(0,203,170,0.6), rgba(255,120,80,0.3), rgba(255,40,30,0.9))",
+            }}
+          />
+          <span className="text-cloud">very overconfident</span>
+        </span>
+      </div>
     </div>
   );
 }
 
 function cellStyle(v: number | null): React.CSSProperties {
   if (v === null) {
-    return { background: "#161616", color: "#555" };
+    return { background: "#141617", color: "#61626b" };
   }
   // Clamp into [-0.3, 0.6] for color scale. Positive (overconfident) -> red,
   // negative (underconfident) -> teal.
@@ -113,7 +127,7 @@ function cellStyle(v: number | null): React.CSSProperties {
     bg = `rgba(255, ${Math.round(120 - 90 * t)}, ${Math.round(80 - 60 * t)}, ${0.25 + 0.6 * t})`;
   } else {
     const t = -clamped / 0.3;
-    bg = `rgba(16, 163, 127, ${0.2 + 0.5 * t})`;
+    bg = `rgba(0, 203, 170, ${0.2 + 0.5 * t})`;
   }
   return { background: bg, color: "#fff" };
 }

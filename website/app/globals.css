@@ -7,8 +7,8 @@
    drop shadows, no decorative gradients), light-weight display type. */
 :root {
   /* Semantic tokens (consumed by tailwind.config.ts) */
-  --background: #000000; /* void */
-  --card: #0e0f11; /* obsidian */
+  --background: #08090c; /* near-black with a faint cool tint (not a flat void) */
+  --card: #101218; /* obsidian, lifted slightly for contrast against the bg */
   --carbon: #141617; /* nested surfaces / inputs */
   --graphite: #1d2023; /* resting chips / hover surfaces */
   --slate: #21223a; /* violet-tinted spotlight surface */
@@ -39,6 +39,26 @@ body {
   color: var(--silver);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+/* Ambient depth: a soft violet wash up top and a chartreuse one bottom-right,
+   both very low opacity. Gives the page life without a glossy hero gradient. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(
+      55% 45% at 12% -5%,
+      rgba(182, 171, 255, 0.08),
+      transparent 70%
+    ),
+    radial-gradient(
+      45% 45% at 100% 105%,
+      rgba(238, 243, 95, 0.05),
+      transparent 70%
+    );
 }
 
 ::selection {
