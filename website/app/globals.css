@@ -2,12 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Twingate-style "midnight control room": near-black surface stacking,
+   chartreuse action accent + violet emphasis, hairline-inset depth (no
+   drop shadows, no decorative gradients), light-weight display type. */
 :root {
-  --background: #0a0a0a;
-  --card: #111111;
-  --accent: #e8ff47;
-  --border: #222222;
-  --muted: #888888;
+  /* Semantic tokens (consumed by tailwind.config.ts) */
+  --background: #000000; /* void */
+  --card: #0e0f11; /* obsidian */
+  --carbon: #141617; /* nested surfaces / inputs */
+  --graphite: #1d2023; /* resting chips / hover surfaces */
+  --slate: #21223a; /* violet-tinted spotlight surface */
+  --accent: #eef35f; /* chartreuse — the single action accent */
+  --violet: #b6abff; /* inline brand emphasis */
+  --teal: #00cbaa; /* diagrammatic accent */
+  --border: #303438; /* ash hairline */
+  --steel: #3a3d40; /* stronger border */
+  --muted: #8d8d96; /* smoke — secondary/tertiary text */
+  --cloud: #a1a1aa; /* secondary body / icon strokes */
+  --silver: #cfcfd3; /* default body text */
+
+  /* Hairline-inset elevation (depth without shadows) */
+  --inset-hairline: inset 0 0 0 0.5px rgba(255, 255, 255, 0.08);
+  --inset-led: inset 0 2.5px 0 -2px rgba(255, 255, 255, 0.12);
 }
 
 * {
@@ -20,14 +36,14 @@ html {
 
 body {
   background-color: var(--background);
-  color: #ededed;
+  color: var(--silver);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
 ::selection {
   background: var(--accent);
-  color: #0a0a0a;
+  color: #000000;
 }
 
 /* Subtle scrollbar */
@@ -39,70 +55,66 @@ body {
   background: var(--background);
 }
 ::-webkit-scrollbar-thumb {
-  background: #2a2a2a;
+  background: var(--graphite);
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3a3a3a;
+  background: var(--steel);
 }
 
 @layer components {
+  /* Surfaces: depth via tonal stacking + a hairline inset, never a drop shadow. */
   .card {
-    @apply rounded-xl border border-border bg-card transition-all duration-300;
+    @apply rounded-xl bg-card;
+    box-shadow: var(--inset-hairline);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
   }
-  /* Cards that should respond to hover (lift + accent edge + soft glow). */
   .card-hover:hover {
     transform: translateY(-2px);
-    border-color: rgba(232, 255, 71, 0.3);
-    box-shadow: 0 0 0 1px rgba(232, 255, 71, 0.06),
-      0 18px 40px -20px rgba(232, 255, 71, 0.18);
+    box-shadow: inset 0 0 0 0.5px rgba(182, 171, 255, 0.35),
+      var(--inset-led);
   }
+
+  /* Single chartreuse action accent — fully pill, beveled-LED inset, no shadow. */
   .accent-btn {
-    @apply inline-flex items-center justify-center rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-black transition-all hover:opacity-90;
+    @apply inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-sm font-medium text-black transition-opacity hover:opacity-90;
+    box-shadow: var(--inset-led);
   }
-  .accent-btn:hover {
-    box-shadow: 0 8px 30px -8px rgba(232, 255, 71, 0.5);
+  /* Low-emphasis ghost action — pill, hairline inset on hover. */
+  .ghost-btn {
+    @apply inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium text-white transition-shadow;
+    box-shadow: var(--inset-hairline);
   }
+  .ghost-btn:hover {
+    box-shadow: inset 0 0 0 0.5px rgba(255, 255, 255, 0.2);
+  }
+
   .chip {
-    @apply inline-flex items-center gap-2 rounded-full border border-border px-3 py-1.5 text-sm transition-colors;
+    @apply inline-flex items-center gap-2 rounded-full bg-graphite px-3 py-1.5 text-sm transition-colors;
+    box-shadow: var(--inset-hairline);
   }
   .section-title {
-    @apply text-xs font-semibold uppercase tracking-[0.2em] text-accent;
+    @apply text-xs font-medium uppercase tracking-[0.2em] text-accent;
   }
-  .accent-gradient-text {
-    background: linear-gradient(120deg, #e8ff47 0%, #b6f0a0 50%, #8fe3ff 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  /* Inline brand emphasis inside body copy. */
+  .em-violet {
+    color: var(--violet);
   }
 }
 
-/* ---- Depth & texture ---------------------------------------------------- */
-
-/* Faint dotted grid that fades out toward the bottom — sits behind the hero. */
+/* Faint instrument-panel grid texture (not a glossy gradient) behind the hero. */
 .grid-bg {
   background-image: radial-gradient(
     circle at 1px 1px,
-    rgba(255, 255, 255, 0.05) 1px,
+    rgba(255, 255, 255, 0.04) 1px,
     transparent 0
   );
-  background-size: 28px 28px;
-  -webkit-mask-image: linear-gradient(to bottom, black, transparent 85%);
-  mask-image: linear-gradient(to bottom, black, transparent 85%);
-}
-
-/* Soft accent glow blob, used as an absolutely-positioned hero backdrop. */
-.glow-accent {
-  background: radial-gradient(
-    closest-side,
-    rgba(232, 255, 71, 0.16),
-    transparent
-  );
-  filter: blur(8px);
+  background-size: 30px 30px;
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent 80%);
+  mask-image: linear-gradient(to bottom, black, transparent 80%);
 }
 
 /* ---- Motion ------------------------------------------------------------- */
-
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -113,28 +125,24 @@ body {
     transform: translateY(0);
   }
 }
-
 @keyframes pulseDot {
   0%,
   100% {
     opacity: 1;
-    box-shadow: 0 0 0 0 rgba(232, 255, 71, 0.5);
+    box-shadow: 0 0 0 0 rgba(238, 243, 95, 0.5);
   }
   50% {
     opacity: 0.7;
-    box-shadow: 0 0 0 5px rgba(232, 255, 71, 0);
+    box-shadow: 0 0 0 5px rgba(238, 243, 95, 0);
   }
 }
-
 .animate-fade-up {
   opacity: 0;
   animation: fadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
-
 .live-dot {
   animation: pulseDot 2s ease-in-out infinite;
 }
-
 @media (prefers-reduced-motion: reduce) {
   .animate-fade-up {
     animation: none;
@@ -145,9 +153,9 @@ body {
   }
 }
 
-/* Recharts tooltip + cursor restyling for the dark theme */
+/* Recharts tooltip restyle for the dark theme */
 .recharts-default-tooltip {
-  background-color: #0a0a0a !important;
+  background-color: #0e0f11 !important;
   border: 1px solid var(--border) !important;
   border-radius: 8px !important;
 }

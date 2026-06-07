@@ -26,37 +26,37 @@ export default function Home() {
     <div>
       {/* Hero */}
       <section className="relative pt-20 pb-16 sm:pt-28">
-        {/* Backdrop: dotted grid + soft accent glow */}
+        {/* Backdrop: faint instrument-panel grid (no glossy gradient) */}
         <div
           aria-hidden
           className="pointer-events-none absolute inset-0 -z-10 overflow-hidden"
         >
           <div className="grid-bg absolute inset-0" />
-          <div className="glow-accent absolute -top-24 left-1/4 h-[420px] w-[520px] -translate-x-1/2" />
         </div>
 
-        <div className="animate-fade-up mb-5 inline-flex items-center gap-2 rounded-full border border-border bg-card/50 px-3 py-1 text-xs text-muted">
+        <div className="chip animate-fade-up mb-6 text-xs text-cloud">
           <span className="live-dot inline-block h-1.5 w-1.5 rounded-full bg-accent" />
           Research Benchmark · 5 models · 2 domains
         </div>
         <h1
-          className="animate-fade-up max-w-4xl text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl"
+          className="animate-fade-up max-w-4xl text-4xl font-light leading-[1.08] tracking-[-0.02em] text-white sm:text-5xl lg:text-6xl"
           style={{ animationDelay: "0.05s" }}
         >
           We gave 5 LLMs 200 questions about Chess and F1.{" "}
-          <span className="accent-gradient-text">
+          <span className="text-accent">
             Here&apos;s how confidently wrong they were.
           </span>
         </h1>
         <p
-          className="animate-fade-up mt-6 max-w-2xl text-lg leading-relaxed text-muted"
+          className="animate-fade-up mt-6 max-w-2xl text-lg leading-relaxed text-cloud"
           style={{ animationDelay: "0.12s" }}
         >
           Large language models will happily state a wrong rule with 95%
-          confidence. We measured the gap between how sure they sound and how
-          often they&apos;re right — across FIDE chess regulations and FIA
-          Formula 1 sporting rules — to quantify calibration on niche,
-          domain-specific knowledge.
+          confidence. We measured the gap between{" "}
+          <span className="em-violet">how sure they sound</span> and{" "}
+          <span className="em-violet">how often they&apos;re right</span> — across
+          FIDE chess regulations and FIA Formula 1 sporting rules — to quantify
+          calibration on niche, domain-specific knowledge.
         </p>
         <div
           className="animate-fade-up mt-9 flex flex-wrap items-center gap-3"
@@ -66,10 +66,7 @@ export default function Home() {
             View the results
             <span className="ml-2">→</span>
           </Link>
-          <Link
-            href="/methodology"
-            className="rounded-lg border border-border px-5 py-3 text-sm font-medium text-white transition-colors hover:border-accent/50"
-          >
+          <Link href="/methodology" className="ghost-btn">
             How we measured it
           </Link>
         </div>
