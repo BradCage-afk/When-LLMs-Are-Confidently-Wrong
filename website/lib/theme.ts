@@ -16,11 +16,11 @@ export interface ModelMeta {
 }
 
 export const MODELS: ModelMeta[] = [
-  { key: "gpt_oss_120b", label: "GPT-OSS 120B (OpenAI)", color: "#eef35f" },
-  { key: "llama33_70b", label: "Llama 3.3 70B (Meta)", color: "#b6abff" },
-  { key: "llama4_scout", label: "Llama 4 Scout (Meta)", color: "#00cbaa" },
-  { key: "qwen3_32b", label: "Qwen3 32B (Alibaba)", color: "#6ea8ff" },
-  { key: "gpt_oss_20b", label: "GPT-OSS 20B (OpenAI)", color: "#ff7eb6" },
+  { key: "gpt_oss_120b", label: "GPT-OSS 120B (OpenAI)", color: "#10a37f" },
+  { key: "llama33_70b", label: "Llama 3.3 70B (Meta)", color: "#6e42f5" },
+  { key: "llama4_scout", label: "Llama 4 Scout (Meta)", color: "#4285f4" },
+  { key: "qwen3_32b", label: "Qwen3 32B (Alibaba)", color: "#ff6b35" },
+  { key: "gpt_oss_20b", label: "GPT-OSS 20B (OpenAI)", color: "#c17d3c" },
 ];
 
 export const MODEL_BY_KEY: Record<ModelKey, ModelMeta> = MODELS.reduce(
@@ -53,7 +53,7 @@ export function domainDash(domain: string): string | undefined {
   return domain === "fia" ? "6 4" : undefined;
 }
 
-export const ACCENT = "#eef35f";
-export const CHART_GRID = "#21242a";
-export const CHART_TEXT = "#8d8d96";
+export const ACCENT = "#e8ff47";
+export const CHART_GRID = "#222222";
+export const CHART_TEXT = "#888888";
 export const TIERS = ["1", "2", "3"] as const;

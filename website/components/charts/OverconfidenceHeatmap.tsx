@@ -99,7 +99,7 @@ export default function OverconfidenceHeatmap({
           was).
         </span>
         <span className="flex items-center gap-2">
-          <span className="text-cloud">honest</span>
+          <span className="text-muted">honest</span>
           <span
             className="inline-block h-3 w-28 rounded-sm"
             style={{
@@ -107,7 +107,7 @@ export default function OverconfidenceHeatmap({
                 "linear-gradient(90deg, rgba(0,203,170,0.6), rgba(255,120,80,0.3), rgba(255,40,30,0.9))",
             }}
           />
-          <span className="text-cloud">very overconfident</span>
+          <span className="text-muted">very overconfident</span>
         </span>
       </div>
     </div>
