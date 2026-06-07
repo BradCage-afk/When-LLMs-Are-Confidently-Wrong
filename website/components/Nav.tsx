@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 import { SITE } from "@/lib/site";
 
 const links = [
@@ -11,22 +12,35 @@ const links = [
   { href: "/methodology", label: "Methodology" },
 ];
 
+const GithubIcon = () => (
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+    <path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.42 7.86 10.96.58.11.79-.25.79-.56 0-.27-.01-1.16-.02-2.1-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.26 5.69.41.36.78 1.06.78 2.14 0 1.55-.01 2.8-.01 3.18 0 .31.21.68.8.56A11.52 11.52 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5Z" />
+  </svg>
+);
+
 export default function Nav() {
   const pathname = usePathname();
   const norm = (p: string) => (p !== "/" && p.endsWith("/") ? p.slice(0, -1) : p);
   const current = norm(pathname);
+  const [open, setOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="group flex items-center gap-2">
-          <span className="inline-block h-2.5 w-2.5 rounded-sm bg-accent transition-transform group-hover:scale-125" />
-          <span className="text-sm font-semibold tracking-tight">
-            LLM Calibration<span className="text-muted"> / Chess vs F1</span>
+        <Link
+          href="/"
+          onClick={() => setOpen(false)}
+          className="group flex min-w-0 items-center gap-2"
+        >
+          <span className="inline-block h-2.5 w-2.5 shrink-0 rounded-sm bg-accent transition-transform group-hover:scale-125" />
+          <span className="truncate text-sm font-semibold tracking-tight">
+            LLM Calibration
+            <span className="hidden text-muted sm:inline"> / Chess vs F1</span>
           </span>
         </Link>
 
-        <div className="flex items-center gap-1 sm:gap-2">
+        {/* Desktop nav */}
+        <div className="hidden items-center gap-1 sm:flex sm:gap-2">
           {links.map((l) => {
             const active = current === norm(l.href);
             return (
@@ -52,19 +66,62 @@ export default function Nav() {
               aria-label="GitHub repository"
               className="ml-1 rounded-md p-2 text-muted transition-colors hover:text-white"
             >
-              <svg
-                viewBox="0 0 24 24"
-                width="18"
-                height="18"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.42 7.86 10.96.58.11.79-.25.79-.56 0-.27-.01-1.16-.02-2.1-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.41-5.26 5.69.41.36.78 1.06.78 2.14 0 1.55-.01 2.8-.01 3.18 0 .31.21.68.8.56A11.52 11.52 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5Z" />
-              </svg>
+              <GithubIcon />
             </a>
           )}
         </div>
+
+        {/* Mobile: hamburger */}
+        <button
+          type="button"
+          aria-label={open ? "Close menu" : "Open menu"}
+          aria-expanded={open}
+          onClick={() => setOpen((v) => !v)}
+          className="-mr-2 rounded-md p-2 text-white sm:hidden"
+        >
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            {open ? (
+              <path d="M6 6l12 12M18 6L6 18" />
+            ) : (
+              <path d="M4 7h16M4 12h16M4 17h16" />
+            )}
+          </svg>
+        </button>
       </nav>
+
+      {/* Mobile dropdown panel */}
+      {open && (
+        <div className="border-t border-border bg-background/95 backdrop-blur-md sm:hidden">
+          <div className="mx-auto max-w-7xl px-2 py-2">
+            {links.map((l) => {
+              const active = current === norm(l.href);
+              return (
+                <Link
+                  key={l.href}
+                  href={l.href}
+                  onClick={() => setOpen(false)}
+                  className={`block rounded-md px-3 py-3 text-sm transition-colors ${
+                    active ? "text-accent" : "text-muted hover:text-white"
+                  }`}
+                >
+                  {l.label}
+                </Link>
+              );
+            })}
+            {SITE.githubUrl && (
+              <a
+                href={SITE.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setOpen(false)}
+                className="flex items-center gap-2 rounded-md px-3 py-3 text-sm text-muted transition-colors hover:text-white"
+              >
+                <GithubIcon /> GitHub repository
+              </a>
+            )}
+          </div>
+        </div>
+      )}
     </header>
   );
 }

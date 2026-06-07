@@ -23,6 +23,10 @@ body {
   color: #ededed;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  /* Guard against any element spilling past the viewport on small screens.
+     `clip` (not `hidden`) avoids creating a scroll container, so the sticky
+     nav and the results filter bar keep working. */
+  overflow-x: clip;
 }
 
 ::selection {
