@@ -9,8 +9,17 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="mt-24 border-t border-border">
-      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <footer className="relative mt-24 overflow-hidden border-t border-border">
+      {/* Amber→blue horizon glow bleeding up from the bottom edge. */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 bottom-0 -z-0 h-72"
+        style={{
+          background:
+            "linear-gradient(to top, rgba(255,99,8,0.10), rgba(189,201,230,0.08) 45%, rgba(151,196,255,0.06) 70%, transparent)",
+        }}
+      />
+      <div className="relative z-10 mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
           <div className="max-w-md">
             <div className="flex items-center gap-2">
@@ -30,7 +39,7 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col gap-2">
-            <span className="text-xs font-semibold uppercase tracking-[0.2em] text-muted/60">
+            <span className="font-mono text-xs uppercase tracking-[0.15em] text-muted/60">
               Explore
             </span>
             {footerLinks.map((l) => (

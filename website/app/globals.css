@@ -66,8 +66,17 @@ body {
   .chip {
     @apply inline-flex items-center gap-2 rounded-full border border-border px-3 py-1.5 text-sm transition-colors;
   }
+  /* Eyebrow label, xAI-style: mono, tracked-out, wrapped in [ brackets ]. */
   .section-title {
-    @apply text-xs font-semibold uppercase tracking-[0.2em] text-accent;
+    @apply font-mono text-xs uppercase tracking-[0.15em] text-accent;
+  }
+  .section-title::before {
+    content: "[ ";
+    opacity: 0.6;
+  }
+  .section-title::after {
+    content: " ]";
+    opacity: 0.6;
   }
   .accent-gradient-text {
     background: linear-gradient(120deg, #e8ff47 0%, #b6f0a0 50%, #8fe3ff 100%);

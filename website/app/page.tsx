@@ -91,12 +91,12 @@ export default function Home() {
           <div className="glow-accent absolute -top-24 left-1/4 h-[420px] w-[520px] -translate-x-1/2" />
         </div>
 
-        <div className="animate-fade-up mb-5 inline-flex items-center gap-2 rounded-full border border-border bg-card/50 px-3 py-1 text-xs text-muted">
+        <div className="animate-fade-up mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card/50 px-3 py-1 font-mono text-[11px] uppercase tracking-[0.12em] text-muted">
           <span className="live-dot inline-block h-1.5 w-1.5 rounded-full bg-accent" />
           Research Benchmark · 5 models · 2 domains
         </div>
         <h1
-          className="animate-fade-up max-w-4xl text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl"
+          className="animate-fade-up max-w-5xl text-5xl font-semibold leading-[1.04] tracking-[-0.03em] sm:text-6xl lg:text-[5rem]"
           style={{ animationDelay: "0.05s" }}
         >
           We gave 5 LLMs 200 questions about Chess and F1.{" "}
